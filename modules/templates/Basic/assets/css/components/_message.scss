@@ -1,0 +1,30 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-message {
+    @include property(typography, 'elements.message.text');
+    @include property(padding, 'elements.message.padding');
+    @include property(background, 'elements.message.colors.background');
+    @include property(color, 'elements.message.colors.color');
+    @include property(border-color, 'elements.message.colors.border');
+    @include property(border, 'elements.message.border');
+    @include property(box-shadow, 'elements.message.shadows.box');
+
+    &.is-error {
+      @include property(background, 'elements.message.colors.backgroundError');
+      @include property(color, 'elements.message.colors.colorError');
+      @include property(border-color, 'elements.message.colors.borderError');
+
+      a {
+        color: unquote('{{elements.message.colors.colorError}}');
+      }
+    }
+
+    P:first-child {
+      margin-top: 0;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+}

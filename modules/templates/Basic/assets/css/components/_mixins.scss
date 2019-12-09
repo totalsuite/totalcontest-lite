@@ -1,0 +1,64 @@
+@function bidi-root-selector($selector, $direction) {
+  @return selector_replace($selector, "div#totalcontest.totalcontest-wrapper", "div#totalcontest.totalcontest-wrapper.is-" + $direction);
+}
+
+@import "../../../../../../vendor/misqtech/totalsuite-totalcore/assets/styles/helpers";
+// ------------------------------------------------------
+// Grid
+// ------------------------------------------------------
+%gutter {
+  padding: 0 1em;
+}
+
+%row {
+  margin: 0 -1em;
+  @include clearfix();
+}
+
+%column {
+  @extend %gutter;
+  @include bidi(float, left);
+}
+
+// ------------------------------------------------------
+// Properties helpers
+// ------------------------------------------------------
+@function var-expression($name, $fallback: ()) {
+  $fallback-list: '';
+
+  @if (length($fallback) > 0) {
+    @for $i from 1 through length($fallback) {
+      $fallback-value: nth($fallback, $i);
+      @if ($fallback-value == 'inherit' or $fallback-value == 'unset') {
+        $fallback-value: "'" + $fallback-value + "'";
+      }
+      $fallback-list: unquote($fallback-list + '||' + $fallback-value);
+    }
+  }
+  @return unquote('{{' + $name + $fallback-list + "||'unset'}}")
+}
+
+@mixin property($property, $source, $fallback...) {
+  $unpack: (
+          margin: (margin-top: top, margin-right: right, margin-bottom: bottom, margin-left: left),
+          padding: (padding-top: top, padding-right: right, padding-bottom: bottom, padding-left: left),
+          border: (border-width: width, border-style: style, border-radius: radius),
+          typography: (font-family: fontFamily, font-weight: fontWeight, font-size:fontSize, line-height:lineHeight, text-transform:transform, text-align:align),
+  );
+
+  @if (map_has_key($unpack, $property)) {
+    $properties: map_keys(map-get($unpack, $property));
+    $values: map_values(map-get($unpack, $property));
+    @for $property-index from 1 through length($properties) {
+      @if (length($fallback) > 0) {
+        @for $fallback-index from 1 through length($fallback) {
+          $fallback: set-nth($fallback, $fallback-index, nth($fallback, $fallback-index) + '.' + nth($values, $property-index));
+        }
+      }
+
+      #{nth($properties, $property-index)}: var-expression($source + '.' + nth($values, $property-index), $fallback);
+    }
+  } @else {
+    #{$property}: var-expression($source, $fallback);
+  }
+}

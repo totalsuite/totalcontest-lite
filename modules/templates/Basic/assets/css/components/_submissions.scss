@@ -1,0 +1,274 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-submissions {
+
+  }
+
+  .totalcontest-submissions-toolbar {
+    @include property(typography, 'elements.toolbar.text');
+    @include property(background, 'elements.toolbar.colors.background');
+    @include property(color, 'elements.toolbar.colors.color');
+    @include property(border, 'elements.toolbar.border');
+    @include property(border-color, 'elements.toolbar.colors.border');
+    @include property(box-shadow, 'elements.toolbar.shadows.box');
+    margin-bottom: 2em;
+    overflow: hidden;
+  }
+
+  .totalcontest-submissions-toolbar-items {
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    white-space: nowrap;
+  }
+
+  .totalcontest-submissions-toolbar-item {
+    display: flex;
+    align-items: center;
+    @include property(padding, 'elements.toolbar.padding');
+    border: 0 solid transparent;
+    @include property(border-color, 'elements.toolbar.colors.border');
+    cursor: pointer;
+
+    + .totalcontest-submissions-toolbar-item {
+      @include bidi(border-left-width, 1px);
+    }
+  }
+
+  .totalcontest-submissions-toolbar-filter {
+    @include bidi(border-left-width, 0);
+    @include bidi(border-right-width, 1px);
+  }
+
+  .totalcontest-submissions-toolbar-sort {
+    @include media-breakpoint-up('md') {
+      &:first-child + .totalcontest-submissions-toolbar-sort-direction {
+        @include bidi(margin-right, auto);
+        @include bidi(border-right-width, 1px);
+      }
+    }
+  }
+
+  .totalcontest-submissions-toolbar-title {
+    display: inline-block;
+    @include bidi(margin-right, 1em);
+    @include bidi(margin-left, 0.5em);
+    font-size: 80%;
+    text-transform: uppercase;
+  }
+
+  .totalcontest-submissions-toolbar-select {
+    padding: 0;
+    margin: 0;
+    background: white;
+    line-height: 1;
+    height: auto;
+    width: auto;
+    box-shadow: none;
+    outline: none;
+    text-shadow: none;
+    border: none;
+
+    + .totalcontest-submissions-toolbar-select {
+      @include bidi(border-left, 0);
+    }
+  }
+
+  .totalcontest-submissions-toolbar-toggle {
+    svg {
+      opacity: 0.25;
+    }
+
+    &.is-active {
+      svg {
+        opacity: 1;
+      }
+    }
+  }
+
+  .totalcontest-submissions-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    @extend %row;
+
+    @include media-breakpoint-up('md') {
+      + .totalcontest-submissions-row {
+        @include property(margin-top, 'layout.gutter')
+      }
+    }
+  }
+
+  .totalcontest-submissions-items {
+
+    .totalcontest-submissions-items-empty {
+      padding: 6em 3em;
+      text-align: center;
+      color: #999999;
+      background: white;
+      box-shadow: 0 1px 6px rgba(black, 0.1);
+    }
+
+    .totalcontest-submissions-item-preview {
+      img {
+        width: 100%;
+        border-radius: 0;
+      }
+    }
+
+    .totalcontest-submissions-item {
+      display: block;
+      height: 100%;
+      @extend %gutter;
+      @include property(typography, 'elements.submission.text');
+      @include property(color, 'elements.submission.colors.color');
+      @include property(margin-bottom, 'layout.gutter');
+
+      &.is-winner .totalcontest-submissions-item-link {
+        //border: 5px solid unquote('{{colors.accent}}');
+      }
+
+      @include media-breakpoint-up('md') {
+        margin-bottom: 0;
+      }
+
+      @include media-breakpoint-down('xs') {
+        width: 100% !important;
+      }
+    }
+
+    .totalcontest-submissions-item-winner {
+      position: absolute;
+      top: -5px;
+      left: -5px;
+      width: 2em;
+      height: 2em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @include property(background, 'colors.accent');
+      box-shadow: 0 0 23px 2px rgba(0, 0, 0, 0.25);
+
+      svg {
+        max-width: 16px;
+      }
+    }
+
+    .totalcontest-submissions-item-link {
+      display: flex;
+      flex-direction: column;
+      @include property(background, 'elements.submission.colors.background');
+      @include property(border-color, 'elements.submission.colors.border', 'colors.gray');
+      @include property(border, 'elements.submission.border');
+      @include property(box-shadow, 'elements.submission.shadows.box');
+      text-decoration: none;
+      overflow: hidden;
+    }
+
+    .totalcontest-submissions-item-details {
+      @include property(padding, 'elements.submission.padding');
+    }
+
+    .totalcontest-submissions-item-title {
+
+    }
+
+    .totalcontest-submissions-item-meta {
+      padding: 0.5em 0 0;
+      line-height: 1;
+      color: #999999;
+      //border-top: 1px solid unquote('{{elements.submission.colors.border}}');
+
+      .totalcontest-submissions-item-meta-content {
+        font-size: 65%;
+      }
+    }
+
+    &.is-layout-masonry {
+      -moz-column-gap: 1em;
+      -webkit-column-gap: 1em;
+      column-gap: 1em;
+
+      .totalcontest-submissions-item {
+        display: block;
+        -webkit-column-break-inside: avoid;
+        -moz-column-break-inside: avoid;
+        column-break-inside: avoid;
+        width: 100% !important;
+        padding: 0;
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        margin-bottom: 1em;
+      }
+
+      @media only screen and (min-width: 768px) {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+      }
+
+      @media only screen and (min-width: 992px) {
+        -moz-column-count: var-expression("layout.columns");
+        -webkit-column-count: var-expression("layout.columns");
+        column-count: var-expression("layout.columns");
+      }
+
+    }
+
+    &.is-layout-grid {
+
+      @media only screen and (min-width: 768px) {
+
+      }
+
+      @media only screen and (min-width: 992px) {
+
+      }
+
+      @media only screen and (min-width: 1200px) {
+
+      }
+
+    }
+
+    &.is-layout-list {
+      .totalcontest-submissions-item {
+        width: 100% !important;
+
+        .totalcontest-submissions-item-link {
+          width: 100%;
+          flex-direction: row;
+        }
+
+        .totalcontest-submissions-item-preview {
+          min-width: 50px;
+          max-width: 100px;
+          @include media-breakpoint-up('md') {
+            min-width: auto;
+            max-width: none;
+          }
+        }
+
+        @include media-breakpoint-up('md') {
+          + .totalcontest-submissions-item {
+            margin-top: 2em;
+          }
+        }
+      }
+
+      @media only screen and (min-width: 768px) {
+      }
+
+      @media only screen and (min-width: 992px) {
+
+      }
+
+      @media only screen and (min-width: 1200px) {
+
+      }
+
+    }
+
+  }
+
+}

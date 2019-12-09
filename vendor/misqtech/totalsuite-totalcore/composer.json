@@ -1,0 +1,31 @@
+{
+  "name": "misqtech/totalsuite-totalcore",
+  "version": "1.0.0",
+  "description": "An intuitive base for robust WordPress plugins.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "TotalCore\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "MisqTech",
+      "email": "support@misqtech.com",
+      "homepage": "http://misqtech.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "support@misqtech.com",
+    "docs": "https://support.misqtech.com"
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "league/container": ">=2.2 <3.0.0",
+    "symfony/polyfill-mbstring": "1.7.*"
+  },
+  "require-dev": {
+    "lucatume/wp-browser": "^2.1"
+  }
+}

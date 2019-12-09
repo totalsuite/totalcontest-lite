@@ -1,0 +1,17 @@
+@import "../../../Boilerplate/assets/css/components/variables";
+@import "../../../Boilerplate/assets/css/components/functions";
+@import "../../../Boilerplate/assets/css/components/mixins";
+
+@include contest {
+  @import "../../../Boilerplate/assets/css/components/utils";
+  @import "../../../Boilerplate/assets/css/components/reset";
+  @import "../../../Boilerplate/assets/css/components/container";
+  @import "../../../Boilerplate/assets/css/components/menu";
+  @import "../../../Boilerplate/assets/css/components/form";
+  @import "../../../Boilerplate/assets/css/components/button";
+  @import "../../../Boilerplate/assets/css/components/page";
+  @import "../../../Boilerplate/assets/css/components/submissions";
+  @import "../../../Boilerplate/assets/css/components/submission";
+  @import "../../../Boilerplate/assets/css/components/embed";
+  @import "../../../Boilerplate/assets/css/components/share";
+}

@@ -1,0 +1,50 @@
+.button {
+  &-danger {
+    color: #a00 !important;
+    background: #fff !important;
+
+    &:hover, &:focus {
+      border-color: #a00 !important;
+    }
+  }
+
+  &-primary-alt {
+    background: white !important;
+    color: $primary !important;
+  }
+
+  &.button-icon {
+    .dashicons {
+      margin-right: 0;
+    }
+  }
+
+  .dashicons {
+    line-height: 170%;
+    font-size: 125%;
+    width: auto;
+    height: auto;
+    margin-right: 4px;
+  }
+
+  &.widefat {
+    text-align: center;
+  }
+}
+
+.button-group > .button {
+  &:hover, &:focus {
+    position: relative;
+  }
+}
+
+// Wordpress 5.3.+ fix UI
+body[class*="version-5-3"],
+body[class*="version-5-4"],
+body[class*="version-5-5"],
+body[class*="version-5-6"]{
+  .button-danger,
+  .wp-picker-container button.wp-color-result {
+    border-color: $gray-15;
+  }
+}

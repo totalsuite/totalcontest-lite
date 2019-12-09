@@ -1,0 +1,285 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-submission {
+    display: flex;
+    flex-direction: column;
+    background: #fafafa;
+    font-family: unquote('{{elements.submission.text.fontFamily}}');
+    font-size: unquote('{{elements.submission.text.fontSize}}');
+    font-weight: normal;
+    line-height: unquote('{{elements.submission.text.lineHeight}}');
+    text-transform: unquote('{{elements.submission.text.transform}}');
+
+    @include media-breakpoint-up('md') {
+      flex-direction: row;
+    }
+
+    &.is-full-width {
+      flex-direction: column;
+
+      .totalcontest-submission-sidebar {
+        margin-top: 2em;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .totalcontest-submission-main {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    background: white;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 2px rgba(black, 0.05);
+    border-radius: 4px;
+    min-width: 100%;
+
+    @include media-breakpoint-up('md') {
+      min-width: 50%;
+    }
+  }
+
+  .totalcontest-submission-sidebar {
+    width: 100%;
+    margin-top: 2em;
+
+    @include media-breakpoint-up('md') {
+      margin-top: 0;
+      margin-left: 2em;
+    }
+  }
+
+  .totalcontest-submission-content {
+    position: relative;
+    text-align: unquote('{{elements.submission.text.align}}');
+    background-color: unquote('{{elements.submission.colors.background}}');
+    width: 100%;
+    height: 100%;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    .wp-video, .wp-audio {
+      margin: 0 auto;
+    }
+
+    audio, video, img, iframe {
+      vertical-align: middle;
+    }
+
+    iframe, object, embed {
+      display: block;
+      &:first-child:last-child {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &.is-type-text {
+      @include bidi(text-align, left);
+      background: transparent;
+      padding: 2em;
+    }
+
+    &.is-embed {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+    }
+
+    &.is-winner {
+      border: 10px solid unquote('{{colors.accent}}');
+    }
+  }
+
+  .totalcontest-submission-winner {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    overflow: hidden;
+    width: 10em;
+    height: 10em;
+
+    .totalcontest-submission-winner-shape {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 30em;
+      height: 20em;
+      background: unquote('{{colors.accent}}');
+      transform: rotate(45deg);
+      transform-origin: center center;
+      box-shadow: 0 0 23px 2px rgba(0, 0, 0, 0.25);
+    }
+
+    .totalcontest-submission-winner-content {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 6em;
+      height: 5em;
+    }
+
+    svg {
+      margin-bottom: 0.25em;
+    }
+  }
+
+  .totalcontest-submission-stats {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 2em;
+    border: 1px solid var-expression('colors.gray');
+    box-shadow: 0 2px 2px rgba(black, 0.05);
+    border-radius: 4px;
+
+    &-item {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0.5em;
+
+      &-icon {
+        padding: 1em;
+        margin-right: 1em;
+        border-right: 1px dashed var-expression('colors.grayLight');
+
+        svg {
+          display: inline-block;
+          vertical-align: middle;
+          fill: var-expression('colors.grayDark');
+        }
+      }
+
+      &-value {
+        color: var-expression('colors.primary');
+        font-size: 120%;
+      }
+
+      &-title {
+        text-transform: uppercase;
+        font-size: 70%;
+        color: var-expression('colors.dark');
+      }
+
+      + .totalcontest-submission-stats-item {
+        border-top: 1px solid var-expression('colors.grayLight');
+      }
+    }
+  }
+
+  .totalcontest-submission-details {
+
+  }
+
+  .totalcontest-submission-title {
+    font-size: 1.5em;
+    margin: 0 0 0.5em;
+  }
+
+  .totalcontest-submission-meta {
+    color: #999999;
+    font-size: 80%;
+  }
+
+  .totalcontest-submission-sidebar {
+    .totalcontest-form-page {
+      margin: 0;
+      padding: 0;
+    }
+
+    .totalcontest-button {
+      width: 100%;
+    }
+
+    .totalcontest-form-field-checkbox {
+      .totalcontest-form-field-input ~ .totalcontest-form-field-input {
+        @include bidi(margin-left, 1em);
+      }
+    }
+  }
+
+  .totalcontest-form-rate {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 2px rgba(black, 0.05);
+    border-radius: 4px;
+
+    .totalcontest-column-full {
+      padding: 0.5em;
+      margin-bottom: 0;
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    .totalcontest-form-field {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0;
+
+      > .totalcontest-form-field-label {
+        padding: 1em;
+      }
+    }
+
+    .totalcontest-form-field-radio {
+      display: flex;
+      flex-direction: row-reverse;
+      flex: 1;
+      padding: 0 1em;
+
+      input {
+        display: none;
+      }
+
+      > .totalcontest-form-field-label {
+        font-size: 0;
+        &:before {
+          font-size: 20px;
+          font-weight: bold;
+          content: "\2606";
+        }
+        //padding: 0.15em;
+      }
+
+      > input:checked ~ .totalcontest-form-field-label:before,
+      &:not(:checked) > .totalcontest-form-field-label:hover:before,
+      &:not(:checked) > .totalcontest-form-field-label:hover ~ label:before {
+        content: "\2605";
+        @include property(color, 'colors.primary');
+      }
+
+      > input:checked + .totalcontest-form-field-label:hover:before,
+      > input:checked ~ .totalcontest-form-field-label:hover:before,
+      > label:hover ~ input:checked ~ .totalcontest-form-field-label:before,
+      > input:checked ~ label:hover ~ .totalcontest-form-field-label:before {
+        @include property(color, 'colors.primaryDark');
+      }
+
+    }
+
+    .totalcontest-button {
+      box-sizing: content-box;
+      width: auto !important;
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+      margin: -1px;
+    }
+
+    .totalcontest-form-field-errors {
+      padding: 0 1em;
+    }
+  }
+}

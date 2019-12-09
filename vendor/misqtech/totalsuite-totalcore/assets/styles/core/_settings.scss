@@ -1,0 +1,132 @@
+.#{$prefix}-settings-item {
+  position: relative;
+  display: block;
+
+  p label {
+    display: inline-block;
+  }
+
+  &.#{$prefix}-settings-item-inline {
+    display: flex;
+    flex-direction: row;
+    margin: 0 -0.5rem;
+
+    .#{$prefix}-settings-field {
+      flex: 1;
+      padding: 0 0.5rem;
+      margin-bottom: 0;
+    }
+
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+
+  .#{$prefix}-settings-field-input {
+    min-height: 30px;
+  }
+
+  .#{$prefix}-settings-field-select {
+    min-height: 30px;
+  }
+
+}
+
+.#{$prefix}-settings-item ~ .#{$prefix}-settings-item {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid $gray-1;
+}
+
+.#{$prefix}-settings-item-advanced {
+  position: relative;
+  display: none;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  border: 1px solid $gray-10;
+  background: $gray-1;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+
+  &.active {
+    display: block;
+  }
+
+  &:before, &:after {
+    position: absolute;
+    top: -0.5rem;
+    left: 0.5rem;
+    display: block;
+    content: '';
+
+    width: 0;
+    height: 0;
+    border-left: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+    border-bottom: 0.5rem solid $gray-10;
+  }
+
+  &:after {
+    top: -0.4rem;
+    left: 0.6rem;
+    border-bottom-color: $gray-1;
+    border-right-width: 0.4rem;
+    border-bottom-width: 0.4rem;
+    border-left-width: 0.4rem;
+  }
+
+}
+
+.#{$prefix}-settings-item-advanced.active + .#{$prefix}-settings-item {
+  border-top: 0;
+}
+
+.#{$prefix}-settings-field {
+  margin-bottom: $baseline;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.#{$prefix}-settings-field-value {
+  padding: 0.5rem;
+  border: 2px solid $gray-10;
+  background-color: $gray-1;
+
+  p:first-child, p:last-child {
+    margin: 0;
+  }
+}
+
+.#{$prefix}-settings-field-label {
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.mceIframeContainer iframe {
+  min-height: 100px;
+}
+
+.#{$prefix}-settings-autocomplete {
+
+  strong {
+    margin-right: $baseline;
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    line-height: 1;
+    border: 1px solid $gray-10;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

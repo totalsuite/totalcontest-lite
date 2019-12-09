@@ -1,0 +1,552 @@
+%#{$prefix}-box {
+  background: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid $wp-border;
+}
+
+.#{$prefix}-box {
+  @extend %#{$prefix}-box;
+  margin-bottom: $baseline;
+
+  img {
+    vertical-align: middle;
+    max-width: 100%;
+  }
+
+  &-title {
+    font-size: 21px;
+    line-height: 1.5;
+    margin: 0 0 $baseline*0.5;
+    color: $gray-100;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &-description {
+    color: $gray-50;
+    margin-bottom: $baseline;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &-section {
+    padding: $baseline;
+    border-top: 1px solid $gray-3;
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+
+  &-playlist {
+    border: 1px solid $gray-5;
+
+    &-item {
+      color: $gray-30;
+      @include clearfix;
+
+      a {
+        display: block;
+        padding: $baseline*0.75;
+        text-decoration: none;
+        color: inherit;
+
+        .dashicons {
+          vertical-align: middle;
+          @include bidi(margin-right, $baseline*0.5, margin-left);
+        }
+
+        &:hover, &:focus, &.active {
+          color: $primary;
+        }
+
+        &.active {
+          font-weight: 600;
+        }
+      }
+
+      &-duration {
+        display: inline-block;
+        padding: $baseline*0.25;
+        line-height: 1;
+        @include rtl(float, right, left);
+        font-size: 11px;
+        font-weight: 600;
+        border: 1px solid;
+        border-radius: 3px;
+        min-width: 40px;
+        text-align: center;
+      }
+
+      + .#{$prefix}-box-playlist-item {
+        border-top: 1px solid $gray-3;
+      }
+    }
+  }
+
+  &-separator {
+    height: $baseline;
+  }
+
+  &-links-item {
+    border-top: 1px solid $gray-3;
+    border-left: 2px solid transparent;
+    margin-left: -1px;
+
+    @include bidi(margin-left, -1px, margin-right);
+    @include bidi(border-left, 2px solid transparent, border-right);
+
+    a {
+      display: block;
+      padding: $baseline*0.75 $baseline;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      text-decoration: none;
+    }
+
+    &:hover {
+      @include bidi(border-left-color, $primary, border-right-color);
+    }
+  }
+
+  &-composed-form {
+    display: flex;
+    flex-direction: row;
+
+    & &-field {
+      flex: 1;
+      margin: 0;
+      padding: 5px 8px;
+      width: 100%;
+      @include rtl(border-radius, 3px 0 0 3px, 0 3px 3px 0);
+      background: white;
+    }
+
+    & &-button {
+      @include rtl(border-radius, 0 3px 3px 0, 3px 0 0 3px);
+    }
+
+    &-error {
+      padding: $baseline;
+      color: $secondary;
+    }
+  }
+}
+
+.#{$prefix}-box-actions {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 20px;
+
+  .#{$prefix}-box-action {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    cursor: pointer;
+    color: #555;
+    border: 1px solid #cccccc;
+    border-radius: 0;
+    background: #ffffff;
+    box-shadow: 0 1px 0 #cccccc;
+    text-decoration: none;
+
+    &:hover, &:focus, &.active {
+      background: $primary;
+      border-color: $primary;
+      color: white;
+    }
+
+    + .#{$prefix}-box-action {
+      @include bidi(border-left, 0, border-right);
+    }
+
+    &:first-child {
+      @include rtl(border-radius, 3px 0 0 3px, 0 3px 3px 0);
+    }
+
+    &:last-child {
+      @include rtl(border-radius, 0 3px 3px 0, 3px 0 0 3px);
+    }
+
+    &-icon {
+      span {
+        font-size: 32px;
+        width: auto;
+        height: auto;
+      }
+    }
+
+    &-name {
+      margin: 10px 0 0;
+    }
+  }
+}
+
+.#{$prefix}-box-media {
+  @extend %#{$prefix}-box;
+  display: flex;
+  flex-direction: column;
+
+  &-image {
+    flex: 1;
+
+    img {
+      max-width: 100%;
+      vertical-align: middle;
+    }
+  }
+
+  &-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &-description {
+    margin-top: $baseline*0.5;
+  }
+
+  &-actions {
+    @include bidi(margin-left, auto, margin-right);
+    align-self: center;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding: $baseline;
+  }
+}
+
+.#{$prefix}-box-inline {
+  @extend %#{$prefix}-box;
+  display: flex;
+  flex-direction: row;
+  color: $gray-50;
+  text-decoration: none;
+  cursor: pointer;
+
+  &-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 96px;
+    background: $gray-1;
+
+    .dashicons {
+      font-size: 48px;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  &-body {
+    padding: $baseline*2;
+  }
+
+  &-title {
+    font-size: 18px;
+    margin-bottom: $baseline*0.5;
+    font-weight: 600;
+    color: $primary;
+  }
+
+  &-description {
+
+  }
+
+  &:hover {
+    background: $primary;
+    border-color: $primary;
+    color: white;
+
+    .#{$prefix}-box-inline-icon {
+      background: rgba(black, 0.2);
+    }
+
+    .#{$prefix}-box-inline-title {
+      color: white;
+    }
+
+  }
+}
+
+.#{$prefix}-box-subscribe {
+  position: relative;
+
+  &-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: $baseline;
+    text-align: center;
+    border-top: 1px solid $gray-3;
+
+    .#{$prefix}-box-title {
+      margin: 0;
+    }
+
+    &-icons {
+      @include bidi(margin-left, auto, margin-right);
+
+      a {
+        display: inline-block;
+        text-decoration: none;
+
+        svg {
+          width: 30px;
+          height: 30px;
+          vertical-align: middle;
+        }
+
+        + a {
+          @include bidi(margin-left, $baseline*0.5, margin-right);
+        }
+      }
+    }
+
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 3px;
+
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 0%, #ffffff 2%, #0073aa 2%, #0073aa 50%, #ffffff 50%, #ffffff 52%, #f44336 52%, #f44336 52%, #f44336 100%);
+    background: -webkit-linear-gradient(left, #ffffff 0%, #ffffff 2%, #0073aa 2%, #0073aa 50%, #ffffff 50%, #ffffff 52%, #f44336 52%, #f44336 52%, #f44336 100%);
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 2%, #0073aa 2%, #0073aa 50%, #ffffff 50%, #ffffff 52%, #f44336 52%, #f44336 52%, #f44336 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f44336', GradientType=1);
+    background-position-x: -10px;
+    background-size: 120px;
+  }
+}
+
+.#{$prefix}-box-review {
+
+  .#{$prefix}-box-composed-form {
+    flex-direction: column;
+
+    &-field {
+      border-radius: 3px 3px 0 0;
+    }
+
+    &-button {
+      border-radius: 0 0 3px 3px;
+    }
+  }
+}
+
+.#{$prefix}-box-announcement {
+
+}
+
+.#{$prefix}-box-links {
+  .#{$prefix}-box-title {
+    line-height: 1;
+    margin: 0 0 $baseline*0.5;
+  }
+}
+
+.#{$prefix}-box-onboarding {
+  padding: $baseline*2 0 0;
+  text-align: center;
+
+  .#{$prefix}-box-title {
+    font-size: 36px;
+  }
+}
+
+.#{$prefix}-box-activation {
+  text-align: center;
+
+  .#{$prefix}-row {
+    align-items: center;
+  }
+
+  .#{$prefix}-box-section {
+    padding: $baseline $baseline*2 0;
+  }
+
+  .#{$prefix}-box-content {
+    padding: 0 $baseline*3;
+  }
+
+  &-image {
+    max-height: 64px;
+    margin-bottom: $baseline*2;
+  }
+
+  .#{$prefix}-box-title {
+    line-height: 1;
+    margin: 0 0 $baseline*0.5;
+  }
+
+  .#{$prefix}-box-composed-form {
+    padding: $baseline;
+    background: $gray-1;
+    max-width: 350px;
+    margin: $baseline auto 0;
+    flex-direction: column;
+    border-radius: 6px;
+
+    &-field {
+      padding: 10px;
+      border-radius: 0;
+      text-transform: uppercase;
+      font-family: monospace;
+      letter-spacing: 2px;
+      font-size: 10px;
+      text-align: center;
+
+      &:first-child {
+        border-radius: 3px 3px 0 0;
+      }
+    }
+
+    &-button {
+      border-radius: 0 0 3px 3px;
+    }
+
+    &-error {
+      padding: 0;
+    }
+  }
+}
+
+.#{$prefix}-box-support-search {
+  text-align: center;
+  padding: $baseline*4;
+
+  .#{$prefix}-box-title {
+    font-size: 28px;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .#{$prefix}-box-composed-form {
+    max-width: 400px;
+    margin: $baseline*2 auto 0;
+  }
+}
+
+.#{$prefix}-box-support-channel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 300px;
+
+  .#{$prefix}-box-section {
+    padding: $baseline*2;
+  }
+
+  &-image {
+    max-height: 64px;
+    margin-bottom: $baseline;
+  }
+}
+
+.#{$prefix}-box-totalsuite {
+  .#{$prefix}-row {
+    align-items: center;
+  }
+
+  &-content {
+    padding: $baseline*3;
+  }
+
+  &-products {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid $gray-5;
+
+    &-item {
+      flex: 1;
+      padding: $baseline*3;
+      //text-align: center;
+
+      & &-image {
+        //max-height: 36px;
+        max-width: 180px;
+      }
+
+      &-description {
+        color: $gray-50;
+        margin-top: $baseline;
+      }
+
+      + .#{$prefix}-box-totalsuite-products-item {
+        @include bidi(border-left, 1px solid $gray-5, border-right);
+      }
+    }
+  }
+
+  &-image {
+    max-width: 350px;
+    margin: auto;
+  }
+}
+
+.#{$prefix}-box-service {
+  text-align: center;
+
+  .#{$prefix}-box-section {
+    padding: $baseline*2 $baseline;
+  }
+
+  &-image {
+    max-height: 64px;
+    margin-bottom: $baseline;
+  }
+}
+
+.#{$prefix}-box-credits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  &-item {
+    flex: 0 0 20%;
+    min-width: 150px;
+    text-align: center;
+    padding: $baseline;
+    align-items: center;
+    justify-content: center;
+
+    &-title {
+      a {
+        text-decoration: none;
+      }
+    }
+
+    &-image {
+      margin-bottom: $baseline;
+
+      img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+      }
+    }
+
+    &-description {
+      font-size: smaller;
+      color: $gray-50;
+    }
+  }
+}

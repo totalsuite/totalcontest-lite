@@ -1,0 +1,27 @@
+.#{$prefix}-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 $baseline*-0.5;
+
+  .#{$prefix}-column {
+    flex: 1;
+    padding: 0 $baseline*0.5;
+
+    &-6 {
+      flex: 0 0 100%;
+      max-width: 50%;
+    }
+
+    &-3 {
+      flex: 0 0 100%;
+      max-width: 25%;
+    }
+
+    &-sidebar {
+      flex: 0 0 100%;
+      max-width: 300px;
+    }
+
+  }
+}

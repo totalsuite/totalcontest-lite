@@ -1,0 +1,13 @@
+.#{$prefix}-h2, .#{$prefix}-h3 {
+  margin: 2rem 0 1.5rem !important;
+  padding: 0 !important;
+  font-size: 1.25rem !important;
+
+  &:first-child {
+    margin-top: 0 !important;
+  }
+}
+
+.#{$prefix}-h3 {
+  font-size: 1.05rem !important;
+}

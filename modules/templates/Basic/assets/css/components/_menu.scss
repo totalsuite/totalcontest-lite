@@ -1,0 +1,81 @@
+div#totalcontest.totalcontest-wrapper {
+  @include media-breakpoint-down('sm') {
+    .totalcontest-header {
+      position: relative;
+      &:after {
+        position: absolute;
+        @include bidi(right, 0);
+        top: 4px;
+        width: 30px;
+        content: "";
+        @include bidi(background, -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 1))), -webkit-gradient(linear, left top, right top, color-stop(100%, rgba(255, 255, 255, 0)), color-stop(0%, rgba(255, 255, 255, 1))));
+        height: calc(100% - 5px);
+        pointer-events: none;
+        z-index: 2;
+      }
+
+      &.is-scroll-finished:after {
+        display: none;
+      }
+    }
+  }
+  .totalcontest-menu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    @include property(typography, 'elements.menu.text')
+  }
+
+  .totalcontest-menu-item {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    min-width: 125px;
+    @include property(padding, 'elements.menu.padding');
+    @include property(background, 'elements.menu.colors.background', 'elements.container.colors.background', 'colors.grayLight');
+    @include property(color, 'elements.menu.colors.color', 'elements.container.colors.color', 'colors.dark');
+    @include property(border-color, 'elements.container.colors.border', 'elements.container.colors.border', 'colors.gray');
+
+    @include media-breakpoint-up('md') {
+      min-width: auto;
+    }
+
+    &:hover, &:focus {
+      @include property(background, 'elements.menu.colors.backgroundHover');
+      @include property(color, 'elements.menu.colors.colorHover');
+    }
+
+    + .totalcontest-menu-item {
+      @include bidi(border-left, 1px solid var-expression('elements.menu.colors.border', ('elements.container.colors.border', 'elements.container.colors.border', 'colors.gray')));
+    }
+
+    &.is-active {
+      @include property(background, 'elements.menu.colors.backgroundActive', 'elements.container.colors.background', 'colors.grayLighter', 'elements.menu.colors.backgroundHover');
+      @include property(color, 'elements.menu.colors.colorActive', 'colors.primary');
+      border: 1px solid var-expression('elements.menu.colors.border', ('elements.container.colors.border', 'elements.container.colors.border', 'colors.gray'));
+      border-top: 3px solid var-expression('elements.menu.colors.borderActive', ('colors.primary'));
+      border-bottom: 0;
+
+      &:first-child {
+        @include bidi(border-left, none);
+      }
+
+      &:last-child {
+        @include bidi(border-right, none);
+      }
+    }
+
+    &.is-active + .totalcontest-menu-item {
+      @include bidi(border-left, 0);
+    }
+
+    &:last-child {
+      @include media-breakpoint-down('sm') {
+        //@include bidi(padding-right, unquote('calc(' + var-expression('elements.menu.padding.right', '1em') + ' * 2)'));
+      }
+    }
+  }
+
+}

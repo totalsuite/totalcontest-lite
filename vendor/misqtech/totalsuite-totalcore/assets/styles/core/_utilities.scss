@@ -1,0 +1,171 @@
+[hidden] {
+  display: none;
+
+  &.current, &.active {
+    display: inherit;
+  }
+}
+
+.#{$prefix}-badge {
+  display: inline-block;
+  padding: 0.25rem;
+  line-height: 1;
+  color: $gray-30;
+  border: 1px solid $gray-10;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.#{$prefix}-clearfix {
+  @include clearfix();
+}
+
+.#{$prefix}-processing, .#{$prefix}-successful {
+  position: relative;
+  //min-height: 80px;
+  pointer-events: none;
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+
+    @include animation(fadeIn 0.25s linear);
+  }
+
+  &:after {
+    content: "\f463";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    font: normal 50px/1 dashicons;
+    margin: auto;
+    z-index: 2;
+    text-align: center;
+    @include animation(fadeIn 1s linear, rotation 2s infinite linear);
+  }
+
+  &.tiny {
+    min-height: 16px;
+
+    &:before, &:after {
+      width: 32px;
+      @include bidi(left, auto, right);
+    }
+
+    &:before {
+      @include bidi(right, 1px, left);
+      top: 1px;
+      bottom: 1px;
+      height: auto;
+    }
+
+    &:after {
+      @include bidi(right, 8px, left);
+      width: 16px;
+      height: 16px;
+      font: normal 16px/1 dashicons;
+    }
+  }
+}
+
+.#{$prefix}-successful {
+  &:after {
+    content: "\f147";
+    color: forestgreen;
+    @include animation(blink 0.25s ease-in);
+  }
+}
+
+.#{$prefix}-group {
+  display: table;
+  width: 100%;
+
+  &-item {
+    display: table-cell;
+  }
+}
+
+.#{$prefix}-padding-small {
+  padding: 0.5rem;
+}
+
+.#{$prefix}-padding-regular {
+  padding: $baseline;
+}
+
+.#{$prefix}-padding-large {
+  padding: 2rem;
+}
+
+.#{$prefix}-width-5 {
+  width: 5%;
+}
+
+.#{$prefix}-width-10 {
+  width: 10%;
+}
+
+.#{$prefix}-width-15 {
+  width: 15%;
+}
+
+.#{$prefix}-width-20 {
+  width: 20%;
+}
+
+.#{$prefix}-width-25 {
+  width: 25%;
+}
+
+.#{$prefix}-width-50 {
+  width: 50%;
+}
+
+.#{$prefix}-progress {
+  text-align: center;
+
+  &-current {
+    position: relative;
+    background: $gray-20;
+    height: 3px;
+    width: 40px;
+    margin: 0 auto;
+
+    div {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      background: $primary;
+    }
+  }
+
+  &-percentage {
+    font-size: 10px;
+  }
+}
+
+// ------------------------------------
+// Tab
+// ------------------------------------
+[tab] {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}

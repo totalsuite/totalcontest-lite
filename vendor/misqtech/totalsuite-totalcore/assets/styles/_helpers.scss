@@ -1,0 +1,230 @@
+// ------------------------------------------------------
+// Grid and responsive utils from Bootstrap 4
+// ------------------------------------------------------
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px
+) !default;
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1140px
+) !default;
+
+@function breakpoint-next($name, $breakpoints: $grid-breakpoints, $breakpoint-names: map-keys($breakpoints)) {
+  $n: index($breakpoint-names, $name);
+  @return if($n < length($breakpoint-names), nth($breakpoint-names, $n + 1), null);
+}
+
+@function breakpoint-min($name, $breakpoints: $grid-breakpoints) {
+  $min: map-get($breakpoints, $name);
+  @return if($min != 0, $min, null);
+}
+
+@function breakpoint-max($name, $breakpoints: $grid-breakpoints) {
+  $next: breakpoint-next($name, $breakpoints);
+  @return if($next, breakpoint-min($next, $breakpoints) - 1px, null);
+}
+
+@function breakpoint-infix($name, $breakpoints: $grid-breakpoints) {
+  @return if(breakpoint-min($name, $breakpoints) == null, "", "-#{$name}");
+}
+
+@mixin media-breakpoint-up($name, $breakpoints: $grid-breakpoints) {
+  $min: breakpoint-min($name, $breakpoints);
+  @if $min {
+    @media (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-down($name, $breakpoints: $grid-breakpoints) {
+  $max: breakpoint-max($name, $breakpoints);
+  @if $max {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-between($lower, $upper, $breakpoints: $grid-breakpoints) {
+  @include media-breakpoint-up($lower, $breakpoints) {
+    @include media-breakpoint-down($upper, $breakpoints) {
+      @content;
+    }
+  }
+}
+
+@mixin media-breakpoint-only($name, $breakpoints: $grid-breakpoints) {
+  @include media-breakpoint-between($name, $name, $breakpoints) {
+    @content;
+  }
+}
+
+// ------------------------------------------------------
+// Keyframes
+// ------------------------------------------------------
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+// ------------------------------------------------------
+// Animation
+// ------------------------------------------------------
+@mixin animation($str...) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+// ------------------------------------------------------
+// Clear fix
+// ------------------------------------------------------
+@mixin clearfix() {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// ------------------------------------------------------
+// RTL
+// ------------------------------------------------------
+@mixin rtl($property, $value, $inverse-property, $inverse-value: null) {
+  #{$property}: $value;
+
+  html[dir=rtl] & {
+    @if $inverse-value {
+      #{$inverse-property}: $inverse-value;
+    } @else {
+      #{$property}: $inverse-property;
+    }
+  }
+}
+
+// ------------------------------------------------------
+// Bidirectional
+// ------------------------------------------------------
+@function bidi-str-replace($string, $search, $replace: '') {
+  @if type-of($string) != "string" {
+    @return $string;
+  }
+
+  $index: str-index($string, $search);
+
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + bidi-str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+
+  @return $string;
+}
+
+@function bidi-normalize-direction($value, $start: 'left', $end: 'right') {
+  $value: bidi-str-replace($value, $start, 'start');
+  $value: bidi-str-replace($value, $end, 'end');
+
+  @return $value;
+}
+
+@function bidi-denormalize-direction($value, $start: 'left', $end: 'right') {
+  $value: bidi-str-replace($value, 'start', $start);
+  $value: bidi-str-replace($value, 'end', $end);
+
+  @return $value;
+}
+
+@function bidi-rtl-of($value) {
+  $value: bidi-normalize-direction($value);
+  $value: bidi-denormalize-direction($value, 'right', 'left');
+
+  @return $value;
+}
+
+@function bidi-ltr-of($value) {
+  $value: bidi-normalize-direction($value);
+  $value: bidi-denormalize-direction($value, 'left', 'right');
+
+  @return $value;
+}
+
+// ------------------------------------------------------
+// Bidirectional
+// ------------------------------------------------------
+@function default-bidi-root-selector($selector, $direction) {
+  @return selector_nest('html[dir="' + $direction + '"]', $selector...);
+}
+
+@mixin bidi($start-property, $start-value, $end-property: null, $end-value: null) {
+
+  // Normalize properties and values
+  @if type-of($start-property) == "string" {
+    $start-property: bidi-denormalize-direction(to-lower-case($start-property));
+  }
+
+  @if type-of($start-value) == "string" {
+    $ltr-value: bidi-denormalize-direction(to-lower-case($start-value));
+  }
+
+  @if type-of($end-property) == "string" {
+    $end-property: to-lower-case($end-property);
+  }
+
+  @if type-of($end-value) == "string" {
+    $end-value: to-lower-case($end-value);
+  }
+
+  // Change properties to reflect the direction of property
+  @if $end-property == null and $end-value == null {
+    $end-value: bidi-rtl-of($start-value);
+    $end-property: bidi-rtl-of($start-property);
+  } @else if $end-value == null {
+    $end-value: $end-property;
+    $end-property: bidi-rtl-of($start-property);
+  }
+
+  $ltr-selector: default-bidi-root-selector(&, "ltr");
+  $rtl-selector: default-bidi-root-selector(&, "rtl");
+
+  @if (function_exists('bidi-root-selector')) {
+    $ltr-selector: bidi-root-selector(&, "ltr");
+    $rtl-selector: bidi-root-selector(&, "rtl");
+  }
+  // Setup bidi selectors
+  @if ($ltr-selector) {
+    @at-root #{$ltr-selector} {
+      #{$start-property}: $start-value;
+    }
+  }
+  @if ($rtl-selector) {
+    @at-root #{$rtl-selector} {
+      #{$end-property}: $end-value;
+    }
+  }
+}

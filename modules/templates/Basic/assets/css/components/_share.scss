@@ -1,0 +1,56 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-share {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    background: unquote('{{elements.menu.colors.background}}');
+
+    .totalcontest-share-service {
+      flex: 1;
+      padding: 1em;
+      opacity: 0.85;
+      line-height: 0;
+      text-align: center;
+
+      + .totalcontest-share-service {
+        @include bidi(margin-left, 0.5em);
+      }
+
+      &:hover, &:focus {
+        opacity: 1;
+      }
+
+      &.is-facebook {
+        background: #3b5998;
+        color: white;
+        fill: white;
+      }
+
+      &.is-twitter {
+        background: #1da1f2;
+        color: white;
+        fill: white;
+      }
+
+      &.is-googleplus {
+        background: #dd4b39;
+        color: white;
+        fill: white;
+      }
+
+      &.is-pinterest {
+        background: #bd081c;
+        color: white;
+        fill: white;
+      }
+
+      &.is-whatsapp {
+        background: #128c7e;
+        color: white;
+        fill: white;
+      }
+
+    }
+
+  }
+}

@@ -1,0 +1,22 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-container {
+    position: relative;
+    @include property(max-width, 'layout.containerMaxWidth');
+    @include property(border-color, 'elements.container.colors.border', 'colors.gray');
+    @include property(border, 'elements.container.border');
+    @include property(color, 'elements.container.colors.color', 'colors.dark');
+  }
+
+  .totalcontest-header {
+
+  }
+
+  .totalcontest-body {
+    @include property(padding, 'elements.container.padding');
+    @include property(background-color, 'elements.container.colors.background', 'colors.grayLighter');
+  }
+
+  .totalcontest-footer {
+
+  }
+}

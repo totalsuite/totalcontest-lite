@@ -1,0 +1,39 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-pagination {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 1em auto;
+
+    @include property(typography, 'elements.button.text');
+  }
+
+  .totalcontest-pagination-item {
+    display: block;
+    line-height: 1;
+    cursor: pointer;
+    margin: 0 0.25em;
+    padding: 0.5em;
+    text-decoration: none;
+    @include property(padding, 'elements.button.padding');
+    @include property(background, 'elements.button.colors.background');
+    @include property(color, 'elements.button.colors.color');
+    @include property(border-color, 'elements.button.colors.border');
+    @include property(border, 'elements.button.border');
+    @include property(box-shadow, 'elements.button.shadows.box');
+
+    &:hover, &:focus, &:active {
+      @include property(background, 'elements.button.colors.backgroundHover');
+      @include property(color, 'elements.button.colors.colorHover');
+      @include property(border-color, 'elements.button.colors.borderHover');
+    }
+
+    &.is-active {
+      cursor: default;
+      @include property(background, 'elements.button.colors.backgroundPrimary');
+      @include property(color, 'elements.button.colors.colorPrimary');
+      @include property(border-color, 'elements.button.colors.borderPrimary');
+    }
+  }
+}

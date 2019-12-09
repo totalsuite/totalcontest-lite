@@ -1,0 +1,2599 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalContest\n"
+"POT-Creation-Date: 2017-04-04 20:17+0100\n"
+"PO-Revision-Date: 2017-04-04 20:17+0100\n"
+"Last-Translator: \n"
+"Language-Team: MisqTech <contact@misqtech.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Admin/Ajax/Modules.php:32
+msgid "Module installed."
+msgstr ""
+
+#: Admin/Ajax/Modules.php:42
+msgid "Module downloaded and installed."
+msgstr ""
+
+#: Admin/Ajax/Modules.php:56
+msgid "Module updated."
+msgstr ""
+
+#: Admin/Ajax/Modules.php:66
+msgid "Module uninstalled."
+msgstr ""
+
+#: Admin/Ajax/Modules.php:76
+msgid "Module activated."
+msgstr ""
+
+#: Admin/Ajax/Modules.php:86
+msgid "Module deactivated."
+msgstr ""
+
+#: Admin/Ajax/Other.php:29
+msgid "Dismissed"
+msgstr ""
+
+#: Admin/Ajax/SupportUpdates.php:24
+msgid "Thank you!"
+msgstr ""
+
+#: Admin/Ajax/SupportUpdates.php:27
+msgid "Invalid key."
+msgstr ""
+
+#: Admin/Ajax/Tools.php:21
+msgid "Something went wrong."
+msgstr ""
+
+#: Admin/Ajax/Tools.php:23
+msgid "Saved."
+msgstr ""
+
+#: Admin/Bootstrap.php:154 Admin/Bootstrap.php:155
+#: Admin/Pages/Views/about/index.php:19
+msgid "Customization"
+msgstr ""
+
+#: Admin/Bootstrap.php:177 Admin/Editor/Views/actions.php:7
+#: Admin/Editor/Views/tabs/contest.php:6 Admin/Listing/Contests/Base.php:14
+#: PostType/Submission.php:62 PostType/Submission.php:73
+msgid "Submissions"
+msgstr ""
+
+#: Admin/Bootstrap.php:182
+msgid "TotalContest Log"
+msgstr ""
+
+#: Admin/Bootstrap.php:182 Admin/Editor/Views/actions.php:15
+#: Admin/Listing/Contests/Base.php:15 Admin/Listing/Submissions/Base.php:48
+#: Admin/Other/GeneralGuide.php:24 Admin/Pages/Views/log/index.php:2
+#: Admin/Submission/Views/actions.php:15
+msgid "Log"
+msgstr ""
+
+#: Admin/Bootstrap.php:183
+msgid "TotalContest Modules"
+msgstr ""
+
+#: Admin/Bootstrap.php:183 Admin/Other/GeneralGuide.php:29
+#: Admin/Pages/Views/modules/index.php:2
+msgid "Modules"
+msgstr ""
+
+#: Admin/Bootstrap.php:184
+msgid "TotalContest Tools"
+msgstr ""
+
+#: Admin/Bootstrap.php:184
+msgid "Tools"
+msgstr ""
+
+#: Admin/Bootstrap.php:185
+msgid "TotalContest Support Center"
+msgstr ""
+
+#: Admin/Bootstrap.php:185 Admin/Pages/Views/support/index.php:2
+msgid "Support & Updates"
+msgstr ""
+
+#: Admin/Bootstrap.php:186
+msgid "TotalContest About"
+msgstr ""
+
+#: Admin/Bootstrap.php:186
+msgid "About"
+msgstr ""
+
+#: Admin/Editor/Bootstrap.php:67
+msgid "Submission {{id}}"
+msgstr ""
+
+#: Admin/Editor/Bootstrap.php:68
+msgid "{{votes}} Votes | {{views}} Views"
+msgstr ""
+
+#: Admin/Editor/Bootstrap.php:82
+msgid "Your vote has been casted. Thank you!"
+msgstr ""
+
+#: Admin/Editor/Bootstrap.php:83
+msgid "Thank you for participating in this contest!"
+msgstr ""
+
+#: Admin/Editor/Bootstrap.php:88
+msgid "Terms"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:13 Admin/Editor/Views/tabs/seo.php:4
+#: Admin/Pages/Tools.php:23 Admin/Submission/Views/actions.php:7
+#: PostType/Contest.php:36 Widgets/Countdown.php:51
+msgid "Contest"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:14 Admin/Pages/Tools.php:47
+#: Form/VoteForm.php:79
+msgid "Vote"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:15
+msgid "Design"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:16
+msgid "Pages"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:17
+msgid "Share"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:18
+msgid "SEO"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:19
+msgid "Extra"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:24
+msgid "Help me"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:45
+msgid "Contest shortcode"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:47
+msgid "The most simple way to integrate a contest."
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:50
+msgid "Upload form shortcode"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:52
+msgid "Display only the upload form."
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:55
+msgid "Submissions shortcode"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:57
+msgid "Display submissions submissions."
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:62
+msgid "Page shortcode"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:64
+msgid "Display page content."
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:67
+msgid "Submission shortcode"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:69
+msgid "Display a specific submission."
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:72
+msgid "Count down shortcode"
+msgstr ""
+
+#: Admin/Editor/Views/editor.php:74
+msgid "Display time left to start."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:4 Admin/Pages/Tools.php:32
+#: Contest/Model.php:411 Widgets/Contest.php:45
+msgid "Upload"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:5 Admin/Editor/Views/tabs/design.php:761
+msgid "Form"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:7 Admin/Editor/Views/tabs/vote.php:5
+#: Admin/Pages/Views/about/index.php:49
+msgid "Limitations"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:8 Admin/Editor/Views/tabs/vote.php:6
+msgid "Frequency"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:19
+#: Admin/Editor/Views/tabs/upload/tabs.php:1
+msgid "Image"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:24
+#: Admin/Editor/Views/tabs/upload/tabs.php:2
+msgid "Video"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:29
+#: Admin/Editor/Views/tabs/upload/tabs.php:3
+msgid "Audio"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:34
+#: Admin/Editor/Views/tabs/contest.php:66 Admin/Editor/Views/tabs/design.php:23
+#: Admin/Editor/Views/tabs/design.php:183
+#: Admin/Editor/Views/tabs/design.php:320
+#: Admin/Editor/Views/tabs/design.php:457
+#: Admin/Editor/Views/tabs/design.php:647
+#: Admin/Editor/Views/tabs/design.php:767
+#: Admin/Editor/Views/tabs/design.php:887
+#: Admin/Editor/Views/tabs/design.php:1001
+#: Admin/Editor/Views/tabs/design.php:1127
+#: Admin/Editor/Views/tabs/design.php:1247
+#: Admin/Editor/Views/tabs/upload/tabs.php:4
+msgid "Text"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:59
+msgid "Nothing yet. Add fields from right side."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:70
+msgid "Textarea"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:74
+msgid "Select"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:78
+msgid "Checkbox"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:82
+msgid "Radio"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:93
+msgid "Moderation"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:97
+msgid "Publish after moderator approval"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:105
+msgid "Submission title"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:113
+msgid "Submission subtitle (meta information)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:119 Admin/Editor/Views/tabs/seo.php:28
+#: Admin/Editor/Views/tabs/seo.php:53
+msgid "Template variables"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:120
+msgid "{{id}} for submission ID."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:121 Admin/Editor/Views/tabs/seo.php:54
+msgid "{{fields.FIELD_NAME}} for form fields."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:122
+msgid "{{user.PROPERTY_NAME}} for a property value in current user."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:123 Admin/Editor/Views/tabs/seo.php:55
+msgid "{{date}} for submission date."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:124 Admin/Editor/Views/tabs/seo.php:56
+msgid "{{views}} for submission views."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:125 Admin/Editor/Views/tabs/seo.php:57
+msgid "{{votes}} for submission votes."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:126 Admin/Editor/Views/tabs/seo.php:58
+msgid "{{rate}} for submission rate."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:134 Admin/Editor/Views/tabs/vote.php:72
+msgid "Time period"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:142 Admin/Editor/Views/tabs/vote.php:80
+msgid "Start date"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:143
+msgid "Entering submissions will be closed before reaching this date."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:150 Admin/Editor/Views/tabs/vote.php:88
+msgid "End date"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:151
+msgid "Entering submissions will be closed after reaching this date."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:162 Admin/Editor/Views/tabs/vote.php:100
+msgid "Membership"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:170 Admin/Editor/Views/tabs/vote.php:108
+msgid "Required membership roles"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:171
+msgid "The membership types that can add submissions."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:179 Admin/Editor/Views/tabs/vote.php:117
+msgid "Hold Control/Command for multiple selection."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:188 Admin/Editor/Views/tabs/vote.php:126
+msgid "Quota"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:196
+msgid "Number of submissions"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:197
+msgid "The quota where the contest will not accept submissions after reaching."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:204
+#: Admin/Editor/Views/tabs/contest.php:258 Admin/Editor/Views/tabs/vote.php:143
+#: Admin/Editor/Views/tabs/vote.php:207
+msgid "Presets"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:206
+msgid "15 days contest."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:207
+#: Admin/Editor/Views/tabs/contest.php:211
+#: Admin/Editor/Views/tabs/contest.php:215
+#: Admin/Editor/Views/tabs/contest.php:261
+#: Admin/Editor/Views/tabs/contest.php:265
+#: Admin/Editor/Views/tabs/contest.php:269
+#: Admin/Editor/Views/tabs/contest.php:273 Admin/Editor/Views/tabs/vote.php:146
+#: Admin/Editor/Views/tabs/vote.php:150 Admin/Editor/Views/tabs/vote.php:154
+#: Admin/Editor/Views/tabs/vote.php:210 Admin/Editor/Views/tabs/vote.php:214
+#: Admin/Editor/Views/tabs/vote.php:218 Admin/Editor/Views/tabs/vote.php:222
+msgid "Apply"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:210
+msgid "1 month contest."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:214
+msgid "100 submissions contest."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:222 Admin/Editor/Views/tabs/vote.php:162
+msgid "Block based on"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:222
+msgid "The methods used to block exceeding the limits of submissions."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:225 Admin/Editor/Views/tabs/vote.php:165
+msgid "Cookies"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:230 Admin/Editor/Views/tabs/vote.php:170
+#: Admin/Pages/Views/log/index.php:14 Admin/Pages/Views/log/index.php:23
+msgid "IP"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:235 Admin/Editor/Views/tabs/vote.php:175
+msgid "User"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:242
+msgid "Submissions per user"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:243
+msgid "Number of submissions can be added by each user."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:250
+msgid "Timeout"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:251
+msgid "The time period before the user can enter submissions again."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:260 Admin/Editor/Views/tabs/vote.php:209
+msgid "Based on browser, less secure but lightweight on server."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:264 Admin/Editor/Views/tabs/vote.php:213
+msgid ""
+"Based on database and IP, more secure but may hurt server performance on "
+"heavy load."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:268 Admin/Editor/Views/tabs/vote.php:217
+msgid ""
+"Based on logged in user, more secure but may hurt server performance on "
+"heavy load."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/contest.php:272 Admin/Editor/Views/tabs/vote.php:221
+msgid ""
+"Based on browser, IP and logged in user, most secure but may hurt server "
+"performance on heavy load."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:4
+msgid "Elements"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:5
+msgid "Layout"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:7
+msgid "Sorting"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:8
+msgid "Pagination"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:9 Admin/Editor/Views/tabs/design.php:1505
+msgid "Custom CSS"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:18
+msgid "Global"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:22 Admin/Editor/Views/tabs/design.php:117
+#: Admin/Editor/Views/tabs/design.php:181
+#: Admin/Editor/Views/tabs/design.php:318
+#: Admin/Editor/Views/tabs/design.php:455
+#: Admin/Editor/Views/tabs/design.php:645
+#: Admin/Editor/Views/tabs/design.php:765
+#: Admin/Editor/Views/tabs/design.php:885
+#: Admin/Editor/Views/tabs/design.php:999
+#: Admin/Editor/Views/tabs/design.php:1125
+#: Admin/Editor/Views/tabs/design.php:1245
+msgid "Colors"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:31
+msgid "Primary"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:38
+msgid "Secondary"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:45
+msgid "Accent"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:57 Admin/Editor/Views/tabs/design.php:257
+#: Admin/Editor/Views/tabs/design.php:394
+#: Admin/Editor/Views/tabs/design.php:584
+#: Admin/Editor/Views/tabs/design.php:704
+#: Admin/Editor/Views/tabs/design.php:824
+#: Admin/Editor/Views/tabs/design.php:938
+#: Admin/Editor/Views/tabs/design.php:1064
+#: Admin/Editor/Views/tabs/design.php:1184
+#: Admin/Editor/Views/tabs/design.php:1311
+msgid "Font family"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:66 Admin/Editor/Views/tabs/design.php:266
+#: Admin/Editor/Views/tabs/design.php:403
+#: Admin/Editor/Views/tabs/design.php:593
+#: Admin/Editor/Views/tabs/design.php:713
+#: Admin/Editor/Views/tabs/design.php:833
+#: Admin/Editor/Views/tabs/design.php:947
+#: Admin/Editor/Views/tabs/design.php:1073
+#: Admin/Editor/Views/tabs/design.php:1193
+#: Admin/Editor/Views/tabs/design.php:1320
+msgid "Font size"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:72 Admin/Editor/Views/tabs/design.php:272
+#: Admin/Editor/Views/tabs/design.php:409
+#: Admin/Editor/Views/tabs/design.php:599
+#: Admin/Editor/Views/tabs/design.php:719
+#: Admin/Editor/Views/tabs/design.php:839
+#: Admin/Editor/Views/tabs/design.php:953
+#: Admin/Editor/Views/tabs/design.php:1079
+#: Admin/Editor/Views/tabs/design.php:1199
+#: Admin/Editor/Views/tabs/design.php:1326
+msgid "Line height"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:81 Admin/Editor/Views/tabs/design.php:281
+#: Admin/Editor/Views/tabs/design.php:418
+#: Admin/Editor/Views/tabs/design.php:608
+#: Admin/Editor/Views/tabs/design.php:728
+#: Admin/Editor/Views/tabs/design.php:848
+#: Admin/Editor/Views/tabs/design.php:962
+#: Admin/Editor/Views/tabs/design.php:1088
+#: Admin/Editor/Views/tabs/design.php:1208
+#: Admin/Editor/Views/tabs/design.php:1335
+msgid "Align"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:84 Admin/Editor/Views/tabs/design.php:284
+#: Admin/Editor/Views/tabs/design.php:421
+#: Admin/Editor/Views/tabs/design.php:611
+#: Admin/Editor/Views/tabs/design.php:731
+#: Admin/Editor/Views/tabs/design.php:851
+#: Admin/Editor/Views/tabs/design.php:965
+#: Admin/Editor/Views/tabs/design.php:1091
+#: Admin/Editor/Views/tabs/design.php:1211
+#: Admin/Editor/Views/tabs/design.php:1338
+msgid "Inherit"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:85 Admin/Editor/Views/tabs/design.php:145
+#: Admin/Editor/Views/tabs/design.php:231
+#: Admin/Editor/Views/tabs/design.php:285
+#: Admin/Editor/Views/tabs/design.php:368
+#: Admin/Editor/Views/tabs/design.php:422
+#: Admin/Editor/Views/tabs/design.php:558
+#: Admin/Editor/Views/tabs/design.php:612
+#: Admin/Editor/Views/tabs/design.php:678
+#: Admin/Editor/Views/tabs/design.php:732
+#: Admin/Editor/Views/tabs/design.php:798
+#: Admin/Editor/Views/tabs/design.php:852
+#: Admin/Editor/Views/tabs/design.php:912
+#: Admin/Editor/Views/tabs/design.php:966
+#: Admin/Editor/Views/tabs/design.php:1038
+#: Admin/Editor/Views/tabs/design.php:1092
+#: Admin/Editor/Views/tabs/design.php:1158
+#: Admin/Editor/Views/tabs/design.php:1212
+#: Admin/Editor/Views/tabs/design.php:1285
+#: Admin/Editor/Views/tabs/design.php:1339
+msgid "Right"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:86 Admin/Editor/Views/tabs/design.php:286
+#: Admin/Editor/Views/tabs/design.php:423
+#: Admin/Editor/Views/tabs/design.php:613
+#: Admin/Editor/Views/tabs/design.php:733
+#: Admin/Editor/Views/tabs/design.php:853
+#: Admin/Editor/Views/tabs/design.php:967
+#: Admin/Editor/Views/tabs/design.php:1093
+#: Admin/Editor/Views/tabs/design.php:1213
+#: Admin/Editor/Views/tabs/design.php:1340
+msgid "Center"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:87 Admin/Editor/Views/tabs/design.php:160
+#: Admin/Editor/Views/tabs/design.php:246
+#: Admin/Editor/Views/tabs/design.php:287
+#: Admin/Editor/Views/tabs/design.php:383
+#: Admin/Editor/Views/tabs/design.php:424
+#: Admin/Editor/Views/tabs/design.php:573
+#: Admin/Editor/Views/tabs/design.php:614
+#: Admin/Editor/Views/tabs/design.php:693
+#: Admin/Editor/Views/tabs/design.php:734
+#: Admin/Editor/Views/tabs/design.php:813
+#: Admin/Editor/Views/tabs/design.php:854
+#: Admin/Editor/Views/tabs/design.php:927
+#: Admin/Editor/Views/tabs/design.php:968
+#: Admin/Editor/Views/tabs/design.php:1053
+#: Admin/Editor/Views/tabs/design.php:1094
+#: Admin/Editor/Views/tabs/design.php:1173
+#: Admin/Editor/Views/tabs/design.php:1214
+#: Admin/Editor/Views/tabs/design.php:1300
+#: Admin/Editor/Views/tabs/design.php:1341
+msgid "Left"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:92 Admin/Editor/Views/tabs/design.php:292
+#: Admin/Editor/Views/tabs/design.php:429
+#: Admin/Editor/Views/tabs/design.php:619
+#: Admin/Editor/Views/tabs/design.php:739
+#: Admin/Editor/Views/tabs/design.php:859
+#: Admin/Editor/Views/tabs/design.php:973
+#: Admin/Editor/Views/tabs/design.php:1099
+#: Admin/Editor/Views/tabs/design.php:1219
+#: Admin/Editor/Views/tabs/design.php:1346
+msgid "Transform"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:95 Admin/Editor/Views/tabs/design.php:295
+#: Admin/Editor/Views/tabs/design.php:432
+#: Admin/Editor/Views/tabs/design.php:622
+#: Admin/Editor/Views/tabs/design.php:742
+#: Admin/Editor/Views/tabs/design.php:862
+#: Admin/Editor/Views/tabs/design.php:976
+#: Admin/Editor/Views/tabs/design.php:1102
+#: Admin/Editor/Views/tabs/design.php:1222
+#: Admin/Editor/Views/tabs/design.php:1349
+msgid "Normal"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:96 Admin/Editor/Views/tabs/design.php:296
+#: Admin/Editor/Views/tabs/design.php:433
+#: Admin/Editor/Views/tabs/design.php:623
+#: Admin/Editor/Views/tabs/design.php:743
+#: Admin/Editor/Views/tabs/design.php:863
+#: Admin/Editor/Views/tabs/design.php:977
+#: Admin/Editor/Views/tabs/design.php:1103
+#: Admin/Editor/Views/tabs/design.php:1223
+#: Admin/Editor/Views/tabs/design.php:1350
+msgid "UPPERCASE"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:97 Admin/Editor/Views/tabs/design.php:297
+#: Admin/Editor/Views/tabs/design.php:434
+#: Admin/Editor/Views/tabs/design.php:624
+#: Admin/Editor/Views/tabs/design.php:744
+#: Admin/Editor/Views/tabs/design.php:864
+#: Admin/Editor/Views/tabs/design.php:978
+#: Admin/Editor/Views/tabs/design.php:1104
+#: Admin/Editor/Views/tabs/design.php:1224
+#: Admin/Editor/Views/tabs/design.php:1351
+msgid "lowercase"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:98 Admin/Editor/Views/tabs/design.php:298
+#: Admin/Editor/Views/tabs/design.php:435
+#: Admin/Editor/Views/tabs/design.php:625
+#: Admin/Editor/Views/tabs/design.php:745
+#: Admin/Editor/Views/tabs/design.php:865
+#: Admin/Editor/Views/tabs/design.php:979
+#: Admin/Editor/Views/tabs/design.php:1105
+#: Admin/Editor/Views/tabs/design.php:1225
+#: Admin/Editor/Views/tabs/design.php:1352
+msgid "Capitalize"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:113
+msgid "Container"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:118
+#: Admin/Editor/Views/tabs/design.php:182
+#: Admin/Editor/Views/tabs/design.php:319
+#: Admin/Editor/Views/tabs/design.php:456
+#: Admin/Editor/Views/tabs/design.php:646
+#: Admin/Editor/Views/tabs/design.php:766
+#: Admin/Editor/Views/tabs/design.php:886
+#: Admin/Editor/Views/tabs/design.php:1000
+#: Admin/Editor/Views/tabs/design.php:1126
+#: Admin/Editor/Views/tabs/design.php:1246
+msgid "Padding"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:126
+#: Admin/Editor/Views/tabs/design.php:190
+#: Admin/Editor/Views/tabs/design.php:327
+#: Admin/Editor/Views/tabs/design.php:464
+#: Admin/Editor/Views/tabs/design.php:654
+#: Admin/Editor/Views/tabs/design.php:774
+#: Admin/Editor/Views/tabs/design.php:1008
+#: Admin/Editor/Views/tabs/design.php:1134
+#: Admin/Editor/Views/tabs/design.php:1254
+msgid "Background"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:139
+#: Admin/Editor/Views/tabs/design.php:225
+#: Admin/Editor/Views/tabs/design.php:362
+#: Admin/Editor/Views/tabs/design.php:552
+#: Admin/Editor/Views/tabs/design.php:672
+#: Admin/Editor/Views/tabs/design.php:792
+#: Admin/Editor/Views/tabs/design.php:906
+#: Admin/Editor/Views/tabs/design.php:1032
+#: Admin/Editor/Views/tabs/design.php:1152
+#: Admin/Editor/Views/tabs/design.php:1279
+msgid "Top"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:154
+#: Admin/Editor/Views/tabs/design.php:240
+#: Admin/Editor/Views/tabs/design.php:377
+#: Admin/Editor/Views/tabs/design.php:567
+#: Admin/Editor/Views/tabs/design.php:687
+#: Admin/Editor/Views/tabs/design.php:807
+#: Admin/Editor/Views/tabs/design.php:921
+#: Admin/Editor/Views/tabs/design.php:1047
+#: Admin/Editor/Views/tabs/design.php:1167
+#: Admin/Editor/Views/tabs/design.php:1294
+msgid "Bottom"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:177
+msgid "Message"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:196
+#: Admin/Editor/Views/tabs/design.php:333
+#: Admin/Editor/Views/tabs/design.php:470
+#: Admin/Editor/Views/tabs/design.php:660
+#: Admin/Editor/Views/tabs/design.php:780
+#: Admin/Editor/Views/tabs/design.php:894
+#: Admin/Editor/Views/tabs/design.php:1014
+#: Admin/Editor/Views/tabs/design.php:1140
+#: Admin/Editor/Views/tabs/design.php:1260
+msgid "Color"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:205
+msgid "Background (error)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:212
+msgid "Color (error)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:314
+msgid "Menu"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:342
+msgid "Background (active item)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:349
+msgid "Color (active item)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:451
+msgid "Button"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:476
+#: Admin/Editor/Views/tabs/design.php:1020
+#: Admin/Editor/Views/tabs/design.php:1266
+msgid "Border"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:485
+msgid "Background (hover)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:491
+msgid "Color (hover)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:497
+msgid "Border (hover)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:506
+msgid "Background (primary)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:512
+msgid "Color (primary)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:518
+msgid "Border (primary)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:527
+msgid "Background (primary hover)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:533
+msgid "Color (primary hover)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:539
+msgid "Border (primary hover)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:641
+msgid "Page"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:881
+msgid "Form: Label"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:995
+msgid "Form: Input"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1121
+msgid "Form: Error"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1241 Admin/Editor/Views/tabs/seo.php:5
+#: Admin/Pages/Tools.php:43 PostType/Submission.php:63
+msgid "Submission"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1375
+msgid "Submissions layout type"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1380
+msgid "Masonry"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1387
+msgid "Grid"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1395
+msgid "Maximum container width (px)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1401
+msgid "Columns"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1432
+msgid "Sort submissions by"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1438
+#: Admin/Listing/Submissions/Base.php:47 Admin/Pages/Tools.php:77
+#: Admin/Submission/Views/editor.php:12 Admin/Submission/Views/tabs/votes.php:5
+#: Contest/Model.php:563
+msgid "Votes"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1446 Form/RateForm.php:94
+msgid "Rate"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1453 Admin/Pages/Tools.php:72
+#: Contest/Model.php:554
+msgid "Views"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1460 Admin/Listing/Contests/Base.php:16
+#: Admin/Listing/Submissions/Base.php:50 Admin/Pages/Tools.php:67
+#: Admin/Pages/Views/log/index.php:13 Admin/Pages/Views/log/index.php:22
+#: Contest/Model.php:545
+msgid "Date"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1469
+msgid "Direction"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1475 Admin/Pages/Tools.php:87
+#: Contest/Model.php:588
+msgid "Descending"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1482 Admin/Pages/Tools.php:82
+#: Contest/Model.php:579
+msgid "Ascending"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/design.php:1493
+msgid "Submissions per page"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/extra.php:4
+msgid "Captcha"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/extra.php:11
+msgid "Captcha (reCaptcha by Google)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/extra.php:19
+msgid "Site key"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/extra.php:26
+msgid "Site secret"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields.php:4
+msgid "Required"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields.php:5
+#: Admin/Editor/Views/tabs/pages.php:53 Admin/Editor/Views/tabs/vote.php:51
+msgid "Remove"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields.php:12
+msgid "Basic"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields.php:13 Admin/Pages/Tools.php:103
+msgid "Validations"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields.php:14
+msgid "HTML"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:5
+#: Admin/Editor/Views/tabs/form/fields/radio.php:5
+#: Admin/Editor/Views/tabs/form/fields/select.php:5
+#: Admin/Editor/Views/tabs/form/fields/text.php:5
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:5
+msgid "Label"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:6
+#: Admin/Editor/Views/tabs/form/fields/radio.php:6
+#: Admin/Editor/Views/tabs/form/fields/select.php:6
+#: Admin/Editor/Views/tabs/form/fields/text.php:6
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:6
+msgid "Field label"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:11
+#: Admin/Editor/Views/tabs/form/fields/radio.php:11
+#: Admin/Editor/Views/tabs/form/fields/select.php:11
+#: Admin/Editor/Views/tabs/form/fields/text.php:11
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:11
+msgid "Name"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:12
+#: Admin/Editor/Views/tabs/form/fields/radio.php:12
+#: Admin/Editor/Views/tabs/form/fields/select.php:12
+#: Admin/Editor/Views/tabs/form/fields/text.php:12
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:12
+msgid "Field name"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:17
+#: Admin/Editor/Views/tabs/form/fields/radio.php:17
+#: Admin/Editor/Views/tabs/form/fields/select.php:17
+msgid "Options"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:18
+#: Admin/Editor/Views/tabs/form/fields/radio.php:18
+#: Admin/Editor/Views/tabs/form/fields/select.php:18
+msgid "option_key : Option label"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:19
+#: Admin/Editor/Views/tabs/form/fields/radio.php:19
+#: Admin/Editor/Views/tabs/form/fields/select.php:19
+msgid "Option per line."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:24
+#: Admin/Editor/Views/tabs/form/fields/radio.php:24
+#: Admin/Editor/Views/tabs/form/fields/select.php:24
+#: Admin/Editor/Views/tabs/form/fields/text.php:17
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:17
+msgid "Default value"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:25
+#: Admin/Editor/Views/tabs/form/fields/radio.php:25
+#: Admin/Editor/Views/tabs/form/fields/select.php:25
+#: Admin/Editor/Views/tabs/form/fields/text.php:18
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:18
+msgid "Field default"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:26
+#: Admin/Editor/Views/tabs/form/fields/select.php:26
+msgid "Default value per line."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:51
+#: Admin/Editor/Views/tabs/form/fields/radio.php:50
+#: Admin/Editor/Views/tabs/form/fields/select.php:59
+#: Admin/Editor/Views/tabs/form/fields/text.php:119
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:107
+msgid "full column"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:53
+#: Admin/Editor/Views/tabs/form/fields/radio.php:52
+#: Admin/Editor/Views/tabs/form/fields/select.php:61
+#: Admin/Editor/Views/tabs/form/fields/text.php:120
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:109
+msgid "1/2 column"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:55
+#: Admin/Editor/Views/tabs/form/fields/radio.php:54
+#: Admin/Editor/Views/tabs/form/fields/select.php:63
+#: Admin/Editor/Views/tabs/form/fields/text.php:121
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:111
+msgid "1/3 column"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:58
+#: Admin/Editor/Views/tabs/form/fields/radio.php:57
+#: Admin/Editor/Views/tabs/form/fields/select.php:66
+#: Admin/Editor/Views/tabs/form/fields/text.php:123
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:114
+msgid "{{label}} for field label."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:59
+#: Admin/Editor/Views/tabs/form/fields/radio.php:58
+#: Admin/Editor/Views/tabs/form/fields/select.php:67
+#: Admin/Editor/Views/tabs/form/fields/text.php:124
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:115
+msgid "{{errors}} for field errors."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:60
+#: Admin/Editor/Views/tabs/form/fields/radio.php:59
+#: Admin/Editor/Views/tabs/form/fields/select.php:68
+#: Admin/Editor/Views/tabs/form/fields/text.php:125
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:116
+msgid "{{field}} for field input."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:33
+msgid "Allow multiple values"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:42
+#: Admin/Editor/Views/tabs/form/fields/text.php:26
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:26
+msgid "Filled (required)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:50
+#: Admin/Editor/Views/tabs/form/fields/text.php:110
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:98
+msgid "Field CSS classes"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:51
+#: Admin/Editor/Views/tabs/form/fields/text.php:111
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:99
+msgid "Field classes"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:56
+#: Admin/Editor/Views/tabs/form/fields/text.php:116
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:104
+msgid "Template"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:57
+#: Admin/Editor/Views/tabs/form/fields/text.php:117
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:105
+msgid "Field template"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:33
+msgid "Email"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:40
+msgid "Unique"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:41
+msgid "This field value must be unique in submissions table."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:48
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:33
+msgid "Filter by list"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:54
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:39
+msgid "Filtering method"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:57
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:42
+msgid "Blacklist"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:58
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:43
+msgid "Accept all values except the ones in the list."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:63
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:48
+msgid "Whitelist"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:64
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:49
+msgid "Deny all values except the ones in the list."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:71
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:56
+msgid "Value per line."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:72
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:57
+msgid "\"*\" means wildcard."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:78
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:63
+msgid "Regular Expression"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:84
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:69
+#: Admin/Pages/Views/tools/index.php:33 Admin/Pages/Views/tools/index.php:54
+msgid "Expression"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:85
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:70
+msgid "Run user input against a regular expression."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:88
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:73
+msgid "Must be a valid regular expression."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:91
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:76
+msgid "Error message"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:92
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:77
+msgid "This message will be shown if the validation failed."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:95
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:80
+msgid "{{label}} for a field label."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:98
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:83
+msgid "Comparison"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:100
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:86
+msgid "Must match"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:102
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:90
+msgid "Must not match"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:4 Admin/Pages/Tools.php:27
+#: Widgets/Contest.php:44
+msgid "Home"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:5
+msgid "Thank you"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:6
+msgid "Other pages"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:13 Admin/Editor/Views/tabs/pages.php:58
+#: Admin/Editor/Views/tabs/seo.php:12 Admin/Editor/Views/tabs/seo.php:37
+#: Admin/Listing/Contests/Base.php:13 Admin/Listing/Submissions/Base.php:46
+msgid "Title"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:21 Admin/Editor/Views/tabs/pages.php:64
+msgid "Content"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:31
+msgid "After submission"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:39
+msgid "After voting"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:46
+msgid "Add new page"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/pages.php:59
+msgid "Page title"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/seo.php:20 Admin/Editor/Views/tabs/seo.php:45
+msgid "Description"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/seo.php:23 Admin/Editor/Views/tabs/seo.php:48
+msgid "Characters left."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/seo.php:29
+msgid "{{title}} for contest title."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/seo.php:30
+msgid "{{sitename}} for website title."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/share.php:4
+msgid "Settings"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:5
+msgid "Enable direct audio files upload"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:13
+msgid "Audio file size constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:21
+#: Admin/Editor/Views/tabs/upload/types/image.php:21
+#: Admin/Editor/Views/tabs/upload/types/video.php:21
+msgid "Minimum file size (kB)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:27
+#: Admin/Editor/Views/tabs/upload/types/image.php:27
+#: Admin/Editor/Views/tabs/upload/types/video.php:27
+msgid "Maximum file size (kB)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:38
+msgid "Audio length constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:46
+#: Admin/Editor/Views/tabs/upload/types/video.php:46
+msgid "Minimum length (seconds)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:52
+#: Admin/Editor/Views/tabs/upload/types/video.php:52
+msgid "Maximum length (seconds)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:63
+msgid "Audio formats constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:71
+#: Admin/Editor/Views/tabs/upload/types/image.php:85
+#: Admin/Editor/Views/tabs/upload/types/video.php:71
+msgid "Allowed formats"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:76
+msgid "MP3"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:82
+msgid "AAC"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:88
+msgid "OGG"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:94
+msgid "WAV"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:100
+#: Admin/Editor/Views/tabs/upload/types/video.php:98
+msgid "WebM"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:110
+msgid "Enable audio uploaded via popular services"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:118
+#: Admin/Editor/Views/tabs/upload/types/video.php:121
+msgid "Supported services"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:123
+msgid "Soundcloud"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:5
+msgid "Enable direct image files upload"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:13
+msgid "Image file size constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:38
+msgid "Image dimensions constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:46
+msgid "Minimum image width (px)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:52
+msgid "Minimum image height (px)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:60
+msgid "Maximum image width (px)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:66
+msgid "Maximum image height (px)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:77
+msgid "Image formats constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:90
+msgid "JPEG/JPG"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:96
+msgid "PNG"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:102
+msgid "GIF"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:108
+msgid "BMP"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:114
+msgid "WebP"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/text.php:5
+msgid "Text length constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/text.php:13
+msgid "Minimum length (characters)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/text.php:19
+msgid "Maximum length (characters)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:5
+msgid "Enable direct video files upload"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:13
+msgid "Video file size constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:38
+msgid "Video length constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:63
+msgid "Video formats constraint"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:76
+msgid "MP4"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:81
+msgid "MPEG-4"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:86
+msgid "AVI"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:92
+msgid "3GP"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:104
+msgid "MOV"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:114
+msgid "Accept video from popular services"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:126
+msgid "YouTube"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:132
+msgid "Dailymotion"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:138
+msgid "VK.RU"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:144
+msgid "Vimeo"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:150
+msgid "Hulu"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:156
+msgid "Ustream"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:162
+msgid "Vine"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:168
+msgid "Metacafe"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:4
+msgid "Type"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:14
+msgid "Vote type"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:15
+msgid "Vote metering."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:20
+msgid "Incremental (count)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:26
+msgid "Average (rate)"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:34
+msgid "Scale"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:42
+msgid "Criteria"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:54
+msgid "Add new"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:60
+msgid ""
+"Heads up! Changing vote type back and forth may cause inconsistency so "
+"choose wisely."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:81
+msgid "Voting will be closed before reaching this date."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:89
+msgid "Voting will be closed after reaching this date."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:109
+msgid "The membership types that can vote."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:134
+msgid "Number of votes"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:135
+msgid "The quota where the contest will not accept votes after reaching."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:145
+msgid "15 days vote period."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:149
+msgid "1 month vote period."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:153
+msgid "100 votes quota."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:162
+msgid "The methods used to block exceeding the limits of voting."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:183
+msgid "Votes per user"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:184
+msgid "How many times can the user vote."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:191
+msgid "Votes per submission"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:192
+msgid "How many times can the user vote for the same submission."
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:199
+msgid "Vote timeout"
+msgstr ""
+
+#: Admin/Editor/Views/tabs/vote.php:200
+msgid "The time period before the user can vote again."
+msgstr ""
+
+#: Admin/Listing/Contests/Base.php:25 Admin/Listing/Contests/Base.php:27
+#: Admin/Listing/Submissions/Base.php:64
+msgid "Browse"
+msgstr ""
+
+#: Admin/Listing/Submissions/Base.php:45
+msgid "ID"
+msgstr ""
+
+#: Admin/Listing/Submissions/Base.php:49
+msgid "Author"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:14
+msgid "Contest title"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:15
+msgid "Enter your contest title here."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:23
+msgid "Contest settings"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:24
+msgid "You can control various contest settings from here."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:28
+msgid "Voting settings"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:29
+msgid ""
+"Users can vote for submissions. In this section, you can simply configure "
+"the voting options."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:33
+msgid "Design settings"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:34
+msgid "Customize the design of the contest like colors and style."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:38
+msgid "Pages settings"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:39
+msgid ""
+"You can specify your instructions, rules and any important content related "
+"to the contest by creating different pages."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:43
+msgid "Share settings"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:44
+msgid ""
+"Sharing the contest and submissions to social networks settings are from "
+"here."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:48
+msgid "SEO settings"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:49
+msgid ""
+"SEO is an important factor to take care of to let your contest clearer to "
+"search engines like Google."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:53
+msgid "Extra settings"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:54
+msgid "Check this page for miscellaneous settings."
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:59
+msgid "Publish!"
+msgstr ""
+
+#: Admin/Other/ContestGuide.php:60
+msgid "It's time to publish your contest."
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:14
+msgid "Welcome!"
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:15
+msgid "You can access your contests and TotalContest features from this menu."
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:19
+msgid "New contest"
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:20
+msgid "Here is where you can start creating your new contest."
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:25
+msgid ""
+"Logs page record each and every single action occurring on your contests."
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:30
+msgid ""
+"Extend TotalContest functionality and appearance with premium extensions and "
+"templates."
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:34
+msgid "Support / Updates"
+msgstr ""
+
+#: Admin/Other/GeneralGuide.php:35
+msgid ""
+"Got stuck? browse the knowledge base or contact us directly and we will be "
+"happy to help."
+msgstr ""
+
+#: Admin/Other/Guide.php:19 Admin/Pages/Views/log/index.php:47
+msgid "Previous"
+msgstr ""
+
+#: Admin/Other/Guide.php:20 Admin/Pages/Views/log/index.php:48
+msgid "Next"
+msgstr ""
+
+#: Admin/Other/Guide.php:21
+msgid "Done"
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:14
+msgid "Submission edit page"
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:15
+msgid "This is where you can view and modify some of the submission details."
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:19
+msgid "Information tab"
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:20
+msgid ""
+"Under this tab, you will have details about the uploaded content and the "
+"fields values of the submission."
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:24
+msgid "Votes tab"
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:25
+msgid ""
+"The votes tab has info about the number of votes this submission have "
+"received."
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:29
+msgid "Designation tab"
+msgstr ""
+
+#: Admin/Other/SubmissionGuide.php:30
+msgid ""
+"This tab has some options to apply to the submission like marking it as a "
+"winner."
+msgstr ""
+
+#: Admin/Other/Views/panel/customization.php:4
+msgid "Customization?<br>We have got your back!"
+msgstr ""
+
+#: Admin/Other/Views/panel/customization.php:5
+msgid ""
+"If you need custom feature just let us know we will be happy to serve you!"
+msgstr ""
+
+#: Admin/Other/Views/panel/customization.php:7
+msgid "Get a quote"
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:135
+msgid "Newsletter"
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:139
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:140
+#, php-format
+msgid ""
+"Thank you for installing TotalContest Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalContest. Subscribe now and you "
+"will receive a tip everyday for a week plus a 20% discount coupon to use in "
+"our store."
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:141
+msgid "Enter your email here."
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:146
+#, php-format
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:149
+msgid "No, thank you"
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:151
+msgid "Subscribe"
+msgstr ""
+
+#: Admin/Other/Views/panel/welcome.php:157
+msgid "Keep in touch with us!"
+msgstr ""
+
+#: Admin/Pages/Tools.php:37 Admin/Pages/Tools.php:58 Contest/Model.php:417
+#: Widgets/Contest.php:46
+msgid "Submissions"
+msgstr ""
+
+#: Admin/Pages/Tools.php:52
+msgid ""
+"This submission is awaiting moderator approval, it will published as soon as "
+"possible."
+msgstr ""
+
+#: Admin/Pages/Tools.php:62
+msgid "Search"
+msgstr ""
+
+#: Admin/Pages/Tools.php:93
+msgid "Errors"
+msgstr ""
+
+#: Admin/Pages/Tools.php:97 Restrictions/Cookies.php:22
+#: Restrictions/IPAddress.php:48 Restrictions/LoggedInUser.php:53
+msgid "You cannot enter again."
+msgstr ""
+
+#: Admin/Pages/Tools.php:107 Form/Validator.php:11
+msgid "{{label}} must be filled."
+msgstr ""
+
+#: Admin/Pages/Tools.php:112 Form/Validator.php:25
+msgid "{{label}} must be a valid email address."
+msgstr ""
+
+#: Admin/Pages/Tools.php:117 Form/Validator.php:29
+msgid "{{label}} must be a valid URL."
+msgstr ""
+
+#: Admin/Pages/Tools.php:122 Form/Validator.php:39
+msgid "{{label}} is not within the supported range."
+msgstr ""
+
+#: Admin/Pages/Tools.php:127 Form/Validator.php:43 Form/Validator.php:56
+msgid "{{label}} does not allow this value."
+msgstr ""
+
+#: Admin/Pages/Tools.php:132 Form/Validator.php:33 Form/Validator.php:86
+msgid "{{label}} is not a number."
+msgstr ""
+
+#: Admin/Pages/Tools.php:137
+msgid "{{label}} must be unique. The entered value was used before."
+msgstr ""
+
+#: Admin/Pages/Tools.php:142 Form/Validator.php:90
+msgid "{{label}} is not in an array format."
+msgstr ""
+
+#: Admin/Pages/Tools.php:147 Form/Validator.php:94
+msgid "{{label}} is not a string."
+msgstr ""
+
+#: Admin/Pages/Tools.php:152 Form/Validator.php:122
+#, php-format
+msgid "{{label}} file size must be at least %s."
+msgstr ""
+
+#: Admin/Pages/Tools.php:157 Form/Validator.php:126
+#, php-format
+msgid "{{label}} file size must be less than %s."
+msgstr ""
+
+#: Admin/Pages/Tools.php:162 Form/Validator.php:130
+#, php-format
+msgid "{{label}} must be at least %d characters."
+msgstr ""
+
+#: Admin/Pages/Tools.php:167 Form/Validator.php:132
+#, php-format
+msgid "{{label}} must be less than %d characters."
+msgstr ""
+
+#: Admin/Pages/Tools.php:172 Form/Validator.php:148
+#, php-format
+msgid "Only files with these extensions are allowed: %s."
+msgstr ""
+
+#: Admin/Pages/Tools.php:177 Form/Validator.php:163
+#, php-format
+msgid "Only %s files are accepted."
+msgstr ""
+
+#: Admin/Pages/Tools.php:182 Form/Validator.php:174
+msgid "You must upload a file."
+msgstr ""
+
+#: Admin/Pages/Tools.php:187 Form/Validator.php:192
+#, php-format
+msgid "Minimum length for files is: %s seconds."
+msgstr ""
+
+#: Admin/Pages/Tools.php:192 Form/Validator.php:196
+#, php-format
+msgid "Maximum length for files is: %s seconds."
+msgstr ""
+
+#: Admin/Pages/Tools.php:197 Form/Validator.php:209
+#, php-format
+msgid "Minimum width for images is: %s."
+msgstr ""
+
+#: Admin/Pages/Tools.php:202 Form/Validator.php:213
+#, php-format
+msgid "Minimum height for images is: %s."
+msgstr ""
+
+#: Admin/Pages/Tools.php:207 Form/Validator.php:217
+#, php-format
+msgid "Maximum width for images is: %s."
+msgstr ""
+
+#: Admin/Pages/Tools.php:212 Form/Validator.php:221
+#, php-format
+msgid "Maximum height for images is: %s."
+msgstr ""
+
+#: Admin/Pages/Tools.php:217 Form/Validator.php:232
+#, php-format
+msgid "Only links from these services are accepted: %s."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:9
+msgid "User friendly"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:10
+msgid ""
+"You can now create contests within 60 seconds! The user friendly interface "
+"was expertly designed to make contest creation hassle-free."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:14
+msgid "Overall performance"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:15
+msgid ""
+"TotalContest was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:20
+msgid ""
+"With TotalContest, your contest is completely under your control. From "
+"custom pages to customized designs."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:24
+msgid "Custom fields"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:25
+msgid ""
+"Collecting additional information from users has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:29
+msgid "Logs"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:30
+msgid ""
+"Get full details about each and every submission, vote or even an attempt "
+"with details statistics and logging mechanisms available."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:34
+msgid "Extensible"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:35
+msgid ""
+"TotalContest was made with extensibility. Developers can certainly make "
+"TotalContest a step further to suit your needs."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:39
+msgid "SEO Friendly"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:40
+msgid ""
+"Search Engine Optimization is a an important factor to consider. Thus, your "
+"contest will be search-engine friendly to get more search traffic."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:44
+msgid "Mobile-first"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:45
+msgid ""
+"Your contests will always look amazing whether on a laptop, tablet or a "
+"smartphone to gain more engagement from your visitors"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:50
+msgid ""
+"You can simply have more credible contests with full control over who can "
+"add submission, vote or view the results."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:54
+msgid "Integration"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:55
+msgid ""
+"Totalcontest integrates your contests everywhere in your website using easy "
+"methods like with a short code or a direct link."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:86
+msgid "Welcome to"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:88
+msgid ""
+"Create and run contests on your WordPress website easily with a plethora of "
+"features."
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:108
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:112
+msgid "What’s New"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:137
+msgid "Credits"
+msgstr ""
+
+#: Admin/Pages/Views/about/index.php:199
+msgid "Go to Contests"
+msgstr ""
+
+#: Admin/Pages/Views/log/index.php:11 Admin/Pages/Views/log/index.php:20
+msgid "Status"
+msgstr ""
+
+#: Admin/Pages/Views/log/index.php:12 Admin/Pages/Views/log/index.php:21
+msgid "Action"
+msgstr ""
+
+#: Admin/Pages/Views/log/index.php:15 Admin/Pages/Views/log/index.php:24
+msgid "Browser"
+msgstr ""
+
+#: Admin/Pages/Views/log/index.php:16 Admin/Pages/Views/log/index.php:25
+msgid "Details"
+msgstr ""
+
+#: Admin/Pages/Views/log/index.php:39
+msgid "Nothing. Nada. Niente. Nickts. Rien."
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:5
+msgid "Templates"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:6
+msgid "Extensions"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:7 Admin/Pages/Views/modules/index.php:38
+#: Admin/Pages/Views/modules/index.php:92
+msgid "Install"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:43
+msgid "Buy"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:48
+msgid "Update"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:53
+msgid "Activate"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:58
+msgid "Uninstall"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:63
+msgid "Deactivate"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:70
+msgid "By"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:78
+msgid "Version:"
+msgstr ""
+
+#: Admin/Pages/Views/modules/index.php:89
+msgid ""
+"If you have a template or extension in a .zip format, you may install it by "
+"uploading it here."
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:12
+msgid "Support center"
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:18
+msgid "What can we help you with? Press enter to search."
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:26
+msgid "Knowledge base"
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:33
+msgid "FAQs"
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:39
+msgid "Support ticket"
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:56
+msgid "Updates"
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:58
+msgid "Enter your Envato license key."
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:61
+msgid "Checking..."
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:62
+msgid "Activated!"
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:63
+msgid "Activate now!"
+msgstr ""
+
+#: Admin/Pages/Views/support/index.php:66
+msgid ""
+"By activating your copy you will be able to receive updates, apply updates "
+"and installing purchased modules directly from your WordPress dashboard."
+msgstr ""
+
+#: Admin/Pages/Views/tools/index.php:2
+msgid "Available Tools"
+msgstr ""
+
+#: Admin/Pages/Views/tools/index.php:10
+msgid "Expressions"
+msgstr ""
+
+#: Admin/Pages/Views/tools/index.php:18
+msgid "Debug"
+msgstr ""
+
+#: Admin/Pages/Views/tools/index.php:34 Admin/Pages/Views/tools/index.php:55
+msgid "Customized expression"
+msgstr ""
+
+#: Admin/Pages/Views/tools/index.php:62
+msgid "Saved!"
+msgstr ""
+
+#: Admin/Pages/Views/tools/index.php:62
+msgid "Save changes"
+msgstr ""
+
+#: Admin/Submission/Views/editor.php:11
+msgid "Information"
+msgstr ""
+
+#: Admin/Submission/Views/editor.php:13
+msgid "Designation"
+msgstr ""
+
+#: Admin/Submission/Views/tabs/designation.php:6
+msgid "Mark this submission as winner"
+msgstr ""
+
+#: Admin/Submission/Views/tabs/information.php:4
+msgid "Fields"
+msgstr ""
+
+#: Admin/Submission/Views/tabs/information.php:5
+msgid "Preview"
+msgstr ""
+
+#: Admin/Submission/Views/tabs/information.php:28
+msgid "There are no fields."
+msgstr ""
+
+#: Admin/Submission/Views/tabs/votes.php:11
+msgid "Average rate"
+msgstr ""
+
+#: Admin/Updates.php:60
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">enter your license key</a> in order to apply "
+"updates."
+msgstr ""
+
+#: Contest/Commands/CreateSubmission.php:50
+msgid ""
+"Cannot upload a file and add file through service for the same submission"
+msgstr ""
+
+#: Form/Field.php:131
+msgid "This field"
+msgstr ""
+
+#: Form/Fields/CaptchaField.php:37
+msgid "You have entered an invalid captcha code."
+msgstr ""
+
+#: Form/Form.php:75
+msgid "Submit"
+msgstr ""
+
+#: Form/RateForm.php:44
+msgid "Overall"
+msgstr ""
+
+#: Form/EnterForm.php:52
+msgid "Please select or drag and drop an image file"
+msgstr ""
+
+#: Form/EnterForm.php:53
+msgid "Please select or drag and drop an video file"
+msgstr ""
+
+#: Form/EnterForm.php:54
+msgid "Please select or drag and drop an audio file"
+msgstr ""
+
+#: Form/EnterForm.php:88
+msgid "Video link"
+msgstr ""
+
+#: Form/EnterForm.php:88
+msgid "Audio link"
+msgstr ""
+
+#: Form/EnterForm.php:118
+msgid "Your submission"
+msgstr ""
+
+#: Form/EnterForm.php:183
+msgid "Send"
+msgstr ""
+
+#: Form/Validator.php:104
+msgid "{{label}} was used before."
+msgstr ""
+
+#: Limitations/Membership.php:16
+#, php-format
+msgid "To continue, you must be a part of these roles: %s."
+msgstr ""
+
+#: Limitations/Membership.php:25
+#, php-format
+msgid ""
+"To continue, please <a href=\"%s\">sign in</a> or <a href=\"%s\">register</"
+"a>."
+msgstr ""
+
+#: Limitations/Period.php:18
+#, php-format
+msgid "Not started yet, %s left."
+msgstr ""
+
+#: Limitations/Period.php:19 Limitations/Period.php:31
+msgid "%a days and %h hours"
+msgstr ""
+
+#: Limitations/Period.php:30
+#, php-format
+msgid "Finished since %s."
+msgstr ""
+
+#: Limitations/Quota.php:10
+msgid "The quota has been exceeded."
+msgstr ""
+
+#: Log/Repository.php:178
+msgid "contest_id, submission_id and action are required"
+msgstr ""
+
+#: Log/Repository.php:182
+msgid "date must be a DateTime object"
+msgstr ""
+
+#: Log/Repository.php:211
+msgid "No conditions were specified"
+msgstr ""
+
+#: Module/Manager.php:54
+msgid ""
+"TotalContest is unable to uninstall this module. Refresh this page if the "
+"problem persists."
+msgstr ""
+
+#: Module/Manager.php:95
+msgid "Archive is empty or does not contain a directory."
+msgstr ""
+
+#: Module/Manager.php:101
+msgid "Module.json file is absent."
+msgstr ""
+
+#: Module/Manager.php:139
+msgid ""
+"TotalContest is unable to activate this module. Refresh this page if the "
+"problem persists."
+msgstr ""
+
+#: Module/Manager.php:149
+msgid ""
+"TotalContest is unable to deactivate this module. Refresh this page if the "
+"problem persists."
+msgstr ""
+
+#: PostType/Contest.php:35 PostType/Contest.php:41 PostType/Contest.php:46
+msgid "Contests"
+msgstr ""
+
+#: PostType/Contest.php:37
+msgid "Create Contest"
+msgstr ""
+
+#: PostType/Contest.php:38 PostType/Contest.php:40
+msgid "New Contest"
+msgstr ""
+
+#: PostType/Contest.php:39
+msgid "Edit Contest"
+msgstr ""
+
+#: PostType/Contest.php:42
+msgid "View Contest"
+msgstr ""
+
+#: PostType/Contest.php:43
+msgid "Search Contests"
+msgstr ""
+
+#: PostType/Contest.php:44 PostType/Submission.php:71
+msgid "No contests found"
+msgstr ""
+
+#: PostType/Contest.php:45 PostType/Submission.php:72
+msgid "No contests found in Trash"
+msgstr ""
+
+#: PostType/Contest.php:54
+msgid "contest"
+msgstr ""
+
+#: PostType/Contest.php:74
+#, php-format
+msgid "Contest updated. <a href=\"%s\">View contest</a>"
+msgstr ""
+
+#: PostType/Contest.php:75 PostType/Submission.php:110
+msgid "Custom field updated."
+msgstr ""
+
+#: PostType/Contest.php:76 PostType/Submission.php:111
+msgid "Custom field deleted."
+msgstr ""
+
+#: PostType/Contest.php:77
+msgid "Contest updated."
+msgstr ""
+
+#: PostType/Contest.php:78
+#, php-format
+msgid "Contest restored to revision from %s"
+msgstr ""
+
+#: PostType/Contest.php:79
+#, php-format
+msgid "Contest published. <a href=\"%s\">View contest</a>"
+msgstr ""
+
+#: PostType/Contest.php:80
+msgid "Contest saved."
+msgstr ""
+
+#: PostType/Contest.php:81
+#, php-format
+msgid "Contest submitted. <a target=\"_blank\" href=\"%s\">Preview contest</a>"
+msgstr ""
+
+#: PostType/Contest.php:83
+#, php-format
+msgid ""
+"Contest scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview contest</a>"
+msgstr ""
+
+#: PostType/Contest.php:84 PostType/Submission.php:117
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: PostType/Contest.php:85
+#, php-format
+msgid ""
+"Contest draft updated. <a target=\"_blank\" href=\"%s\">Preview contest</a>"
+msgstr ""
+
+#: PostType/Submission.php:64
+msgid "Create Submission"
+msgstr ""
+
+#: PostType/Submission.php:65 PostType/Submission.php:67
+msgid "New Submission"
+msgstr ""
+
+#: PostType/Submission.php:66
+msgid "Edit Submission"
+msgstr ""
+
+#: PostType/Submission.php:68
+msgid "All submissions"
+msgstr ""
+
+#: PostType/Submission.php:69
+msgid "View Submission"
+msgstr ""
+
+#: PostType/Submission.php:70
+msgid "Search submissions"
+msgstr ""
+
+#: PostType/Submission.php:82
+msgid "contest/%contest%/submissions"
+msgstr ""
+
+#: PostType/Submission.php:109
+#, php-format
+msgid "Submission updated. <a href=\"%s\">View submission</a>"
+msgstr ""
+
+#: PostType/Submission.php:112
+msgid "Submission updated."
+msgstr ""
+
+#: PostType/Submission.php:113
+#, php-format
+msgid "Submission restored to revision from %s"
+msgstr ""
+
+#: PostType/Submission.php:114
+#, php-format
+msgid "Submission published. <a href=\"%s\">View submission</a>"
+msgstr ""
+
+#: PostType/Submission.php:115
+msgid "Submission saved."
+msgstr ""
+
+#: PostType/Submission.php:116
+#, php-format
+msgid ""
+"Submission submitted. <a target=\"_blank\" href=\"%s\">Preview submission</a>"
+msgstr ""
+
+#: PostType/Submission.php:117
+#, php-format
+msgid ""
+"Submission scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview submission</a>"
+msgstr ""
+
+#: PostType/Submission.php:118
+#, php-format
+msgid ""
+"Submission draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"submission</a>"
+msgstr ""
+
+#: Submission/Model.php:144
+msgid "You cannot vote again."
+msgstr ""
+
+#: Submission/Model.php:408
+msgid "You cannot vote for winners."
+msgstr ""
+
+#: Widgets/Base.php:35
+msgid "Title:"
+msgstr ""
+
+#: Widgets/Contest.php:9
+msgid "TotalContest contest widget"
+msgstr ""
+
+#: Widgets/Contest.php:11
+msgid "[TotalContest] Contest"
+msgstr ""
+
+#: Widgets/Contest.php:34 Widgets/Countdown.php:41
+msgid "Contest:"
+msgstr ""
+
+#: Widgets/Contest.php:42
+msgid "Screen:"
+msgstr ""
+
+#: Widgets/Contest.php:47
+msgid "Custom page"
+msgstr ""
+
+#: Widgets/Contest.php:57
+msgid "Page ID:"
+msgstr ""
+
+#: Widgets/Countdown.php:9
+msgid "TotalContest contest countdown widget"
+msgstr ""
+
+#: Widgets/Countdown.php:11
+msgid "[TotalContest] Contest countdown"
+msgstr ""
+
+#: Widgets/Countdown.php:49
+msgid "Type:"
+msgstr ""
+
+#: Widgets/Countdown.php:52
+msgid "Voting"
+msgstr ""
+
+#: Widgets/Countdown.php:60
+msgid "Format:"
+msgstr ""
+
+#: Widgets/Countdown.php:67
+msgid "Until:"
+msgstr ""
+
+#: Widgets/Countdown.php:69
+msgid "Start"
+msgstr ""
+
+#: Widgets/Countdown.php:70
+msgid "End"
+msgstr ""
+
+#: Widgets/Submission.php:9
+msgid "TotalContest submission widget"
+msgstr ""
+
+#: Widgets/Submission.php:11
+msgid "[TotalContest] Submission"
+msgstr ""
+
+#: Widgets/Submission.php:25
+msgid "Submission ID:"
+msgstr ""

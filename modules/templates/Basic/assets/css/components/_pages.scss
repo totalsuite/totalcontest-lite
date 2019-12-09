@@ -1,0 +1,20 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-page-content {
+    @include property(typography, 'elements.contentPage.text');
+    @include property(padding, 'elements.contentPage.padding');
+    @include property(background, 'elements.contentPage.colors.background');
+    @include property(color, 'elements.contentPage.colors.color');
+    @include property(border-color, 'elements.contentPage.colors.border');
+    @include property(border, 'elements.contentPage.border');
+    @include property(box-shadow, 'elements.contentPage.shadows.box');
+
+    > *:first-child {
+      margin-top: 0;
+    }
+
+    > p:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+}

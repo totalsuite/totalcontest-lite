@@ -1,0 +1,30 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-button {
+    @include property(typography, 'elements.button.text');
+    @include property(padding, 'elements.button.padding');
+    @include property(background, 'elements.button.colors.background', 'colors.grayLight');
+    @include property(color, 'elements.button.colors.color', 'colors.dark');
+    @include property(border-color, 'elements.button.colors.border', 'colors.gray');
+    @include property(border, 'elements.button.border');
+    @include property(box-shadow, 'elements.button.shadows.box');
+
+    &:hover, &:focus, &:active {
+      @include property(background, 'elements.button.colors.backgroundHover', 'colors.gray');
+      @include property(color, 'elements.button.colors.colorHover', 'colors.dark');
+      @include property(border-color, 'elements.button.colors.borderHover', 'colors.gray');
+    }
+
+    &.is-primary {
+      @include property(background, 'elements.button.colors.backgroundPrimary', 'colors.primary');
+      @include property(color, 'elements.button.colors.colorPrimary', 'colors.primaryContrast');
+      @include property(border-color, 'elements.button.colors.borderPrimary', 'colors.primary');
+
+      &:hover, &:focus, &:active {
+        @include property(background, 'elements.button.colors.backgroundPrimaryHover', 'colors.primaryDark');
+        @include property(color, 'elements.button.colors.colorPrimaryHover', 'colors.primaryContrast');
+        @include property(border-color, 'elements.button.colors.borderPrimaryHover', 'colors.primaryDark');
+      }
+    }
+
+  }
+}

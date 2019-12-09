@@ -1,0 +1,262 @@
+div#totalcontest.totalcontest-wrapper {
+  .totalcontest-form {
+    @include property(typography, 'elements.form.text');
+    @include property(padding, 'elements.form.padding');
+    @include property(background, 'elements.form.colors.background');
+    @include property(color, 'elements.form.colors.color');
+  }
+
+  .totalcontest-form-page {
+    display: flex;
+    flex-wrap: wrap;
+    @extend %row;
+    margin-bottom: 1em;
+  }
+
+  .totalcontest-form-field {
+    margin-bottom: 1em;
+  }
+
+  .totalcontest-form-field-label {
+    display: block;
+    @include property(typography, 'elements.form.label.text');
+    @include property(padding, 'elements.form.label.padding');
+    @include property(color, 'elements.form.label.color');
+  }
+
+  .totalcontest-form-field-radio {
+    .totalcontest-form-field-label {
+      display: inline-block;
+      @include bidi(margin-right, 0.5em);
+    }
+  }
+
+  .totalcontest-form-field-input {
+    display: block;
+    width: 100%;
+    @include property(typography, 'elements.form.input.text');
+    @include property(padding, 'elements.form.input.padding');
+    @include property(border, 'elements.form.input.border');
+    @include property(background, 'elements.form.input.colors.background', 'inherit');
+    @include property(color, 'elements.form.input.colors.color', 'colors.dark');
+    @include property(border-color, 'elements.form.input.colors.border', 'colors.gray');
+    @include property(box-shadow, 'elements.form.input.shadows.box');
+
+    &:hover {
+      @include property(background, 'elements.form.input.colors.backgroundHover', 'inherit');
+      @include property(color, 'elements.form.input.colors.colorHover', 'colors.grayDark');
+      @include property(border-color, 'elements.form.input.colors.borderHover', 'colors.grayDark');
+    }
+
+    &:focus {
+      outline: none;
+      @include property(background, 'elements.form.input.colors.backgroundActive', 'colors.primaryContrast');
+      @include property(color, 'elements.form.input.colors.colorActive', 'colors.dark');
+      @include property(border-color, 'elements.form.input.colors.borderActive', 'colors.primary');
+    }
+
+    &[type="checkbox"], &[type="radio"] {
+      display: inline-block;
+      width: auto;
+      margin: 0;
+      @include bidi(margin-right, 0.5em);
+      vertical-align: middle;
+    }
+  }
+
+  .totalcontest-form-field-checkbox {
+    .totalcontest-form-field-label {
+      display: inline-block;
+      margin-right: 0.5em;
+    }
+  }
+
+  .totalcontest-form-field-errors {
+    @include property(typography, 'elements.form.error.text');
+    @include property(padding, 'elements.form.error.padding');
+    @include property(background, 'elements.form.error.colors.background');
+    @include property(color, 'elements.form.error.colors.color');
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  .totalcontest-form-field-hidden {
+    display: none;
+  }
+
+  .totalcontest-form-field-type-file {
+    position: relative;
+    padding: 3em;
+    margin: 0 1em 2em;
+    text-align: center;
+    @include property(background, 'elements.form.file.colors.background');
+    @include property(color, 'elements.form.file.colors.color');
+    @include property(border-color, 'elements.form.file.colors.border');
+    @include property(border, 'elements.form.file.border');
+
+    label {
+      opacity: 0.5;
+      font-size: 135%;
+      padding: 0;
+    }
+
+    input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    &:hover {
+      label {
+        opacity: 1;
+      }
+    }
+  }
+
+  .totalcontest-column-full {
+    @extend %gutter;
+    width: 100%;
+
+    @include media-breakpoint-up('md') {
+      width: 100%;
+    }
+  }
+
+  .totalcontest-column-half {
+    @extend %gutter;
+    width: 100%;
+
+    @include media-breakpoint-up('md') {
+      width: 50%;
+    }
+  }
+
+  .totalcontest-column-third {
+    @extend %gutter;
+    width: 100%;
+
+    @include media-breakpoint-up('md') {
+      width: 33.333333333333333333333333%;
+    }
+  }
+
+  .totalcontest-form {
+
+    .totalcontest-button[type="submit"] {
+      width: 100%;
+    }
+
+  }
+
+  .totalcontest-form-wrapper {
+    //position: relative;
+  }
+
+  .totalcontest-form-submitting-text {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(white, 0.65);
+    color: black;
+    fill: black;
+    font-size: 150%;
+
+    svg {
+      margin-bottom: 1rem;
+    }
+
+    &.active {
+      display: flex !important;
+    }
+  }
+
+  .wp-editor-container {
+    border: 1px solid;
+    @include property(border-color, 'elements.form.input.colors.border', 'colors.gray');
+  }
+
+  .mce-top-part::before {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background: white;
+    border-bottom: 1px solid;
+    @include property(border-color, 'elements.form.input.colors.border', 'colors.gray');
+  }
+
+  .mce-statusbar {
+    background: white;
+    padding: 6px;
+    border-top: 1px solid;
+    @include property(border-color, 'elements.form.input.colors.border', 'colors.gray');
+
+    .mce-container-body {
+    }
+  }
+
+  .mce-toolbar .mce-btn-group {
+    width: 100%;
+
+    div {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .mce-btn {
+      flex: 1;
+
+      button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 6px 8px;
+        width: 100%;
+        border-radius: 0;
+        border-bottom: 2px solid transparent;
+      }
+
+      .mce-ico {
+        font-size: 18px;
+        width: auto;
+        height: auto;
+      }
+
+      &.mce-active, &:hover, &:focus, &:active {
+        button {
+          background: transparent;
+          box-shadow: none;
+          -webkit-box-shadow: none;
+          @include property(border-color, 'colors.primary');
+        }
+
+        .mce-ico {
+          @include property(color, 'colors.primary');
+        }
+      }
+
+      + .mce-btn {
+        border-left: 1px solid;
+        @include property(border-color, 'elements.form.input.colors.border', 'colors.gray');
+      }
+    }
+
+  }
+
+}

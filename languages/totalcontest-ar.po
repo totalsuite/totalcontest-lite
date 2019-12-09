@@ -1,0 +1,2975 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TotalContest\n"
+"POT-Creation-Date: 2017-03-01 23:51+0400\n"
+"PO-Revision-Date: 2017-03-01 23:54+0400\n"
+"Last-Translator: \n"
+"Language-Team: MisqTech <contact@misqtech.com>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../src\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_html__;esc_html_e;_n;_x;_ex;_nx;_n:1,2;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Admin/Ajax/Modules.php:32
+msgid "Module installed."
+msgstr "تم تثبيت الملحق."
+
+#: Admin/Ajax/Modules.php:42
+msgid "Module downloaded and installed."
+msgstr "تم تحميل وتثبيت الملحق."
+
+#: Admin/Ajax/Modules.php:56
+msgid "Module updated."
+msgstr "تم تحديث الملحق."
+
+#: Admin/Ajax/Modules.php:66
+msgid "Module uninstalled."
+msgstr "تم إزالة الملحق."
+
+#: Admin/Ajax/Modules.php:76
+msgid "Module activated."
+msgstr "تم تفعيل الملحق."
+
+#: Admin/Ajax/Modules.php:86
+msgid "Module deactivated."
+msgstr "تم تعطيل الملحق."
+
+#: Admin/Ajax/Other.php:29
+msgid "Dismissed"
+msgstr "ألغي"
+
+#: Admin/Ajax/SupportUpdates.php:24
+msgid "Thank you!"
+msgstr "شكراً!"
+
+#: Admin/Ajax/SupportUpdates.php:27
+msgid "Invalid key."
+msgstr "المفتاح غير صحيح."
+
+#: Admin/Ajax/Tools.php:21
+msgid "Something went wrong."
+msgstr "حدث خطب ما."
+
+#: Admin/Ajax/Tools.php:23
+msgid "Saved."
+msgstr "تم الحفظ."
+
+#: Admin/Bootstrap.php:154 Admin/Bootstrap.php:155
+#: Admin/Pages/Views/about/index.php:23
+msgid "Customization"
+msgstr "التخصيص"
+
+#: Admin/Bootstrap.php:177 Admin/Editor/Views/actions.php:7
+#: Admin/Editor/Views/tabs/contest.php:6 Admin/Listing/Contests/Base.php:14
+#: PostType/Submission.php:62 PostType/Submission.php:73
+msgid "Submissions"
+msgstr "المشاركات"
+
+#: Admin/Bootstrap.php:182
+msgid "TotalContest Log"
+msgstr "سجل TotalContest"
+
+#: Admin/Bootstrap.php:182 Admin/Editor/Views/actions.php:15
+#: Admin/Listing/Contests/Base.php:15 Admin/Listing/Submissions/Base.php:48
+#: Admin/Other/GeneralGuide.php:24 Admin/Pages/Views/log/index.php:2
+#: Admin/Submission/Views/actions.php:15
+msgid "Log"
+msgstr "السجل"
+
+#: Admin/Bootstrap.php:183
+msgid "TotalContest Modules"
+msgstr "ملحقات TotalContest"
+
+#: Admin/Bootstrap.php:183 Admin/Other/GeneralGuide.php:29
+#: Admin/Pages/Views/modules/index.php:2
+msgid "Modules"
+msgstr "الملحقات"
+
+#: Admin/Bootstrap.php:184
+msgid "TotalContest Tools"
+msgstr "أدوات TotalContest"
+
+#: Admin/Bootstrap.php:184
+msgid "Tools"
+msgstr "الأدوات"
+
+#: Admin/Bootstrap.php:185
+msgid "TotalContest Support Center"
+msgstr "مركز دعم TotalContest"
+
+#: Admin/Bootstrap.php:185 Admin/Pages/Views/support/index.php:2
+msgid "Support & Updates"
+msgstr "الدعم والتحديثات"
+
+#: Admin/Bootstrap.php:186
+msgid "TotalContest About"
+msgstr "حول TotalContest"
+
+#: Admin/Bootstrap.php:186
+msgid "About"
+msgstr "نبذة"
+
+#: Admin/Editor/Bootstrap.php:66
+msgid "Submission {{id}}"
+msgstr "المشاركة {{id}}"
+
+#: Admin/Editor/Bootstrap.php:67
+msgid "{{votes}} Votes | {{views}} Views"
+msgstr "{{votes}} تصويت | {{views}} مشاهدة"
+
+#: Admin/Editor/Bootstrap.php:81
+msgid "Your vote has been casted. Thank you!"
+msgstr "تم احتساب تصويتك. شكراً لك!"
+
+#: Admin/Editor/Bootstrap.php:82
+msgid "Thank you for participating in this contest!"
+msgstr "شكرا لمشاركتك في هذه المسابقة!"
+
+#: Admin/Editor/Views/editor.php:13 Admin/Editor/Views/tabs/seo.php:4
+#: Admin/Pages/Tools.php:23 Admin/Submission/Views/actions.php:7
+#: PostType/Contest.php:36 Widgets/Countdown.php:51
+msgid "Contest"
+msgstr "المسابقة"
+
+#: Admin/Editor/Views/editor.php:14 Admin/Pages/Tools.php:47
+#: Form/VoteForm.php:79
+msgid "Vote"
+msgstr "تصويت"
+
+#: Admin/Editor/Views/editor.php:15
+msgid "Design"
+msgstr "التصميم"
+
+#: Admin/Editor/Views/editor.php:16
+msgid "Pages"
+msgstr "الصفحات"
+
+#: Admin/Editor/Views/editor.php:17
+msgid "Share"
+msgstr "المشاركة"
+
+#: Admin/Editor/Views/editor.php:18
+msgid "SEO"
+msgstr "SEO"
+
+#: Admin/Editor/Views/editor.php:19
+msgid "Extra"
+msgstr "أخرى"
+
+#: Admin/Editor/Views/editor.php:24
+msgid "Help me"
+msgstr "المساعدة"
+
+#: Admin/Editor/Views/editor.php:45
+msgid "Contest shortcode"
+msgstr "الرمز القصير للمسابقة"
+
+#: Admin/Editor/Views/editor.php:47
+msgid "The most simple way to integrate a contest."
+msgstr "الطريقة الأسهل لتضمين المسابقة."
+
+#: Admin/Editor/Views/editor.php:50
+msgid "Upload form shortcode"
+msgstr "الرمز القصير لنموذج الرفع"
+
+#: Admin/Editor/Views/editor.php:52
+msgid "Display only the upload form."
+msgstr "لعرض نموذج رفع المشاركات فقط."
+
+#: Admin/Editor/Views/editor.php:55
+msgid "Submissions shortcode"
+msgstr "الرمز القصير للمعرض"
+
+#: Admin/Editor/Views/editor.php:57
+msgid "Display submissions submissions."
+msgstr "لعرض معرض المشاركات."
+
+#: Admin/Editor/Views/editor.php:62
+msgid "Page shortcode"
+msgstr "الرمز القصير لصفحة"
+
+#: Admin/Editor/Views/editor.php:64
+msgid "Display page content."
+msgstr "لعرض محتوى صفحة."
+
+#: Admin/Editor/Views/editor.php:67
+msgid "Submission shortcode"
+msgstr "الرمز القصير لمشاركة"
+
+#: Admin/Editor/Views/editor.php:69
+msgid "Display a specific submission."
+msgstr "لعرض مشاركة محددة."
+
+#: Admin/Editor/Views/editor.php:72
+msgid "Count down shortcode"
+msgstr "الرمز القصير للعد التنازلي"
+
+#: Admin/Editor/Views/editor.php:74
+msgid "Display time left to start."
+msgstr "لعرض الوقت المتبقي للبدء."
+
+#: Admin/Editor/Views/tabs/contest.php:4 Admin/Pages/Tools.php:32
+#: Contest/Model.php:410 Widgets/Contest.php:45
+msgid "Upload"
+msgstr "الرفع"
+
+#: Admin/Editor/Views/tabs/contest.php:5 Admin/Editor/Views/tabs/design.php:761
+msgid "Form"
+msgstr "النموذج"
+
+#: Admin/Editor/Views/tabs/contest.php:7 Admin/Editor/Views/tabs/vote.php:5
+#: Admin/Pages/Views/about/index.php:53
+msgid "Limitations"
+msgstr "القيود"
+
+#: Admin/Editor/Views/tabs/contest.php:8 Admin/Editor/Views/tabs/vote.php:6
+msgid "Frequency"
+msgstr "التكرار"
+
+#: Admin/Editor/Views/tabs/contest.php:19
+#: Admin/Editor/Views/tabs/upload/tabs.php:1
+msgid "Image"
+msgstr "صورة"
+
+#: Admin/Editor/Views/tabs/contest.php:24
+#: Admin/Editor/Views/tabs/upload/tabs.php:2
+msgid "Video"
+msgstr "فيديو"
+
+#: Admin/Editor/Views/tabs/contest.php:29
+#: Admin/Editor/Views/tabs/upload/tabs.php:3
+msgid "Audio"
+msgstr "صوت"
+
+#: Admin/Editor/Views/tabs/contest.php:34 Admin/Editor/Views/tabs/contest.php:66
+#: Admin/Editor/Views/tabs/design.php:23 Admin/Editor/Views/tabs/design.php:183
+#: Admin/Editor/Views/tabs/design.php:320 Admin/Editor/Views/tabs/design.php:457
+#: Admin/Editor/Views/tabs/design.php:647 Admin/Editor/Views/tabs/design.php:767
+#: Admin/Editor/Views/tabs/design.php:887
+#: Admin/Editor/Views/tabs/design.php:1001
+#: Admin/Editor/Views/tabs/design.php:1127
+#: Admin/Editor/Views/tabs/design.php:1247
+#: Admin/Editor/Views/tabs/upload/tabs.php:4
+msgid "Text"
+msgstr "نص"
+
+#: Admin/Editor/Views/tabs/contest.php:59
+msgid "Nothing yet. Add fields from right side."
+msgstr "لا حقول حتى الآن. أضف حقولاً جديدة من اليسار."
+
+#: Admin/Editor/Views/tabs/contest.php:70
+msgid "Textarea"
+msgstr "مربع نص"
+
+#: Admin/Editor/Views/tabs/contest.php:74
+msgid "Select"
+msgstr "قائمة منسدلة"
+
+#: Admin/Editor/Views/tabs/contest.php:78
+msgid "Checkbox"
+msgstr "حقل اختيار متعدد"
+
+#: Admin/Editor/Views/tabs/contest.php:82
+msgid "Radio"
+msgstr "حقل اختيار مفرد"
+
+#: Admin/Editor/Views/tabs/contest.php:93
+msgid "Moderation"
+msgstr "المراقبة"
+
+#: Admin/Editor/Views/tabs/contest.php:97
+msgid "Publish after moderator approval"
+msgstr "نشر بعد موافقة المدير"
+
+#: Admin/Editor/Views/tabs/contest.php:105
+msgid "Submission title"
+msgstr "عنوان المشاركة"
+
+#: Admin/Editor/Views/tabs/contest.php:113
+msgid "Submission subtitle (meta information)"
+msgstr "العنوان الفرعي للمشاركة (معلومات meta)"
+
+#: Admin/Editor/Views/tabs/contest.php:119 Admin/Editor/Views/tabs/seo.php:28
+#: Admin/Editor/Views/tabs/seo.php:53
+msgid "Template variables"
+msgstr "متغيرات جاهزة"
+
+#: Admin/Editor/Views/tabs/contest.php:120
+msgid "{{id}} for submission ID."
+msgstr "{{id}} لمعرّف المشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:121 Admin/Editor/Views/tabs/seo.php:54
+msgid "{{fields.FIELD_NAME}} for form fields."
+msgstr "{{fields.FIELD_NAME}} لحقول النموذج."
+
+#: Admin/Editor/Views/tabs/contest.php:122
+msgid "{{user.PROPERTY_NAME}} for a property value in current user."
+msgstr "{{user.PROPERTY_NAME}} لقيمة خاصية في المستخدم الحالي."
+
+#: Admin/Editor/Views/tabs/contest.php:123 Admin/Editor/Views/tabs/seo.php:55
+msgid "{{date}} for submission date."
+msgstr "{{date}} لتاريخ المشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:124 Admin/Editor/Views/tabs/seo.php:56
+msgid "{{views}} for submission views."
+msgstr "{{views}} لمشاهدات المشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:125 Admin/Editor/Views/tabs/seo.php:57
+msgid "{{votes}} for submission votes."
+msgstr "{{votes}} لتصويتات المشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:126 Admin/Editor/Views/tabs/seo.php:58
+msgid "{{rate}} for submission rate."
+msgstr "{{rate}} لتقييم المشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:134 Admin/Editor/Views/tabs/vote.php:72
+msgid "Time period"
+msgstr "الفترة الزمنية"
+
+#: Admin/Editor/Views/tabs/contest.php:142 Admin/Editor/Views/tabs/vote.php:80
+msgid "Start date"
+msgstr "تاريخ البدء"
+
+#: Admin/Editor/Views/tabs/contest.php:143
+msgid "Entering submissions will be closed before reaching this date."
+msgstr "المشاركة في المسابقة ستكون مغلقة قبل الوصول لهذا التاريخ."
+
+#: Admin/Editor/Views/tabs/contest.php:150 Admin/Editor/Views/tabs/vote.php:88
+msgid "End date"
+msgstr "تاريخ الانتهاء"
+
+#: Admin/Editor/Views/tabs/contest.php:151
+msgid "Entering submissions will be closed after reaching this date."
+msgstr "المشاركة في المسابقة ستكون مغلقة بعد الوصول لهذا التاريخ."
+
+#: Admin/Editor/Views/tabs/contest.php:162 Admin/Editor/Views/tabs/vote.php:100
+msgid "Membership"
+msgstr "العضوية"
+
+#: Admin/Editor/Views/tabs/contest.php:170 Admin/Editor/Views/tabs/vote.php:108
+msgid "Required membership roles"
+msgstr "رتب الأعضاء المطلوبة"
+
+#: Admin/Editor/Views/tabs/contest.php:171
+msgid "The membership types that can add submissions."
+msgstr "رتب الأعضاء القادرين على المشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:179 Admin/Editor/Views/tabs/vote.php:117
+msgid "Hold Control/Command for multiple selection."
+msgstr "استمر بالضغط على Control/Command لاختيار قيم متعددة."
+
+#: Admin/Editor/Views/tabs/contest.php:188 Admin/Editor/Views/tabs/vote.php:126
+msgid "Quota"
+msgstr "الحصة"
+
+#: Admin/Editor/Views/tabs/contest.php:196
+msgid "Number of submissions"
+msgstr "عدد المشاركات"
+
+#: Admin/Editor/Views/tabs/contest.php:197
+msgid "The quota where the contest will not accept submissions after reaching."
+msgstr "حصة المشاركات التي يتم بعدها إغلاق المشاركة في المسابقة."
+
+#: Admin/Editor/Views/tabs/contest.php:204
+#: Admin/Editor/Views/tabs/contest.php:258 Admin/Editor/Views/tabs/vote.php:143
+#: Admin/Editor/Views/tabs/vote.php:207
+msgid "Presets"
+msgstr "إعدادات جاهزة"
+
+#: Admin/Editor/Views/tabs/contest.php:206
+msgid "15 days contest."
+msgstr "مسابقة لمدة 15 يوماً."
+
+#: Admin/Editor/Views/tabs/contest.php:207
+#: Admin/Editor/Views/tabs/contest.php:211
+#: Admin/Editor/Views/tabs/contest.php:215
+#: Admin/Editor/Views/tabs/contest.php:261
+#: Admin/Editor/Views/tabs/contest.php:265
+#: Admin/Editor/Views/tabs/contest.php:269
+#: Admin/Editor/Views/tabs/contest.php:273 Admin/Editor/Views/tabs/vote.php:146
+#: Admin/Editor/Views/tabs/vote.php:150 Admin/Editor/Views/tabs/vote.php:154
+#: Admin/Editor/Views/tabs/vote.php:210 Admin/Editor/Views/tabs/vote.php:214
+#: Admin/Editor/Views/tabs/vote.php:218 Admin/Editor/Views/tabs/vote.php:222
+msgid "Apply"
+msgstr "تطبيق"
+
+#: Admin/Editor/Views/tabs/contest.php:210
+msgid "1 month contest."
+msgstr "مسابقة لمدة شهر."
+
+#: Admin/Editor/Views/tabs/contest.php:214
+msgid "100 submissions contest."
+msgstr "مسابقة لأول 100 مشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:222 Admin/Editor/Views/tabs/vote.php:162
+msgid "Block based on"
+msgstr "الحظر باستخدام"
+
+#: Admin/Editor/Views/tabs/contest.php:222
+msgid "The methods used to block exceeding the limits of submissions."
+msgstr "الطرق المستخدمة لحظر تجاوز حدود المشاركة."
+
+#: Admin/Editor/Views/tabs/contest.php:225 Admin/Editor/Views/tabs/vote.php:165
+msgid "Cookies"
+msgstr "Cookies"
+
+#: Admin/Editor/Views/tabs/contest.php:230 Admin/Editor/Views/tabs/vote.php:170
+#: Admin/Pages/Views/log/index.php:14 Admin/Pages/Views/log/index.php:23
+msgid "IP"
+msgstr "IP"
+
+#: Admin/Editor/Views/tabs/contest.php:235 Admin/Editor/Views/tabs/vote.php:175
+msgid "User"
+msgstr "المستخدم"
+
+#: Admin/Editor/Views/tabs/contest.php:242
+msgid "Submissions per user"
+msgstr "المشاركات لكل مستخدم"
+
+#: Admin/Editor/Views/tabs/contest.php:243
+msgid "Number of submissions can be added by each user."
+msgstr "عدد المشاركات التي يمكن إضافتها لكل مستخدم."
+
+#: Admin/Editor/Views/tabs/contest.php:250
+msgid "Timeout"
+msgstr "مدة الحياة"
+
+#: Admin/Editor/Views/tabs/contest.php:251
+msgid "The time period before the user can enter submissions again."
+msgstr "الفترة الزمنية قبل أن يتاح للمستخدم المشاركة مرة أخرى."
+
+#: Admin/Editor/Views/tabs/contest.php:260 Admin/Editor/Views/tabs/vote.php:209
+msgid "Based on browser, less secure but lightweight on server."
+msgstr "تعتمد على متصفح المستخدم، أقل أمناً لكنها أسرع وأخف على الخادم."
+
+#: Admin/Editor/Views/tabs/contest.php:264 Admin/Editor/Views/tabs/vote.php:213
+msgid ""
+"Based on database and IP, more secure but may hurt server performance on "
+"heavy load."
+msgstr ""
+"تعتمد على قواعد البيانات و IP، أكثر أمناً إلا أنها قد تؤثر على أداء الخادم في "
+"بعض الحالات."
+
+#: Admin/Editor/Views/tabs/contest.php:268 Admin/Editor/Views/tabs/vote.php:217
+msgid ""
+"Based on logged in user, more secure but may hurt server performance on heavy "
+"load."
+msgstr ""
+"تعتمد على المستخدم المسجل للدخول، أكثر أمناً إلا أنها قد تؤثر على أداء الخادم "
+"في بعض الحالات."
+
+#: Admin/Editor/Views/tabs/contest.php:272 Admin/Editor/Views/tabs/vote.php:221
+msgid ""
+"Based on browser, IP and logged in user, most secure but may hurt server "
+"performance on heavy load."
+msgstr ""
+"تعتمد على المتصفح، IP والمستخدم المسجل للدخول، الأكثر أمناً إلا أنها قد تؤثر "
+"على أداء الخادم في بعض الحالات."
+
+#: Admin/Editor/Views/tabs/design.php:4
+msgid "Elements"
+msgstr "العناصر"
+
+#: Admin/Editor/Views/tabs/design.php:5
+msgid "Layout"
+msgstr "الهيكل"
+
+#: Admin/Editor/Views/tabs/design.php:7
+msgid "Sorting"
+msgstr "الفرز"
+
+#: Admin/Editor/Views/tabs/design.php:8
+msgid "Pagination"
+msgstr "نظام الصفحات"
+
+#: Admin/Editor/Views/tabs/design.php:9 Admin/Editor/Views/tabs/design.php:1505
+msgid "Custom CSS"
+msgstr "CSS مخصص"
+
+#: Admin/Editor/Views/tabs/design.php:18
+msgid "Global"
+msgstr "عام"
+
+#: Admin/Editor/Views/tabs/design.php:22 Admin/Editor/Views/tabs/design.php:117
+#: Admin/Editor/Views/tabs/design.php:181 Admin/Editor/Views/tabs/design.php:318
+#: Admin/Editor/Views/tabs/design.php:455 Admin/Editor/Views/tabs/design.php:645
+#: Admin/Editor/Views/tabs/design.php:765 Admin/Editor/Views/tabs/design.php:885
+#: Admin/Editor/Views/tabs/design.php:999
+#: Admin/Editor/Views/tabs/design.php:1125
+#: Admin/Editor/Views/tabs/design.php:1245
+msgid "Colors"
+msgstr "الألوان"
+
+#: Admin/Editor/Views/tabs/design.php:31
+msgid "Primary"
+msgstr "الأساسي"
+
+#: Admin/Editor/Views/tabs/design.php:38
+msgid "Secondary"
+msgstr "الثانوي"
+
+#: Admin/Editor/Views/tabs/design.php:45
+#, fuzzy
+msgid "Accent"
+msgstr "السمة"
+
+#: Admin/Editor/Views/tabs/design.php:57 Admin/Editor/Views/tabs/design.php:257
+#: Admin/Editor/Views/tabs/design.php:394 Admin/Editor/Views/tabs/design.php:584
+#: Admin/Editor/Views/tabs/design.php:704 Admin/Editor/Views/tabs/design.php:824
+#: Admin/Editor/Views/tabs/design.php:938
+#: Admin/Editor/Views/tabs/design.php:1064
+#: Admin/Editor/Views/tabs/design.php:1184
+#: Admin/Editor/Views/tabs/design.php:1311
+msgid "Font family"
+msgstr "Font family"
+
+#: Admin/Editor/Views/tabs/design.php:66 Admin/Editor/Views/tabs/design.php:266
+#: Admin/Editor/Views/tabs/design.php:403 Admin/Editor/Views/tabs/design.php:593
+#: Admin/Editor/Views/tabs/design.php:713 Admin/Editor/Views/tabs/design.php:833
+#: Admin/Editor/Views/tabs/design.php:947
+#: Admin/Editor/Views/tabs/design.php:1073
+#: Admin/Editor/Views/tabs/design.php:1193
+#: Admin/Editor/Views/tabs/design.php:1320
+msgid "Font size"
+msgstr "Font size"
+
+#: Admin/Editor/Views/tabs/design.php:72 Admin/Editor/Views/tabs/design.php:272
+#: Admin/Editor/Views/tabs/design.php:409 Admin/Editor/Views/tabs/design.php:599
+#: Admin/Editor/Views/tabs/design.php:719 Admin/Editor/Views/tabs/design.php:839
+#: Admin/Editor/Views/tabs/design.php:953
+#: Admin/Editor/Views/tabs/design.php:1079
+#: Admin/Editor/Views/tabs/design.php:1199
+#: Admin/Editor/Views/tabs/design.php:1326
+msgid "Line height"
+msgstr "ارتفاع السطر"
+
+#: Admin/Editor/Views/tabs/design.php:81 Admin/Editor/Views/tabs/design.php:281
+#: Admin/Editor/Views/tabs/design.php:418 Admin/Editor/Views/tabs/design.php:608
+#: Admin/Editor/Views/tabs/design.php:728 Admin/Editor/Views/tabs/design.php:848
+#: Admin/Editor/Views/tabs/design.php:962
+#: Admin/Editor/Views/tabs/design.php:1088
+#: Admin/Editor/Views/tabs/design.php:1208
+#: Admin/Editor/Views/tabs/design.php:1335
+msgid "Align"
+msgstr "المحاذاة"
+
+#: Admin/Editor/Views/tabs/design.php:84 Admin/Editor/Views/tabs/design.php:284
+#: Admin/Editor/Views/tabs/design.php:421 Admin/Editor/Views/tabs/design.php:611
+#: Admin/Editor/Views/tabs/design.php:731 Admin/Editor/Views/tabs/design.php:851
+#: Admin/Editor/Views/tabs/design.php:965
+#: Admin/Editor/Views/tabs/design.php:1091
+#: Admin/Editor/Views/tabs/design.php:1211
+#: Admin/Editor/Views/tabs/design.php:1338
+msgid "Inherit"
+msgstr "متوارث (Inherit)"
+
+#: Admin/Editor/Views/tabs/design.php:85 Admin/Editor/Views/tabs/design.php:145
+#: Admin/Editor/Views/tabs/design.php:231 Admin/Editor/Views/tabs/design.php:285
+#: Admin/Editor/Views/tabs/design.php:368 Admin/Editor/Views/tabs/design.php:422
+#: Admin/Editor/Views/tabs/design.php:558 Admin/Editor/Views/tabs/design.php:612
+#: Admin/Editor/Views/tabs/design.php:678 Admin/Editor/Views/tabs/design.php:732
+#: Admin/Editor/Views/tabs/design.php:798 Admin/Editor/Views/tabs/design.php:852
+#: Admin/Editor/Views/tabs/design.php:912 Admin/Editor/Views/tabs/design.php:966
+#: Admin/Editor/Views/tabs/design.php:1038
+#: Admin/Editor/Views/tabs/design.php:1092
+#: Admin/Editor/Views/tabs/design.php:1158
+#: Admin/Editor/Views/tabs/design.php:1212
+#: Admin/Editor/Views/tabs/design.php:1285
+#: Admin/Editor/Views/tabs/design.php:1339
+msgid "Right"
+msgstr "يمين"
+
+#: Admin/Editor/Views/tabs/design.php:86 Admin/Editor/Views/tabs/design.php:286
+#: Admin/Editor/Views/tabs/design.php:423 Admin/Editor/Views/tabs/design.php:613
+#: Admin/Editor/Views/tabs/design.php:733 Admin/Editor/Views/tabs/design.php:853
+#: Admin/Editor/Views/tabs/design.php:967
+#: Admin/Editor/Views/tabs/design.php:1093
+#: Admin/Editor/Views/tabs/design.php:1213
+#: Admin/Editor/Views/tabs/design.php:1340
+msgid "Center"
+msgstr "وسط"
+
+#: Admin/Editor/Views/tabs/design.php:87 Admin/Editor/Views/tabs/design.php:160
+#: Admin/Editor/Views/tabs/design.php:246 Admin/Editor/Views/tabs/design.php:287
+#: Admin/Editor/Views/tabs/design.php:383 Admin/Editor/Views/tabs/design.php:424
+#: Admin/Editor/Views/tabs/design.php:573 Admin/Editor/Views/tabs/design.php:614
+#: Admin/Editor/Views/tabs/design.php:693 Admin/Editor/Views/tabs/design.php:734
+#: Admin/Editor/Views/tabs/design.php:813 Admin/Editor/Views/tabs/design.php:854
+#: Admin/Editor/Views/tabs/design.php:927 Admin/Editor/Views/tabs/design.php:968
+#: Admin/Editor/Views/tabs/design.php:1053
+#: Admin/Editor/Views/tabs/design.php:1094
+#: Admin/Editor/Views/tabs/design.php:1173
+#: Admin/Editor/Views/tabs/design.php:1214
+#: Admin/Editor/Views/tabs/design.php:1300
+#: Admin/Editor/Views/tabs/design.php:1341
+msgid "Left"
+msgstr "يسار"
+
+#: Admin/Editor/Views/tabs/design.php:92 Admin/Editor/Views/tabs/design.php:292
+#: Admin/Editor/Views/tabs/design.php:429 Admin/Editor/Views/tabs/design.php:619
+#: Admin/Editor/Views/tabs/design.php:739 Admin/Editor/Views/tabs/design.php:859
+#: Admin/Editor/Views/tabs/design.php:973
+#: Admin/Editor/Views/tabs/design.php:1099
+#: Admin/Editor/Views/tabs/design.php:1219
+#: Admin/Editor/Views/tabs/design.php:1346
+#, fuzzy
+msgid "Transform"
+msgstr "التحوير"
+
+#: Admin/Editor/Views/tabs/design.php:95 Admin/Editor/Views/tabs/design.php:295
+#: Admin/Editor/Views/tabs/design.php:432 Admin/Editor/Views/tabs/design.php:622
+#: Admin/Editor/Views/tabs/design.php:742 Admin/Editor/Views/tabs/design.php:862
+#: Admin/Editor/Views/tabs/design.php:976
+#: Admin/Editor/Views/tabs/design.php:1102
+#: Admin/Editor/Views/tabs/design.php:1222
+#: Admin/Editor/Views/tabs/design.php:1349
+msgid "Normal"
+msgstr "عادي"
+
+#: Admin/Editor/Views/tabs/design.php:96 Admin/Editor/Views/tabs/design.php:296
+#: Admin/Editor/Views/tabs/design.php:433 Admin/Editor/Views/tabs/design.php:623
+#: Admin/Editor/Views/tabs/design.php:743 Admin/Editor/Views/tabs/design.php:863
+#: Admin/Editor/Views/tabs/design.php:977
+#: Admin/Editor/Views/tabs/design.php:1103
+#: Admin/Editor/Views/tabs/design.php:1223
+#: Admin/Editor/Views/tabs/design.php:1350
+#, fuzzy
+msgid "UPPERCASE"
+msgstr "حروف كبيرة (Uppercase)"
+
+#: Admin/Editor/Views/tabs/design.php:97 Admin/Editor/Views/tabs/design.php:297
+#: Admin/Editor/Views/tabs/design.php:434 Admin/Editor/Views/tabs/design.php:624
+#: Admin/Editor/Views/tabs/design.php:744 Admin/Editor/Views/tabs/design.php:864
+#: Admin/Editor/Views/tabs/design.php:978
+#: Admin/Editor/Views/tabs/design.php:1104
+#: Admin/Editor/Views/tabs/design.php:1224
+#: Admin/Editor/Views/tabs/design.php:1351
+#, fuzzy
+msgid "lowercase"
+msgstr "حروف صغيرة (Lowercase)"
+
+#: Admin/Editor/Views/tabs/design.php:98 Admin/Editor/Views/tabs/design.php:298
+#: Admin/Editor/Views/tabs/design.php:435 Admin/Editor/Views/tabs/design.php:625
+#: Admin/Editor/Views/tabs/design.php:745 Admin/Editor/Views/tabs/design.php:865
+#: Admin/Editor/Views/tabs/design.php:979
+#: Admin/Editor/Views/tabs/design.php:1105
+#: Admin/Editor/Views/tabs/design.php:1225
+#: Admin/Editor/Views/tabs/design.php:1352
+#, fuzzy
+msgid "Capitalize"
+msgstr "حروف كبيرة للبدايات (Capitalize)"
+
+#: Admin/Editor/Views/tabs/design.php:113
+#, fuzzy
+msgid "Container"
+msgstr "الحاوية"
+
+#: Admin/Editor/Views/tabs/design.php:118 Admin/Editor/Views/tabs/design.php:182
+#: Admin/Editor/Views/tabs/design.php:319 Admin/Editor/Views/tabs/design.php:456
+#: Admin/Editor/Views/tabs/design.php:646 Admin/Editor/Views/tabs/design.php:766
+#: Admin/Editor/Views/tabs/design.php:886
+#: Admin/Editor/Views/tabs/design.php:1000
+#: Admin/Editor/Views/tabs/design.php:1126
+#: Admin/Editor/Views/tabs/design.php:1246
+msgid "Padding"
+msgstr "الحاشية"
+
+#: Admin/Editor/Views/tabs/design.php:126 Admin/Editor/Views/tabs/design.php:190
+#: Admin/Editor/Views/tabs/design.php:327 Admin/Editor/Views/tabs/design.php:464
+#: Admin/Editor/Views/tabs/design.php:654 Admin/Editor/Views/tabs/design.php:774
+#: Admin/Editor/Views/tabs/design.php:1008
+#: Admin/Editor/Views/tabs/design.php:1134
+#: Admin/Editor/Views/tabs/design.php:1254
+msgid "Background"
+msgstr "الخلفية"
+
+#: Admin/Editor/Views/tabs/design.php:139 Admin/Editor/Views/tabs/design.php:225
+#: Admin/Editor/Views/tabs/design.php:362 Admin/Editor/Views/tabs/design.php:552
+#: Admin/Editor/Views/tabs/design.php:672 Admin/Editor/Views/tabs/design.php:792
+#: Admin/Editor/Views/tabs/design.php:906
+#: Admin/Editor/Views/tabs/design.php:1032
+#: Admin/Editor/Views/tabs/design.php:1152
+#: Admin/Editor/Views/tabs/design.php:1279
+msgid "Top"
+msgstr "أعلى"
+
+#: Admin/Editor/Views/tabs/design.php:154 Admin/Editor/Views/tabs/design.php:240
+#: Admin/Editor/Views/tabs/design.php:377 Admin/Editor/Views/tabs/design.php:567
+#: Admin/Editor/Views/tabs/design.php:687 Admin/Editor/Views/tabs/design.php:807
+#: Admin/Editor/Views/tabs/design.php:921
+#: Admin/Editor/Views/tabs/design.php:1047
+#: Admin/Editor/Views/tabs/design.php:1167
+#: Admin/Editor/Views/tabs/design.php:1294
+msgid "Bottom"
+msgstr "أسفل"
+
+#: Admin/Editor/Views/tabs/design.php:177
+msgid "Message"
+msgstr "الرسالة"
+
+#: Admin/Editor/Views/tabs/design.php:196 Admin/Editor/Views/tabs/design.php:333
+#: Admin/Editor/Views/tabs/design.php:470 Admin/Editor/Views/tabs/design.php:660
+#: Admin/Editor/Views/tabs/design.php:780 Admin/Editor/Views/tabs/design.php:894
+#: Admin/Editor/Views/tabs/design.php:1014
+#: Admin/Editor/Views/tabs/design.php:1140
+#: Admin/Editor/Views/tabs/design.php:1260
+msgid "Color"
+msgstr "اللون"
+
+#: Admin/Editor/Views/tabs/design.php:205
+msgid "Background (error)"
+msgstr "الخلفية (خطأ)"
+
+#: Admin/Editor/Views/tabs/design.php:212
+msgid "Color (error)"
+msgstr "اللون (خطأ)"
+
+#: Admin/Editor/Views/tabs/design.php:314
+msgid "Menu"
+msgstr "القائمة"
+
+#: Admin/Editor/Views/tabs/design.php:342
+msgid "Background (active item)"
+msgstr "الخلفية (عنصر مفعّل)"
+
+#: Admin/Editor/Views/tabs/design.php:349
+msgid "Color (active item)"
+msgstr "اللون (عنصر مفعّل)"
+
+#: Admin/Editor/Views/tabs/design.php:451
+msgid "Button"
+msgstr "الزر"
+
+#: Admin/Editor/Views/tabs/design.php:476
+#: Admin/Editor/Views/tabs/design.php:1020
+#: Admin/Editor/Views/tabs/design.php:1266
+msgid "Border"
+msgstr "الحدود"
+
+#: Admin/Editor/Views/tabs/design.php:485
+msgid "Background (hover)"
+msgstr "الخلفية (مرور المؤشر)"
+
+#: Admin/Editor/Views/tabs/design.php:491
+msgid "Color (hover)"
+msgstr "اللون (مرور المؤشر)"
+
+#: Admin/Editor/Views/tabs/design.php:497
+#, fuzzy
+msgid "Border (hover)"
+msgstr "الحدود (الأساسي مع مرور المؤشر)"
+
+#: Admin/Editor/Views/tabs/design.php:506
+msgid "Background (primary)"
+msgstr "الخلفية (الأساسي)"
+
+#: Admin/Editor/Views/tabs/design.php:512
+msgid "Color (primary)"
+msgstr "اللون (الأساسي)"
+
+#: Admin/Editor/Views/tabs/design.php:518
+msgid "Border (primary)"
+msgstr "الحدود (الأساسي)"
+
+#: Admin/Editor/Views/tabs/design.php:527
+msgid "Background (primary hover)"
+msgstr "الخلفية (الأساسي مع مرور المؤشر)"
+
+#: Admin/Editor/Views/tabs/design.php:533
+msgid "Color (primary hover)"
+msgstr "اللون (الأساسي مع مرور المؤشر)"
+
+#: Admin/Editor/Views/tabs/design.php:539
+msgid "Border (primary hover)"
+msgstr "الحدود (الأساسي مع مرور المؤشر)"
+
+#: Admin/Editor/Views/tabs/design.php:641
+msgid "Page"
+msgstr "الصفحة"
+
+#: Admin/Editor/Views/tabs/design.php:881
+msgid "Form: Label"
+msgstr "النموذج: العنوان"
+
+#: Admin/Editor/Views/tabs/design.php:995
+msgid "Form: Input"
+msgstr "النموذج: المدخل"
+
+#: Admin/Editor/Views/tabs/design.php:1121
+msgid "Form: Error"
+msgstr "النموذج: خطأ"
+
+#: Admin/Editor/Views/tabs/design.php:1241 Admin/Editor/Views/tabs/seo.php:5
+#: Admin/Pages/Tools.php:43 PostType/Submission.php:63
+msgid "Submission"
+msgstr "المشاركة"
+
+#: Admin/Editor/Views/tabs/design.php:1375
+msgid "Submissions layout type"
+msgstr "طريقة عرض المعرض"
+
+#: Admin/Editor/Views/tabs/design.php:1380
+#, fuzzy
+msgid "Masonry"
+msgstr "حجري"
+
+#: Admin/Editor/Views/tabs/design.php:1387
+msgid "Grid"
+msgstr "شبكي"
+
+#: Admin/Editor/Views/tabs/design.php:1395
+msgid "Maximum container width (px)"
+msgstr "العرض الأقصى للحاوية (px)"
+
+#: Admin/Editor/Views/tabs/design.php:1401
+msgid "Columns"
+msgstr "الأعمدة"
+
+#: Admin/Editor/Views/tabs/design.php:1432
+msgid "Sort submissions by"
+msgstr "فرز المشاركات عبر"
+
+#: Admin/Editor/Views/tabs/design.php:1438 Admin/Listing/Submissions/Base.php:47
+#: Admin/Pages/Tools.php:77 Admin/Submission/Views/editor.php:12
+#: Admin/Submission/Views/tabs/votes.php:5 Contest/Model.php:557
+msgid "Votes"
+msgstr "التصويتات"
+
+#: Admin/Editor/Views/tabs/design.php:1446 Form/RateForm.php:94
+msgid "Rate"
+msgstr "التقييم"
+
+#: Admin/Editor/Views/tabs/design.php:1453 Admin/Pages/Tools.php:72
+#: Contest/Model.php:548
+msgid "Views"
+msgstr "المشاهدات"
+
+#: Admin/Editor/Views/tabs/design.php:1460 Admin/Listing/Contests/Base.php:16
+#: Admin/Listing/Submissions/Base.php:50 Admin/Pages/Tools.php:67
+#: Admin/Pages/Views/log/index.php:13 Admin/Pages/Views/log/index.php:22
+#: Contest/Model.php:539
+msgid "Date"
+msgstr "التاريخ"
+
+#: Admin/Editor/Views/tabs/design.php:1469
+msgid "Direction"
+msgstr "الاتجاه"
+
+#: Admin/Editor/Views/tabs/design.php:1475 Admin/Pages/Tools.php:87
+#: Contest/Model.php:582
+msgid "Descending"
+msgstr "تنازلي"
+
+#: Admin/Editor/Views/tabs/design.php:1482 Admin/Pages/Tools.php:82
+#: Contest/Model.php:573
+msgid "Ascending"
+msgstr "تصاعدي"
+
+#: Admin/Editor/Views/tabs/design.php:1493
+msgid "Submissions per page"
+msgstr "عدد المشاركات في كل صفحة"
+
+#: Admin/Editor/Views/tabs/extra.php:4
+msgid "Captcha"
+msgstr "كلمة التحقق (Captcha)"
+
+#: Admin/Editor/Views/tabs/extra.php:11
+#, fuzzy
+msgid "Captcha (reCaptcha by Google)"
+msgstr "الزام الاجابة على reCaptcha"
+
+#: Admin/Editor/Views/tabs/extra.php:19
+msgid "Site key"
+msgstr "مفتاح الموقع (Site key)"
+
+#: Admin/Editor/Views/tabs/extra.php:26
+msgid "Site secret"
+msgstr "المفتاح السري (Site secret)"
+
+#: Admin/Editor/Views/tabs/form/fields.php:4
+msgid "Required"
+msgstr "إجباري"
+
+#: Admin/Editor/Views/tabs/form/fields.php:5
+#: Admin/Editor/Views/tabs/pages.php:53 Admin/Editor/Views/tabs/vote.php:51
+msgid "Remove"
+msgstr "إزالة"
+
+#: Admin/Editor/Views/tabs/form/fields.php:12
+msgid "Basic"
+msgstr "أساسي"
+
+#: Admin/Editor/Views/tabs/form/fields.php:13 Admin/Pages/Tools.php:103
+msgid "Validations"
+msgstr "التحققات"
+
+#: Admin/Editor/Views/tabs/form/fields.php:14
+msgid "HTML"
+msgstr "HTML"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:5
+#: Admin/Editor/Views/tabs/form/fields/radio.php:5
+#: Admin/Editor/Views/tabs/form/fields/select.php:5
+#: Admin/Editor/Views/tabs/form/fields/text.php:5
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:5
+msgid "Label"
+msgstr "العنوان"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:6
+#: Admin/Editor/Views/tabs/form/fields/radio.php:6
+#: Admin/Editor/Views/tabs/form/fields/select.php:6
+#: Admin/Editor/Views/tabs/form/fields/text.php:6
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:6
+msgid "Field label"
+msgstr "عنوان الحقل"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:11
+#: Admin/Editor/Views/tabs/form/fields/radio.php:11
+#: Admin/Editor/Views/tabs/form/fields/select.php:11
+#: Admin/Editor/Views/tabs/form/fields/text.php:11
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:11
+msgid "Name"
+msgstr "الاسم"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:12
+#: Admin/Editor/Views/tabs/form/fields/radio.php:12
+#: Admin/Editor/Views/tabs/form/fields/select.php:12
+#: Admin/Editor/Views/tabs/form/fields/text.php:12
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:12
+msgid "Field name"
+msgstr "اسم الحقل"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:17
+#: Admin/Editor/Views/tabs/form/fields/radio.php:17
+#: Admin/Editor/Views/tabs/form/fields/select.php:17
+msgid "Options"
+msgstr "الخيارات"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:18
+#: Admin/Editor/Views/tabs/form/fields/radio.php:18
+#: Admin/Editor/Views/tabs/form/fields/select.php:18
+msgid "option_key : Option label"
+msgstr "القيمة الفعلية : القيمة الظاهرة"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:19
+#: Admin/Editor/Views/tabs/form/fields/radio.php:19
+#: Admin/Editor/Views/tabs/form/fields/select.php:19
+msgid "Option per line."
+msgstr "خيار لكل سطر."
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:24
+#: Admin/Editor/Views/tabs/form/fields/radio.php:24
+#: Admin/Editor/Views/tabs/form/fields/select.php:24
+#: Admin/Editor/Views/tabs/form/fields/text.php:17
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:17
+msgid "Default value"
+msgstr "القيمة الافتراضية"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:25
+#: Admin/Editor/Views/tabs/form/fields/radio.php:25
+#: Admin/Editor/Views/tabs/form/fields/select.php:25
+#: Admin/Editor/Views/tabs/form/fields/text.php:18
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:18
+msgid "Field default"
+msgstr "القيمة الافتراضية للحقل"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:26
+#: Admin/Editor/Views/tabs/form/fields/select.php:26
+msgid "Default value per line."
+msgstr "قيمة افتراضية لكل سطر."
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:51
+#: Admin/Editor/Views/tabs/form/fields/radio.php:50
+#: Admin/Editor/Views/tabs/form/fields/select.php:59
+#: Admin/Editor/Views/tabs/form/fields/text.php:119
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:107
+msgid "full column"
+msgstr "عمود كامل"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:53
+#: Admin/Editor/Views/tabs/form/fields/radio.php:52
+#: Admin/Editor/Views/tabs/form/fields/select.php:61
+#: Admin/Editor/Views/tabs/form/fields/text.php:120
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:109
+msgid "1/2 column"
+msgstr "1/2 عمود"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:55
+#: Admin/Editor/Views/tabs/form/fields/radio.php:54
+#: Admin/Editor/Views/tabs/form/fields/select.php:63
+#: Admin/Editor/Views/tabs/form/fields/text.php:121
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:111
+msgid "1/3 column"
+msgstr "1/3 عمود"
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:58
+#: Admin/Editor/Views/tabs/form/fields/radio.php:57
+#: Admin/Editor/Views/tabs/form/fields/select.php:66
+#: Admin/Editor/Views/tabs/form/fields/text.php:123
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:114
+msgid "{{label}} for field label."
+msgstr "{{label}} لعنوان الحقل."
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:59
+#: Admin/Editor/Views/tabs/form/fields/radio.php:58
+#: Admin/Editor/Views/tabs/form/fields/select.php:67
+#: Admin/Editor/Views/tabs/form/fields/text.php:124
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:115
+msgid "{{errors}} for field errors."
+msgstr "{{errors}} لأخطاء الحقل."
+
+#: Admin/Editor/Views/tabs/form/fields/checkbox.php:60
+#: Admin/Editor/Views/tabs/form/fields/radio.php:59
+#: Admin/Editor/Views/tabs/form/fields/select.php:68
+#: Admin/Editor/Views/tabs/form/fields/text.php:125
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:116
+msgid "{{field}} for field input."
+msgstr "{{field}} لمدخل الحقل."
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:33
+msgid "Allow multiple values"
+msgstr "السماح بتعدد القيم."
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:42
+#: Admin/Editor/Views/tabs/form/fields/text.php:26
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:26
+msgid "Filled (required)"
+msgstr "معبأ (إجباري)"
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:50
+#: Admin/Editor/Views/tabs/form/fields/text.php:110
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:98
+msgid "Field CSS classes"
+msgstr "CSS classes للحقل"
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:51
+#: Admin/Editor/Views/tabs/form/fields/text.php:111
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:99
+msgid "Field classes"
+msgstr "class مخصص للحقل"
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:56
+#: Admin/Editor/Views/tabs/form/fields/text.php:116
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:104
+msgid "Template"
+msgstr "القالب"
+
+#: Admin/Editor/Views/tabs/form/fields/select.php:57
+#: Admin/Editor/Views/tabs/form/fields/text.php:117
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:105
+msgid "Field template"
+msgstr "قالب الحقل"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:33
+msgid "Email"
+msgstr "بريد إلكتروني"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:40
+msgid "Unique"
+msgstr "مميز"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:41
+msgid "This field value must be unique in submissions table."
+msgstr "يجب أن تكون قيمة هذا الحقل غير مكررة في المشاركات السابقة."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:48
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:33
+msgid "Filter by list"
+msgstr "تصفية عبر قائمة"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:54
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:39
+msgid "Filtering method"
+msgstr "طريقة التصفية"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:57
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:42
+msgid "Blacklist"
+msgstr "قائمة سوداء"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:58
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:43
+msgid "Accept all values except the ones in the list."
+msgstr "قبول جميع القيم عدا المذكورة في القائمة."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:63
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:48
+msgid "Whitelist"
+msgstr "قائمة بيضاء"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:64
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:49
+msgid "Deny all values except the ones in the list."
+msgstr "رفض جميع القيم عدا المذكورة في القائمة."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:71
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:56
+msgid "Value per line."
+msgstr "قيمة في كل سطر."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:72
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:57
+msgid "\"*\" means wildcard."
+msgstr "\"*\" تعني أي كلمة."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:78
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:63
+msgid "Regular Expression"
+msgstr "تعبير قياسي (Regular Expression)"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:84
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:69
+#: Admin/Pages/Views/tools/index.php:41 Admin/Pages/Views/tools/index.php:62
+msgid "Expression"
+msgstr "التعبير"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:85
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:70
+msgid "Run user input against a regular expression."
+msgstr "فحص إدخال المستخدم بالتعابير القياسية Regular expressions"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:88
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:73
+msgid "Must be a valid regular expression."
+msgstr "يجب أن يحقق التعبير القياسي."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:91
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:76
+msgid "Error message"
+msgstr "رسالة الخطأ"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:92
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:77
+msgid "This message will be shown if the validation failed."
+msgstr "هذه هي الرسالة التي ستظهر إذا فشل التحقق."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:95
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:80
+msgid "{{label}} for a field label."
+msgstr "{{label}} لعنوان الحقل."
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:98
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:83
+msgid "Comparison"
+msgstr "المقارنة"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:100
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:86
+msgid "Must match"
+msgstr "يجب أن يطابق"
+
+#: Admin/Editor/Views/tabs/form/fields/text.php:102
+#: Admin/Editor/Views/tabs/form/fields/textarea.php:90
+msgid "Must not match"
+msgstr "يجب ألا يطابق"
+
+#: Admin/Editor/Views/tabs/pages.php:4 Admin/Pages/Tools.php:27
+#: Widgets/Contest.php:44
+msgid "Home"
+msgstr "الرئيسية"
+
+#: Admin/Editor/Views/tabs/pages.php:5
+msgid "Thank you"
+msgstr "شكراً"
+
+#: Admin/Editor/Views/tabs/pages.php:6
+msgid "Other pages"
+msgstr "الصفحات الأخرى"
+
+#: Admin/Editor/Views/tabs/pages.php:13 Admin/Editor/Views/tabs/pages.php:58
+#: Admin/Editor/Views/tabs/seo.php:12 Admin/Editor/Views/tabs/seo.php:37
+#: Admin/Listing/Contests/Base.php:13 Admin/Listing/Submissions/Base.php:46
+msgid "Title"
+msgstr "العنوان"
+
+#: Admin/Editor/Views/tabs/pages.php:21 Admin/Editor/Views/tabs/pages.php:64
+msgid "Content"
+msgstr "المحتوى"
+
+#: Admin/Editor/Views/tabs/pages.php:31
+msgid "After submission"
+msgstr "بعد المشاركة"
+
+#: Admin/Editor/Views/tabs/pages.php:39
+msgid "After voting"
+msgstr "بعد التصويت"
+
+#: Admin/Editor/Views/tabs/pages.php:46
+msgid "Add new page"
+msgstr "إضافة صفحة جديدة"
+
+#: Admin/Editor/Views/tabs/pages.php:59
+msgid "Page title"
+msgstr "عنوان الصفحة"
+
+#: Admin/Editor/Views/tabs/seo.php:20 Admin/Editor/Views/tabs/seo.php:45
+msgid "Description"
+msgstr "وصف"
+
+#: Admin/Editor/Views/tabs/seo.php:23 Admin/Editor/Views/tabs/seo.php:48
+msgid "Characters left."
+msgstr "حروف متبقية."
+
+#: Admin/Editor/Views/tabs/seo.php:29
+msgid "{{title}} for contest title."
+msgstr "{{title}} لعنوان المسابقة."
+
+#: Admin/Editor/Views/tabs/seo.php:30
+msgid "{{sitename}} for website title."
+msgstr "{{sitename}} لعنوان الموقع."
+
+#: Admin/Editor/Views/tabs/share.php:4
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:5
+msgid "Enable direct audio files upload"
+msgstr "السماح بالرفع المباشر للملفات الصوتية"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:13
+msgid "Audio file size constraint"
+msgstr "تقييد حجم الملف الصوتي"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:21
+#: Admin/Editor/Views/tabs/upload/types/image.php:21
+#: Admin/Editor/Views/tabs/upload/types/video.php:21
+msgid "Minimum file size (kB)"
+msgstr "حجم الملف الأدنى (kB)"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:27
+#: Admin/Editor/Views/tabs/upload/types/image.php:27
+#: Admin/Editor/Views/tabs/upload/types/video.php:27
+msgid "Maximum file size (kB)"
+msgstr "حجم الملف الأقصى (kB)"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:38
+msgid "Audio length constraint"
+msgstr "تقييد مدة الملف الصوتي"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:46
+#: Admin/Editor/Views/tabs/upload/types/video.php:46
+msgid "Minimum length (seconds)"
+msgstr "المدة الأدنى (بالثواني)"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:52
+#: Admin/Editor/Views/tabs/upload/types/video.php:52
+msgid "Maximum length (seconds)"
+msgstr "المدة الأقصى (بالثواني)"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:63
+msgid "Audio formats constraint"
+msgstr "تقييد لاحقة الملفات الصوتية"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:71
+#: Admin/Editor/Views/tabs/upload/types/image.php:85
+#: Admin/Editor/Views/tabs/upload/types/video.php:71
+msgid "Allowed formats"
+msgstr "اللاحقات المسموحة"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:76
+msgid "MP3"
+msgstr "MP3"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:82
+msgid "AAC"
+msgstr "AAC"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:88
+msgid "OGG"
+msgstr "OGG"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:94
+msgid "WAV"
+msgstr "WAV"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:100
+#: Admin/Editor/Views/tabs/upload/types/video.php:98
+msgid "WebM"
+msgstr "WebM"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:110
+msgid "Enable audio uploaded via popular services"
+msgstr "السماح برفع المقاطع الصوتية من الخدمات المعروفة"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:118
+#: Admin/Editor/Views/tabs/upload/types/video.php:121
+msgid "Supported services"
+msgstr "الخدمات المدعومة"
+
+#: Admin/Editor/Views/tabs/upload/types/audio.php:123
+msgid "Soundcloud"
+msgstr "Soundcloud"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:5
+msgid "Enable direct image files upload"
+msgstr "السماح بالرفع المباشر للصور"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:13
+msgid "Image file size constraint"
+msgstr "تقييد حجم ملف الصورة"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:38
+msgid "Image dimensions constraint"
+msgstr "تقييد مقاسات الصورة"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:46
+msgid "Minimum image width (px)"
+msgstr "عرض الصورة الأدنى (px)"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:52
+msgid "Minimum image height (px)"
+msgstr "ارتفاع الصورة الأدنى (px)"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:60
+msgid "Maximum image width (px)"
+msgstr "عرض الصورة الأقصى (px)"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:66
+msgid "Maximum image height (px)"
+msgstr "ارتفاع الصورة الأقصى (px)"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:77
+msgid "Image formats constraint"
+msgstr "تقييد لاحقة الصور"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:90
+msgid "JPEG/JPG"
+msgstr "JPEG/JPG"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:96
+msgid "PNG"
+msgstr "PNG"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:102
+msgid "GIF"
+msgstr "GIF"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:108
+msgid "BMP"
+msgstr "BMP"
+
+#: Admin/Editor/Views/tabs/upload/types/image.php:114
+msgid "WebP"
+msgstr "WebP"
+
+#: Admin/Editor/Views/tabs/upload/types/text.php:5
+msgid "Text length constraint"
+msgstr "تقييد طول النص"
+
+#: Admin/Editor/Views/tabs/upload/types/text.php:13
+msgid "Minimum length (characters)"
+msgstr "الحد الأقصى (بالحروف)"
+
+#: Admin/Editor/Views/tabs/upload/types/text.php:19
+msgid "Maximum length (characters)"
+msgstr "الحد الأقصى (بالحروف)"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:5
+msgid "Enable direct video files upload"
+msgstr "السماح بالرفع المباشر لملفات الفيديو"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:13
+msgid "Video file size constraint"
+msgstr "تقييد حجم ملف الفيديو"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:38
+msgid "Video length constraint"
+msgstr "تقييد مدة الفيديو"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:63
+msgid "Video formats constraint"
+msgstr "تقييد لاحقة ملفات الفيديو"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:76
+msgid "MP4"
+msgstr "MP4"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:81
+msgid "MPEG-4"
+msgstr "MPEG-4"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:86
+msgid "AVI"
+msgstr "AVI"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:92
+msgid "3GP"
+msgstr "3GP"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:104
+msgid "MOV"
+msgstr "MOV"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:114
+msgid "Accept video from popular services"
+msgstr "السماح برفع مقاطع الفيديو من الخدمات المعروفة"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:126
+msgid "YouTube"
+msgstr "يوتيوب"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:132
+msgid "Dailymotion"
+msgstr "Dailymotion"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:138
+msgid "VK.RU"
+msgstr "VK.RU"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:144
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:150
+msgid "Hulu"
+msgstr "Hulu"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:156
+msgid "Ustream"
+msgstr "Ustream"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:162
+msgid "Vine"
+msgstr "Vine"
+
+#: Admin/Editor/Views/tabs/upload/types/video.php:168
+msgid "Metacafe"
+msgstr "Metacafe"
+
+#: Admin/Editor/Views/tabs/vote.php:4
+msgid "Type"
+msgstr "النوع"
+
+#: Admin/Editor/Views/tabs/vote.php:14
+msgid "Vote type"
+msgstr "نوع التصويت"
+
+#: Admin/Editor/Views/tabs/vote.php:15
+msgid "Vote metering."
+msgstr "طريقة قياس التصويت."
+
+#: Admin/Editor/Views/tabs/vote.php:20
+msgid "Incremental (count)"
+msgstr "تزايد (عددي)"
+
+#: Admin/Editor/Views/tabs/vote.php:26
+msgid "Average (rate)"
+msgstr "متوسط (تقييم)"
+
+#: Admin/Editor/Views/tabs/vote.php:34
+msgid "Scale"
+msgstr "المقياس"
+
+#: Admin/Editor/Views/tabs/vote.php:42
+msgid "Criteria"
+msgstr "المعيار"
+
+#: Admin/Editor/Views/tabs/vote.php:54
+msgid "Add new"
+msgstr "إضافة جديد"
+
+#: Admin/Editor/Views/tabs/vote.php:60
+msgid ""
+"Heads up! Changing vote type back and forth may cause inconsistency so choose "
+"wisely."
+msgstr ""
+"تنبيه! تغيير طريقة قياس التصويت أثناء المسابقة قد يسبب عدم استقرار للمسابقة "
+"لذا اختر بحكمة."
+
+#: Admin/Editor/Views/tabs/vote.php:81
+msgid "Voting will be closed before reaching this date."
+msgstr "سيغلق التصويت قبل الوصول هذا التاريخ."
+
+#: Admin/Editor/Views/tabs/vote.php:89
+msgid "Voting will be closed after reaching this date."
+msgstr "سيغلق التصويت بعد الوصول لهذا التاريخ."
+
+#: Admin/Editor/Views/tabs/vote.php:109
+msgid "The membership types that can vote."
+msgstr "رتب العضويات القادرة على التصويت."
+
+#: Admin/Editor/Views/tabs/vote.php:134
+msgid "Number of votes"
+msgstr "عدد الأصوات"
+
+#: Admin/Editor/Views/tabs/vote.php:135
+msgid "The quota where the contest will not accept votes after reaching."
+msgstr "حصة الأصوات التي يتم بعدها إغلاق التصويت في المسابقة."
+
+#: Admin/Editor/Views/tabs/vote.php:145
+msgid "15 days vote period."
+msgstr "مدة تصويت ل 15 يوماً."
+
+#: Admin/Editor/Views/tabs/vote.php:149
+msgid "1 month vote period."
+msgstr "مدة تصويت لشهر."
+
+#: Admin/Editor/Views/tabs/vote.php:153
+msgid "100 votes quota."
+msgstr "أول 100 تصويت."
+
+#: Admin/Editor/Views/tabs/vote.php:162
+msgid "The methods used to block exceeding the limits of voting."
+msgstr "الطرق المستخدمة لحظر تجاوز حدود التصويت."
+
+#: Admin/Editor/Views/tabs/vote.php:183
+msgid "Votes per user"
+msgstr "عدد الأصوات لكل مستخدم"
+
+#: Admin/Editor/Views/tabs/vote.php:184
+msgid "How many times can the user vote."
+msgstr "ما هي عدد المرات التي يستطيع فيها المستخدم التصويت."
+
+#: Admin/Editor/Views/tabs/vote.php:191
+msgid "Votes per submission"
+msgstr "عدد الأصوات لكل مشاركة"
+
+#: Admin/Editor/Views/tabs/vote.php:192
+msgid "How many times can the user vote for the same submission."
+msgstr "ما هي عدد المرات التي يستطيع فيها المستخدم التصويت لنفس المشاركة."
+
+#: Admin/Editor/Views/tabs/vote.php:199
+msgid "Vote timeout"
+msgstr "مدة حياة التصويت"
+
+#: Admin/Editor/Views/tabs/vote.php:200
+msgid "The time period before the user can vote again."
+msgstr "الوقت المحدد قبل أن يستطيع المستخدم التصويت مجدداً."
+
+#: Admin/Listing/Contests/Base.php:25 Admin/Listing/Contests/Base.php:27
+#: Admin/Listing/Submissions/Base.php:64
+msgid "Browse"
+msgstr "تصفح"
+
+#: Admin/Listing/Submissions/Base.php:45
+msgid "ID"
+msgstr "الرقم التعريفي"
+
+#: Admin/Listing/Submissions/Base.php:49
+msgid "Author"
+msgstr "الكاتب"
+
+#: Admin/Other/ContestGuide.php:14
+msgid "Contest title"
+msgstr "عنوان المسابقة"
+
+#: Admin/Other/ContestGuide.php:15
+msgid "Enter your contest title here."
+msgstr "أدخل عنوان المسابقة هنا."
+
+#: Admin/Other/ContestGuide.php:19
+msgid "Contest settings"
+msgstr "إعدادات المسابقة"
+
+#: Admin/Other/ContestGuide.php:20
+msgid "We will start configuring our contest from the contest editor sections."
+msgstr "لنبدأ بإعداد المسابقة باستخدام هذه الأقسام."
+
+#: Admin/Other/ContestGuide.php:24
+msgid "Submissions settings"
+msgstr "إعدادات المشاركات"
+
+#: Admin/Other/ContestGuide.php:25
+msgid ""
+"A submission is what the contestants will participate with and others can "
+"vote for."
+msgstr ""
+"المشاركة هي ما سيقوم المشارك بالمسابقة برفعه ويقوم الآخرون بالتصويت عليه."
+
+#: Admin/Other/ContestGuide.php:29
+msgid "Voting settings"
+msgstr "إعدادات التصويت"
+
+#: Admin/Other/ContestGuide.php:30
+msgid ""
+"Users can vote for submissions. In this section, you can simply configure the "
+"voting options."
+msgstr ""
+"يستطيع المستخدمون التصويت على المشاركات. في هذا القسم، يمكنك التعديل على "
+"خيارات التصويت."
+
+#: Admin/Other/ContestGuide.php:34
+msgid "Design settings"
+msgstr "إعدادات التصميم"
+
+#: Admin/Other/ContestGuide.php:35
+msgid "It's time to modify the design of the contest like colors and style."
+msgstr "حان الوقت لإجراء بعض التعديلات على تصميم المسابقة مثل الألوان والأشكال."
+
+#: Admin/Other/ContestGuide.php:39
+msgid "Pages settings"
+msgstr "إعدادات الصفحات"
+
+#: Admin/Other/ContestGuide.php:40
+msgid ""
+"You can specify your instructions, rules and any other stuff related to the "
+"contest by creating different pages."
+msgstr ""
+"هنا تستطيع وضع قوانينك، شروطك وأي معلومات أخرى تخص المسابقة بعمل صفحات متعددة."
+
+#: Admin/Other/ContestGuide.php:44
+msgid "Share settings"
+msgstr "إعدادات النشر"
+
+#: Admin/Other/ContestGuide.php:45
+msgid ""
+"Sharing the contest/submissions to social networks settings are from here."
+msgstr "هنا إعدادات مشاركة المسابقة والمشاركات عبر الشبكات الاجتماعية."
+
+#: Admin/Other/ContestGuide.php:49
+msgid "SEO settings"
+msgstr "إعدادات SEO"
+
+#: Admin/Other/ContestGuide.php:50
+msgid ""
+"SEO is an important factor to take care of to let your contest clearer to "
+"search engines like Google."
+msgstr "SEO هو عامل مهم للعناية بطريقة عرض مسابقتك على محركات البحث مثل جوجل."
+
+#: Admin/Other/ContestGuide.php:54
+msgid "Extra settings"
+msgstr "إعدادات أخرى"
+
+#: Admin/Other/ContestGuide.php:55
+msgid "Different stuff here, give it a look!"
+msgstr "يوجد المزيد هنا، حاول إلقاء نظرة."
+
+#: Admin/Other/GeneralGuide.php:14
+msgid "Welcome!"
+msgstr "أهلا!"
+
+#: Admin/Other/GeneralGuide.php:15
+msgid "You can access your contests and TotalContest features from this menu."
+msgstr "تستطيع الاطلاع على المسابقات ومزايا TotalContest من هذه القائمة."
+
+#: Admin/Other/GeneralGuide.php:19
+msgid "New contest"
+msgstr "مسابقة جديدة"
+
+#: Admin/Other/GeneralGuide.php:20
+msgid "Here is where you can start creating your new contest."
+msgstr "هنا يمكنك البدء بإنشاء مسابقتك."
+
+#: Admin/Other/GeneralGuide.php:25
+msgid ""
+"Logs page record each and every single action occurring on your contests."
+msgstr "صفحة السجلات تقوم بتسجيل جميع العمليات التي تجري على مسابقاتك."
+
+#: Admin/Other/GeneralGuide.php:30
+msgid ""
+"Extend TotalContest functionality and appearance with premium extensions and "
+"templates."
+msgstr "طوّع العمل والمظهر عبر الإضافات والقوالب."
+
+#: Admin/Other/GeneralGuide.php:34
+msgid "Support / Updates"
+msgstr "الدعم والتحديثات"
+
+#: Admin/Other/GeneralGuide.php:35
+msgid ""
+"Got stuck? browse the knowledge base or contact us directly and we will be "
+"happy to help."
+msgstr "تواجه مشكلة؟ تصفح قاعدة المعرفة أو تواصل معنا مباشرة وسنسعد بمساعدتكم."
+
+#: Admin/Other/Guide.php:19 Admin/Pages/Views/log/index.php:47
+msgid "Previous"
+msgstr "السابقة"
+
+#: Admin/Other/Guide.php:20 Admin/Pages/Views/log/index.php:48
+msgid "Next"
+msgstr "التالية"
+
+#: Admin/Other/Guide.php:21
+msgid "Done"
+msgstr "تم"
+
+#: Admin/Other/SubmissionGuide.php:14
+msgid "Submission edit page"
+msgstr "صفحة تعديل المشاركة"
+
+#: Admin/Other/SubmissionGuide.php:15
+msgid "This is where you can view and modify some of the submission details."
+msgstr "هنا يمكنك عرض وتعديل بعض معلومات المشاركة."
+
+#: Admin/Other/SubmissionGuide.php:19
+msgid "Information tab"
+msgstr "تبويب المعلومات"
+
+#: Admin/Other/SubmissionGuide.php:20
+msgid ""
+"Under this tab, you will have details about the uploaded content and the "
+"fields values of the submission."
+msgstr ""
+"تحت هذا التبويب، يمكنك عرض معلومات عن المحتوى المرفوع وقيم الحقول الخاص "
+"بالمشاركة."
+
+#: Admin/Other/SubmissionGuide.php:24
+msgid "Votes tab"
+msgstr "تبويب الأصوات"
+
+#: Admin/Other/SubmissionGuide.php:25
+msgid ""
+"The votes tab has info about the number of votes this submission have "
+"received."
+msgstr ""
+"يحوي تبويب الأصوات معلومات عن عدد الأصوات أو التقييمات التي حصلت عليها "
+"المشاركة."
+
+#: Admin/Other/SubmissionGuide.php:29
+msgid "Designation tab"
+msgstr "تبويب التعيين"
+
+#: Admin/Other/SubmissionGuide.php:30
+msgid ""
+"This tab has some options to apply to the submission like marking it as a "
+"winner."
+msgstr ""
+"يحوي هذا التبويب بعض الخيارات لتطبيقها على المشاركة مثل تعليمها كمشاركة فائزة."
+
+#: Admin/Other/Views/panel/customization.php:10
+msgid "Customization?<br>We have got your back!"
+msgstr "تحتاج لتعديل ما؟ <br> نحن هنا دائماً!"
+
+#: Admin/Other/Views/panel/customization.php:11
+msgid ""
+"If you need custom feature just let us know we will be happy to serve you!"
+msgstr "إذا كنت بحاجة لخاصية أو خيار ما، أخبرنا فقط وسنسعد بمساعدتك!"
+
+#: Admin/Other/Views/panel/customization.php:13
+msgid "Get a quote"
+msgstr "احصل على تسعيرة"
+
+#: Admin/Other/Views/panel/welcome.php:140
+msgid "Newsletter"
+msgstr "النشرة البريدية"
+
+#: Admin/Other/Views/panel/welcome.php:144
+msgid "Tips, tutorials and useful WordPress resources."
+msgstr "تلميحات، دروس ومواد مفيدة خاصة بووردبريس."
+
+#: Admin/Other/Views/panel/welcome.php:145
+#, fuzzy, php-format
+msgid ""
+"Thank you for installing TotalContest Pro! We're excited to share tips and "
+"tutorials with you to make the most of TotalContest. Subscribe now and you "
+"will receive a tip everyday for a week plus a 20% discount coupon to use in "
+"our store."
+msgstr ""
+"شكرا لتنصيبك TotalContest Pro! نحن متشوقون لنشر تلميحات ودروس معك لتستفيد من "
+"TotalContest أفضل استفادة. اشترك الآن وستحصل على تلميح كل يوم لمدة أسبوع "
+"بالإضافة إلى خصم %20 لتستعمله في متجرنا."
+
+#: Admin/Other/Views/panel/welcome.php:146
+msgid "Enter your email here."
+msgstr "أدخل بريدك الإلكتروني هنا."
+
+#: Admin/Other/Views/panel/welcome.php:151
+#, php-format
+msgid "Count me in the <a href=\"%s\" target=\"_blank\">weekly newsletter</a>."
+msgstr "أشركني أيضا في <a href=\"%s\" target=\"_blank\">النشرة الأسبوعية</a>."
+
+#: Admin/Other/Views/panel/welcome.php:154
+msgid "No, thank you"
+msgstr "لا، شكرا"
+
+#: Admin/Other/Views/panel/welcome.php:156
+msgid "Subscribe"
+msgstr "اشترك"
+
+#: Admin/Other/Views/panel/welcome.php:162
+msgid "Keep in touch with us!"
+msgstr "كن على تواصل معنا!"
+
+#: Admin/Pages/Tools.php:37 Admin/Pages/Tools.php:58 Contest/Model.php:416
+#: Widgets/Contest.php:46
+msgid "Submissions"
+msgstr "المعرض"
+
+#: Admin/Pages/Tools.php:52
+msgid ""
+"This submission is awaiting moderator approval, it will published as soon as "
+"possible."
+msgstr "هذه المشاركة بانتظار موافقة المسؤول، وسيتم نشرها بأقرب وقت ممكن."
+
+#: Admin/Pages/Tools.php:62
+msgid "Search"
+msgstr "البحث"
+
+#: Admin/Pages/Tools.php:93
+msgid "Errors"
+msgstr "الأخطاء"
+
+#: Admin/Pages/Tools.php:97 Restrictions/Cookies.php:22
+#: Restrictions/IPAddress.php:48 Restrictions/LoggedInUser.php:53
+#, fuzzy
+msgid "You cannot enter again."
+msgstr "لا يمكنك المشاركة مرة أخرى."
+
+#: Admin/Pages/Tools.php:107 Form/Validator.php:11
+msgid "{{label}} must be filled."
+msgstr "يجب أن يكون {{label}} معبأ."
+
+#: Admin/Pages/Tools.php:112 Form/Validator.php:25
+msgid "{{label}} must be a valid email address."
+msgstr "يجب أن يكون {{label}} بريد إلكتروني صالح."
+
+#: Admin/Pages/Tools.php:117 Form/Validator.php:29
+msgid "{{label}} must be a valid URL."
+msgstr "يجب أن يكون {{label}} رابط صالح."
+
+#: Admin/Pages/Tools.php:122 Form/Validator.php:39
+msgid "{{label}} is not within the supported range."
+msgstr "الحقل {{label}} ليس ضمن النطاق المحدد."
+
+#: Admin/Pages/Tools.php:127 Form/Validator.php:43 Form/Validator.php:56
+msgid "{{label}} does not allow this value."
+msgstr "الحقل {{label}} لا يقبل هذه القيمة."
+
+#: Admin/Pages/Tools.php:132 Form/Validator.php:33 Form/Validator.php:86
+msgid "{{label}} is not a number."
+msgstr "الحقل {{label}} ليس رقماً."
+
+#: Admin/Pages/Tools.php:137 Form/Validator.php:100
+msgid "{{label}} must be unique. The entered value was used before."
+msgstr "{{label}} يجب أن يكون مميزاً. القيمة المدخلة قد تم استخدامها مسبقاً."
+
+#: Admin/Pages/Tools.php:142 Form/Validator.php:90
+msgid "{{label}} is not in an array format."
+msgstr "الحقل {{label}} ليس بصيغة مصفوفة."
+
+#: Admin/Pages/Tools.php:147 Form/Validator.php:94
+msgid "{{label}} is not a string."
+msgstr "الحقل {{label}} ليس نصاً."
+
+#: Admin/Pages/Tools.php:152 Form/Validator.php:118
+#, php-format
+msgid "{{label}} file size must be at least %s."
+msgstr "حجم ملف {{label}} يجب أن يكون %s على الأقل."
+
+#: Admin/Pages/Tools.php:157 Form/Validator.php:122
+#, php-format
+msgid "{{label}} file size must be less than %s."
+msgstr "حجم ملف {{label}} يجب أن يكون أصغر من %s."
+
+#: Admin/Pages/Tools.php:162 Form/Validator.php:126
+#, php-format
+msgid "{{label}} must be at least %d characters."
+msgstr "يجب أن يحوي {{label}} على %d حروف على الأقل."
+
+#: Admin/Pages/Tools.php:167 Form/Validator.php:128
+#, php-format
+msgid "{{label}} must be less than %d characters."
+msgstr "يجب ألا يحوي {{label}} على أكثر من %d حروف."
+
+#: Admin/Pages/Tools.php:172 Form/Validator.php:144
+#, php-format
+msgid "Only files with these extensions are allowed: %s."
+msgstr "صيغ الملفات المقبولة: %s."
+
+#: Admin/Pages/Tools.php:177 Form/Validator.php:159
+#, php-format
+msgid "Only %s files are accepted."
+msgstr "فقط ملفات %s مقبولة."
+
+#: Admin/Pages/Tools.php:182 Form/Validator.php:170
+msgid "You must upload a file."
+msgstr "يجب عليك رفع ملف."
+
+#: Admin/Pages/Tools.php:187 Form/Validator.php:188
+#, php-format
+msgid "Minimum length for files is: %s seconds."
+msgstr "طول الملف الأدنى هو: %s ثانية."
+
+#: Admin/Pages/Tools.php:192 Form/Validator.php:192
+#, php-format
+msgid "Maximum length for files is: %s seconds."
+msgstr "طول الملف الأقصى هو: %s ثانية."
+
+#: Admin/Pages/Tools.php:197 Form/Validator.php:205
+#, php-format
+msgid "Minimum width for images is: %s."
+msgstr "العرض الأدنى للصور هو: %s."
+
+#: Admin/Pages/Tools.php:202 Form/Validator.php:209
+#, php-format
+msgid "Minimum height for images is: %s."
+msgstr "الارتفاع الأدنى للصور هو: %s."
+
+#: Admin/Pages/Tools.php:207 Form/Validator.php:213
+#, php-format
+msgid "Maximum width for images is: %s."
+msgstr "العرض الأقصى للصور هو: %s."
+
+#: Admin/Pages/Tools.php:212 Form/Validator.php:217
+#, php-format
+msgid "Maximum height for images is: %s."
+msgstr "الارتفاع الأقصى للصور هو: %s."
+
+#: Admin/Pages/Tools.php:217 Form/Validator.php:228
+#, php-format
+msgid "Only links from these services are accepted: %s."
+msgstr "فقط الروابط من الخدمات التالية مقبولة: %s."
+
+#: Admin/Pages/Views/about/index.php:13
+msgid "User friendly"
+msgstr "صديق للمستخدم"
+
+#: Admin/Pages/Views/about/index.php:14
+msgid ""
+"You can now create contests within 60 seconds! The user friendly interface "
+"was expertly designed to make contest creation hassle-free."
+msgstr ""
+"يمكنك الآن إنشاء مسابقتك في غضون 60 ثانية! إن واجهة المستخدم قد صممت لتجعل "
+"إنشاء المسابقات سهل للغاية."
+
+#: Admin/Pages/Views/about/index.php:18
+msgid "Overall performance"
+msgstr "الأداء"
+
+#: Admin/Pages/Views/about/index.php:19
+msgid ""
+"TotalContest was developed with performance in mind! It functions without a "
+"glitch with WordPress."
+msgstr ""
+"تم تطوير TotalContest مع وضع الأداء في الحسبان! فهو يعمل الآن بدون مشاكل أداء "
+"مع WordPress."
+
+#: Admin/Pages/Views/about/index.php:24
+msgid ""
+"With TotalContest, your contest is completely under your control. From custom "
+"pages to customized designs."
+msgstr ""
+"مع TotalContest ستكون مسابقاتك تحت سيطرتك بشكل كامل. من الصفحات المخصصة إلى "
+"التصاميم المخصصة."
+
+#: Admin/Pages/Views/about/index.php:28
+msgid "Custom fields"
+msgstr "الحقول الإضافية"
+
+#: Admin/Pages/Views/about/index.php:29
+msgid ""
+"Collecting additional information from users has never been that easy. With "
+"our unique 5 different field types, you can absolutely collect everything."
+msgstr ""
+"جمع معلومات إضافية من المستخدم لم يعد صعباً. مع 5 أنواع حقول، يمكنك جمع أي "
+"معلومات من المشاركين."
+
+#: Admin/Pages/Views/about/index.php:33
+msgid "Logs"
+msgstr "السجلات"
+
+#: Admin/Pages/Views/about/index.php:34
+msgid ""
+"Get full details about each and every submission, vote or even an attempt "
+"with details statistics and logging mechanisms available."
+msgstr ""
+"احصل على تفاصيل كل مشاركة أو تصويت أو أي محاولة لفعل ذلك مع الاحصائيات "
+"والسجلات المفصلة."
+
+#: Admin/Pages/Views/about/index.php:38
+msgid "Extensible"
+msgstr "المرونة"
+
+#: Admin/Pages/Views/about/index.php:39
+msgid ""
+"TotalContest was made with extensibility. Developers can certainly make "
+"TotalContest a step further to suit your needs."
+msgstr ""
+"صممت TotalContest لتكون انسيابية وقابلة للتطوير. يستطيع المطورون التعديل على "
+"الإضافة لتناسب احتياجك."
+
+#: Admin/Pages/Views/about/index.php:43
+msgid "SEO Friendly"
+msgstr "صديقة لمحركات البحث"
+
+#: Admin/Pages/Views/about/index.php:44
+msgid ""
+"Search Engine Optimization is a an important factor to consider. Thus, your "
+"contest will be search-engine friendly to get more search traffic."
+msgstr ""
+"الاهتمام بمحركات البحث أمر مهم للغاية. لهذا فإن جميع مسابقاتك ستكون صديقة "
+"لمحركات البحث لتحصل على زوار أكثر."
+
+#: Admin/Pages/Views/about/index.php:48
+msgid "Mobile-first"
+msgstr "الهواتف أولاً"
+
+#: Admin/Pages/Views/about/index.php:49
+msgid ""
+"Your contests will always look amazing whether on a laptop, tablet or a "
+"smartphone to gain more engagement from your visitors"
+msgstr ""
+"ستظهر مسابقاتك بشكل مناسب مهما كان الجهاز المستخدم سواء هاتف أو لوحي أو "
+"كمبيوتر لتجذب زواراً أكثر."
+
+#: Admin/Pages/Views/about/index.php:54
+msgid ""
+"You can simply have more credible contests with full control over who can add "
+"submission, vote or view the results."
+msgstr ""
+"يمكنك ببساطة أن تحصل على مسابقات بنتائج دقيقة بقدرتك على التحكم بمكن يستطيع "
+"المشاركة، التصويت، أو عرض النتائج."
+
+#: Admin/Pages/Views/about/index.php:58
+msgid "Integration"
+msgstr "التضمين"
+
+#: Admin/Pages/Views/about/index.php:59
+msgid ""
+"Totalcontest integrates your contests everywhere in your website using easy "
+"methods like with a short code or a direct link."
+msgstr ""
+"TotalContest تمكنك من تضمين مسابقتك في كل مكان باستخدام طرق بسيطة مثل الرمز "
+"المختصر أو رابط مباشر."
+
+#: Admin/Pages/Views/about/index.php:90
+msgid "Welcome to"
+msgstr "أهلا بك في"
+
+#: Admin/Pages/Views/about/index.php:92
+msgid ""
+"Create and run contests on your WordPress website easily with a plethora of "
+"features."
+msgstr "أنشئ مسابقاتك على ووردبريس ببساطة مع عدد هائل من المزايا."
+
+#: Admin/Pages/Views/about/index.php:112
+#, php-format
+msgid "Version %s"
+msgstr "الإصدار %s"
+
+#: Admin/Pages/Views/about/index.php:116
+msgid "What’s New"
+msgstr "ما الجديد"
+
+#: Admin/Pages/Views/about/index.php:141
+msgid "Credits"
+msgstr "الحقوق"
+
+#: Admin/Pages/Views/about/index.php:203
+msgid "Go to Contests"
+msgstr "اذهب إلى المسابقات"
+
+#: Admin/Pages/Views/log/index.php:11 Admin/Pages/Views/log/index.php:20
+msgid "Status"
+msgstr "الحالة"
+
+#: Admin/Pages/Views/log/index.php:12 Admin/Pages/Views/log/index.php:21
+#, fuzzy
+msgid "Action"
+msgstr "الأفعال"
+
+#: Admin/Pages/Views/log/index.php:15 Admin/Pages/Views/log/index.php:24
+msgid "Browser"
+msgstr "المتصفح"
+
+#: Admin/Pages/Views/log/index.php:16 Admin/Pages/Views/log/index.php:25
+msgid "Details"
+msgstr "التفاصيل"
+
+#: Admin/Pages/Views/log/index.php:39
+msgid "Nothing. Nada. Niente. Nickts. Rien."
+msgstr "لا شيء هنا!"
+
+#: Admin/Pages/Views/modules/index.php:5
+msgid "Templates"
+msgstr "القوالب"
+
+#: Admin/Pages/Views/modules/index.php:6
+msgid "Extensions"
+msgstr "إضافات TotalContest"
+
+#: Admin/Pages/Views/modules/index.php:7 Admin/Pages/Views/modules/index.php:38
+#: Admin/Pages/Views/modules/index.php:92
+msgid "Install"
+msgstr "تنصيب"
+
+#: Admin/Pages/Views/modules/index.php:43
+msgid "Buy"
+msgstr "شراء"
+
+#: Admin/Pages/Views/modules/index.php:48
+msgid "Update"
+msgstr "التحديث"
+
+#: Admin/Pages/Views/modules/index.php:53
+msgid "Activate"
+msgstr "تفعيل"
+
+#: Admin/Pages/Views/modules/index.php:58
+msgid "Uninstall"
+msgstr "إزالة"
+
+#: Admin/Pages/Views/modules/index.php:63
+msgid "Deactivate"
+msgstr "تعطيل"
+
+#: Admin/Pages/Views/modules/index.php:70
+msgid "By"
+msgstr "بواسطة"
+
+#: Admin/Pages/Views/modules/index.php:78
+msgid "Version:"
+msgstr "النسخة:"
+
+#: Admin/Pages/Views/modules/index.php:89
+msgid ""
+"If you have a template or extension in a .zip format, you may install it by "
+"uploading it here."
+msgstr "إذا كان لديك قالب أو ملحق بصيغة .zip، يمكنك تنصيبه عبر رفعه هنا."
+
+#: Admin/Pages/Views/support/index.php:12
+msgid "Support center"
+msgstr "مركز الدعم"
+
+#: Admin/Pages/Views/support/index.php:18
+msgid "What can we help you with? Press enter to search."
+msgstr "كيف يمكننا مساعدتك؟ اضغط مفتاح الإدخال للبحث."
+
+#: Admin/Pages/Views/support/index.php:26
+msgid "Knowledge base"
+msgstr "قاعدة المعرفة"
+
+#: Admin/Pages/Views/support/index.php:33
+msgid "FAQs"
+msgstr "الأسئلة الشائعة"
+
+#: Admin/Pages/Views/support/index.php:39
+msgid "Support ticket"
+msgstr "تذكرة دعم فني"
+
+#: Admin/Pages/Views/support/index.php:56
+msgid "Updates"
+msgstr "التحديثات"
+
+#: Admin/Pages/Views/support/index.php:58
+msgid "Enter your Envato license key."
+msgstr "أدخل مفتاح الشراء من envato."
+
+#: Admin/Pages/Views/support/index.php:61
+msgid "Checking..."
+msgstr "جاري الفحص..."
+
+#: Admin/Pages/Views/support/index.php:62
+msgid "Activated!"
+msgstr "مفعل!"
+
+#: Admin/Pages/Views/support/index.php:63
+msgid "Activate now!"
+msgstr "تفعيل الآن!"
+
+#: Admin/Pages/Views/support/index.php:66
+msgid ""
+"By activating your copy you will be able to receive updates, apply updates "
+"and installing purchased modules directly from your WordPress dashboard."
+msgstr ""
+"بتفعيلك لنسختك، ستستطيع استلام التحديثات أولاً بأول، تنصيب التحديثات وتنصيب "
+"الملحقات التي اشتريتها مباشرة من لوحة تحكم WordPress."
+
+#: Admin/Pages/Views/tools/index.php:2
+msgid "Available Tools"
+msgstr "الأدوات المتوفرة"
+
+#: Admin/Pages/Views/tools/index.php:10
+msgid "Expressions"
+msgstr "التعابير"
+
+#: Admin/Pages/Views/tools/index.php:18
+msgid "Debug"
+msgstr "وضع التصحيح"
+
+#: Admin/Pages/Views/tools/index.php:26
+#, fuzzy
+msgid "Purge"
+msgstr "مسح الكاش"
+
+#: Admin/Pages/Views/tools/index.php:42 Admin/Pages/Views/tools/index.php:63
+msgid "Customized expression"
+msgstr "التعابير المخصصة"
+
+#: Admin/Pages/Views/tools/index.php:70
+msgid "Saved!"
+msgstr "تم الحفظ!"
+
+#: Admin/Pages/Views/tools/index.php:70
+msgid "Save changes"
+msgstr "حفظ التغييرات"
+
+#: Admin/Submission/Views/editor.php:11
+msgid "Information"
+msgstr "المعلومات"
+
+#: Admin/Submission/Views/editor.php:13
+msgid "Designation"
+msgstr "التعيين"
+
+#: Admin/Submission/Views/tabs/designation.php:6
+msgid "Mark this submission as winner"
+msgstr "تعليم المشاركة كفائزة."
+
+#: Admin/Submission/Views/tabs/information.php:4
+msgid "Fields"
+msgstr "الحقول"
+
+#: Admin/Submission/Views/tabs/information.php:5
+msgid "Preview"
+msgstr "عرض"
+
+#: Admin/Submission/Views/tabs/information.php:28
+msgid "There are no fields."
+msgstr "لا يوجد حقول."
+
+#: Admin/Submission/Views/tabs/votes.php:11
+msgid "Average rate"
+msgstr "متوسط التقييم"
+
+#: Admin/Updates.php:58
+#, php-format
+msgid ""
+"You need to <a href=\"%s\">enter your license key</a> in order to apply "
+"updates."
+msgstr ""
+"تحتاج <a href=\"%s\">لإدخال مفتاح رخصة Envato</a> لتستطيع تطبيق التحديثات."
+
+#: Contest/Commands/CreateSubmission.php:53
+msgid ""
+"Cannot upload a file and add file through service for the same submission"
+msgstr "لا تستطيع رفع ملف وإدخال رابط من خدمة في نفس المشاركة."
+
+#: Form/Field.php:134
+msgid "This field"
+msgstr "هذا الحقل"
+
+#: Form/Fields/CaptchaField.php:37
+msgid "You have entered an invalid captcha code."
+msgstr "لقد أدخلت رمز Captcha بشكل خاطئ."
+
+#: Form/Form.php:75
+msgid "Submit"
+msgstr "إرسال"
+
+#: Form/RateForm.php:44
+#, fuzzy
+msgid "Overall"
+msgstr "الكلي"
+
+#: Form/EnterForm.php:52
+msgid "Please select or drag and drop an image file"
+msgstr "يرجى اختيار أو إفلات صورة."
+
+#: Form/EnterForm.php:53
+msgid "Please select or drag and drop an video file"
+msgstr "يرجى اختيار أو إفلات فيديو."
+
+#: Form/EnterForm.php:54
+msgid "Please select or drag and drop an audio file"
+msgstr "يرجى اختيار أو إفلات ملف صوتي."
+
+#: Form/EnterForm.php:88
+msgid "Submission link"
+msgstr "رابط المشاركة"
+
+#: Form/EnterForm.php:176
+msgid "Send"
+msgstr "إرسال"
+
+#: Limitations/Membership.php:16
+#, php-format
+msgid "To continue, you must be a part of these roles: %s."
+msgstr "للمواصلة، عليك أن تمتلك إحدى تلك الرتب: %s."
+
+#: Limitations/Membership.php:25
+#, php-format
+msgid ""
+"To continue, please <a href=\"%s\">sign in</a> or <a href=\"%s\">register</a>."
+msgstr ""
+"للمواصلة يرجى <a href=\"%s\">تسجيل الدخول</a> أو <a href=\"%s\">التسجيل</a>."
+
+#: Limitations/Period.php:18
+#, php-format
+msgid "Not started yet, %s left."
+msgstr "لم تبدأ بعد، متبقي %s."
+
+#: Limitations/Period.php:19 Limitations/Period.php:31
+msgid "%a days and %h hours"
+msgstr "%a يوماً و %h ساعة"
+
+#: Limitations/Period.php:30
+#, php-format
+msgid "Finished since %s."
+msgstr "انتهت منذ %s."
+
+#: Limitations/Quota.php:10
+msgid "The quota has been exceeded."
+msgstr "تم الوصول إلى الحصة القصوى."
+
+#: Log/Repository.php:178
+msgid "contest_id, submission_id and action are required"
+msgstr "contest_id و submission_id و action مطلوبة"
+
+#: Log/Repository.php:182
+msgid "date must be a DateTime object"
+msgstr "يجب أن يكون التاريخ على هيئة DateTime object"
+
+#: Log/Repository.php:211
+msgid "No conditions were specified"
+msgstr "لم يتم تحديد الشروط"
+
+#: Module/Manager.php:54
+msgid ""
+"TotalContest is unable to uninstall this module. Refresh this page if the "
+"problem persists."
+msgstr ""
+"لم تتمكن TotalContest من إزالة هذا الملحق. قم بتحديث الصفحة إذا استمرت "
+"المشكلة."
+
+#: Module/Manager.php:95
+#, fuzzy
+msgid "Archive is empty or does not contain a directory."
+msgstr "الأرشيف فارغ أو لا يحوي مجلداً."
+
+#: Module/Manager.php:101
+msgid "Module.json file is absent."
+msgstr "ملف Module.json مفقود."
+
+#: Module/Manager.php:139
+msgid ""
+"TotalContest is unable to activate this module. Refresh this page if the "
+"problem persists."
+msgstr ""
+"لم تتمكن TotalContest من تفعيل هذا الملحق. قم بتحديث الصفحة إذا استمرت "
+"المشكلة."
+
+#: Module/Manager.php:149
+msgid ""
+"TotalContest is unable to deactivate this module. Refresh this page if the "
+"problem persists."
+msgstr ""
+"لم تتمكن TotalContest من تعطيل هذا الملحق. قم بتحديث الصفحة إذا استمرت "
+"المشكلة."
+
+#: PostType/Contest.php:35 PostType/Contest.php:41 PostType/Contest.php:46
+msgid "Contests"
+msgstr "المسابقات"
+
+#: PostType/Contest.php:37
+msgid "Create Contest"
+msgstr "إنشاء مسابقة"
+
+#: PostType/Contest.php:38 PostType/Contest.php:40
+msgid "New Contest"
+msgstr "مسابقة جديدة"
+
+#: PostType/Contest.php:39
+msgid "Edit Contest"
+msgstr "تعديل المسابقة"
+
+#: PostType/Contest.php:42
+msgid "View Contest"
+msgstr "عرض المسابقة"
+
+#: PostType/Contest.php:43
+msgid "Search Contests"
+msgstr "البحث عن مسابقة"
+
+#: PostType/Contest.php:44 PostType/Submission.php:71
+msgid "No contests found"
+msgstr "لم يتم العثور على مسابقات"
+
+#: PostType/Contest.php:45 PostType/Submission.php:72
+msgid "No contests found in Trash"
+msgstr "لم يتم العثور على مسابقات في سلة المهملات"
+
+#: PostType/Contest.php:54
+msgid "contest"
+msgstr "مسابقة"
+
+#: PostType/Contest.php:74
+#, php-format
+msgid "Contest updated. <a href=\"%s\">View contest</a>"
+msgstr "تم تحديث المسابقة. <a href=\"%s\">عرض المسابقة</a>"
+
+#: PostType/Contest.php:75 PostType/Submission.php:102
+msgid "Custom field updated."
+msgstr "تم تحديث الحقل المخصص."
+
+#: PostType/Contest.php:76 PostType/Submission.php:103
+msgid "Custom field deleted."
+msgstr "تم حذف الحقل المخصص."
+
+#: PostType/Contest.php:77
+msgid "Contest updated."
+msgstr "تم تحديث المسابقة."
+
+#: PostType/Contest.php:78
+#, php-format
+msgid "Contest restored to revision from %s"
+msgstr "تم استعادة المسابقة إلى المراجعة من %s"
+
+#: PostType/Contest.php:79
+#, php-format
+msgid "Contest published. <a href=\"%s\">View contest</a>"
+msgstr "تم نشر المسابقة. <a href=\"%s\">عرض المسابقة</a>"
+
+#: PostType/Contest.php:80
+msgid "Contest saved."
+msgstr "تم الحفظ."
+
+#: PostType/Contest.php:81
+#, php-format
+msgid "Contest submitted. <a target=\"_blank\" href=\"%s\">Preview contest</a>"
+msgstr "تم إرسال المسابقة. <a target=\"_blank\" href=\"%s\">معاينة المسابقة</a>"
+
+#: PostType/Contest.php:83
+#, php-format
+msgid ""
+"Contest scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview contest</a>"
+msgstr ""
+"تم جدولة المسابقة إلى: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">معاينة المسابقة</a>"
+
+#: PostType/Contest.php:84 PostType/Submission.php:111
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: PostType/Contest.php:85
+#, php-format
+msgid ""
+"Contest draft updated. <a target=\"_blank\" href=\"%s\">Preview contest</a>"
+msgstr ""
+"تم تحديث مسودة المسابقة. <a target=\"_blank\" href=\"%s\">معاينة المسابقة</a>"
+
+#: PostType/Submission.php:64
+msgid "Create Submission"
+msgstr "إنشاء مسابقة"
+
+#: PostType/Submission.php:65 PostType/Submission.php:67
+msgid "New Submission"
+msgstr "مشاركة جديدة"
+
+#: PostType/Submission.php:66
+msgid "Edit Submission"
+msgstr "تعديل المشاركة"
+
+#: PostType/Submission.php:68
+msgid "All submissions"
+msgstr "جميع المشاركات"
+
+#: PostType/Submission.php:69
+msgid "View Submission"
+msgstr "عرض المشاركة"
+
+#: PostType/Submission.php:70
+msgid "Search submissions"
+msgstr "البحث عن مشاركة"
+
+#: PostType/Submission.php:81
+msgid "contest/%contest%/submissions"
+msgstr "المسابقة/%contest%/المشاركات"
+
+#: PostType/Submission.php:101
+#, php-format
+msgid "Submission updated. <a href=\"%s\">View submission</a>"
+msgstr "تم تحديث المشاركة. <a href=\"%s\">عرض المشاركة</a>"
+
+#: PostType/Submission.php:104
+msgid "Submission updated."
+msgstr "تم تحديث المشاركة,"
+
+#: PostType/Submission.php:105
+#, php-format
+msgid "Submission restored to revision from %s"
+msgstr "تم استعادة المشاركة إلى المراجعة من %s"
+
+#: PostType/Submission.php:106
+#, php-format
+msgid "Submission published. <a href=\"%s\">View submission</a>"
+msgstr "تم نشر المشاركة. <a href=\"%s\">عرض المشاركة</a>"
+
+#: PostType/Submission.php:107
+msgid "Submission saved."
+msgstr "تم حفظ المشاركة."
+
+#: PostType/Submission.php:108
+#, php-format
+msgid ""
+"Submission submitted. <a target=\"_blank\" href=\"%s\">Preview submission</a>"
+msgstr "تم إرسال المشاركة. <a target=\"_blank\" href=\"%s\">معاينة المشاركة</a>"
+
+#: PostType/Submission.php:110
+#, php-format
+msgid ""
+"Submission scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview submission</a>"
+msgstr ""
+"تم جدولة المشاركة إلى: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">معاينة المشاركة</a>"
+
+#: PostType/Submission.php:112
+#, php-format
+msgid ""
+"Submission draft updated. <a target=\"_blank\" href=\"%s\">Preview "
+"submission</a>"
+msgstr ""
+"تم تحديث مسودة المشاركة. <a target=\"_blank\" href=\"%s\">معاينة المشاركة</a>"
+
+#: Submission/Model.php:144
+msgid "You cannot vote again."
+msgstr "لا يمكنك التصويت مجدداً."
+
+#: Submission/Model.php:382
+msgid "You cannot vote for winners."
+msgstr "لا يمكنك التصويت للفائزين."
+
+#: Widgets/Base.php:35
+msgid "Title:"
+msgstr "العنوان:"
+
+#: Widgets/Contest.php:9
+msgid "TotalContest contest widget"
+msgstr "ودج مسابقة TotalContest"
+
+#: Widgets/Contest.php:11
+msgid "[TotalContest] Contest"
+msgstr "[TotalContest] مسابقة"
+
+#: Widgets/Contest.php:34 Widgets/Countdown.php:41
+msgid "Contest:"
+msgstr "المسابقة:"
+
+#: Widgets/Contest.php:42
+msgid "Screen:"
+msgstr "الشاشة:"
+
+#: Widgets/Contest.php:47
+msgid "Custom page"
+msgstr "صفحة مخصصة"
+
+#: Widgets/Contest.php:57
+msgid "Page ID:"
+msgstr "معرّف الصفحة"
+
+#: Widgets/Countdown.php:9
+msgid "TotalContest contest countdown widget"
+msgstr "ودج العد التنازلي لمسابقة TotalContest"
+
+#: Widgets/Countdown.php:11
+msgid "[TotalContest] Contest countdown"
+msgstr "[TotalContest] عد تنازلي لمسابقة"
+
+#: Widgets/Countdown.php:49
+msgid "Type:"
+msgstr "النوع:"
+
+#: Widgets/Countdown.php:52
+msgid "Voting"
+msgstr "التصويت"
+
+#: Widgets/Countdown.php:60
+msgid "Format:"
+msgstr "التنسيق:"
+
+#: Widgets/Countdown.php:67
+msgid "Until:"
+msgstr "حتى:"
+
+#: Widgets/Countdown.php:69
+msgid "Start"
+msgstr "البدء"
+
+#: Widgets/Countdown.php:70
+msgid "End"
+msgstr "الانتهاء"
+
+#: Widgets/Submission.php:9
+msgid "TotalContest submission widget"
+msgstr "ودج مشاركة TotalContest"
+
+#: Widgets/Submission.php:11
+msgid "[TotalContest] Submission"
+msgstr "[TotalContest] مشاركة"
+
+#: Widgets/Submission.php:25
+msgid "Submission ID:"
+msgstr "معرّف المشاركة"
+
+#~ msgid "Submission file"
+#~ msgstr "ملف المشاركة"
+
+#~ msgid "Display time left or to start."
+#~ msgstr "لعرض الوقت المتبقي "
+
+#~ msgid ""
+#~ "The most simple way to integrate a contest in a page or post. A navigation "
+#~ "menu will be present."
+#~ msgstr ""
+#~ "الطريقة الأسهل لتضمين المسابقة في صفحة أو تدوينة. ستكون هناك قائمة للتنقل "
+#~ "بين الصفحات."
+
+#~ msgid ""
+#~ "Display only the upload form. Useful when you want to include the upload "
+#~ "form directly in a customized page."
+#~ msgstr ""
+#~ "سيظهر نموذج الرفع للمشاركات فقط. مفيد عندما تريد عرض نموذج رفع المشاركات "
+#~ "بشكل مباشر في صفحة مخصصة."
+
+#~ msgid ""
+#~ "Display submissions submissions. Useful when you want to display submissions "
+#~ "inside a customized page."
+#~ msgstr ""
+#~ "سيظهر معرض المشاركات. مفيد عندما تريد عرض معرض المشاركات بشكل مباشر في "
+#~ "صفحة مخصصة."
+
+#~ msgid ""
+#~ "Display page content. Please change \"page-id\" attribute to the specific "
+#~ "page ID."
+#~ msgstr ""
+#~ "سيظهر محتوى صفحة محددة. يمكنك تغيير page-id لتحديد معرف الصفحة المراد "
+#~ "عرضها."
+
+#~ msgid ""
+#~ "Display a specific submission. Useful when you want to display a specific "
+#~ "submission (winner submission for example)."
+#~ msgstr ""
+#~ "عرض مشاركة منفردة. مفيدة عندما تريد عرض محتوى مشاركة معينة (مثل المشاركة "
+#~ "الفائزة)"
+
+#~ msgid ""
+#~ "Display time left or to start. Useful when you want to display a count "
+#~ "down inside a customized page."
+#~ msgstr ""
+#~ "سيظهر الوقت المتبقي للبدء. مفيد عندما تريد عرض عد تنازلي للمسابقة بشكل "
+#~ "مباشر في صفحة مخصصة."
+
+#~ msgid "{{fields.FIELD_NAME}} for a field value in form."
+#~ msgstr "{{fields.FIELD_NAME}} لقيمة الحقل في النموذج."
+
+#~ msgid "You cannot enter because you are not part of these roles: %s."
+#~ msgstr "لا يمكنك المشاركة لأنك لست من إحدى هذه الرتب: %s."
+
+#~ msgid ""
+#~ "You cannot enter because you are a guest, please <a href=\"%s\">sign in</"
+#~ "a> or <a href=\"%s\">register</a>."
+#~ msgstr ""
+#~ "لا يمكنك التصويت لأنك زائر. يرجى <a href=\"%s\">تسجيل الدخول</a> أو <a "
+#~ "href=\"%s\">التسجيل</a>"
+
+#~ msgid "You cannot enter because the quota has been exceeded."
+#~ msgstr "لا يمكنك التصويت لأن الحصة قد اكتملت لهذا التصويت."
+
+#~ msgid "Add New Contest"
+#~ msgstr "إضافة مسابقة جديدة"
+
+#~ msgid "Add New"
+#~ msgstr "إضافة جديد"
+
+#~ msgid "Add New Submission"
+#~ msgstr "إضافة مشاركة جديدة"
+
+#~ msgid ""
+#~ "Totalcontest integrates your contests everywhere like with a short code, "
+#~ "widget or even a direct link."
+#~ msgstr ""
+#~ "TotalContest تمكنك من تضمين مسابقتك في كل مكان مثل الرمز المختصر، المربعات "
+#~ "الجانبية أو حتى رابط مباشر."
+
+#~ msgid "Thank you for using TotalContest!"
+#~ msgstr "شكراً لاستخدامك TotalContest!"
+
+#~ msgid "Under the Hood"
+#~ msgstr "خلف الكواليس"
+
+#~ msgid ""
+#~ "You can now create contests within 60 seconds! Its user friendly interface "
+#~ "was expertly designed to make contest creation hassle-free."
+#~ msgstr ""
+#~ "يمكنك الآن إنشاء تصويتك في غضون 60 ثانية! واجهة المستخدم صممت خصيصاً بشكل  "
+#~ "احترافي لتقليل الجهد في إنشاء المسابقات."
+
+#~ msgid "You cannot enter because you are not in these groups: %s."
+#~ msgstr "لا يمكنك الدخول لأنك لست من هذه المجموعات: %s."
+
+#, fuzzy
+#~ msgid "{{label}} must be a number"
+#~ msgstr "العنوان"
+
+#~ msgid "List type"
+#~ msgstr "نوعية القائمة"
+
+#~ msgid "Word per line."
+#~ msgstr "كلمة لكل سطر."
+
+#~ msgid "\"+\" before word means white-listed."
+#~ msgstr "\"+\" يعني أن الكلمة مسموح بها."
+
+#~ msgid "\"-\" before word means black-listed."
+#~ msgstr "\"-\" يعني أن الكلمة غير مسموح بها."
+
+#~ msgid "Contestant should upload"
+#~ msgstr "يجب على المشارك رفع"
+
+#~ msgid "%s Vote"
+#~ msgstr "%s صوت"
+
+#~ msgid "%s Votes"
+#~ msgstr "%s صوت"
+
+#~ msgid "Buttons"
+#~ msgstr "الأزرار"
+
+#~ msgid "Previous page"
+#~ msgstr "الصفحة السابقة"
+
+#~ msgid "Next page"
+#~ msgstr "الصفحة التالية"
+
+#~ msgid "Results"
+#~ msgstr "النتائج"
+
+#~ msgid "Back"
+#~ msgstr "عودة"
+
+#~ msgid "Proceed"
+#~ msgstr "استمر"
+
+#~ msgid "You cannot vote because the quota has been exceeded."
+#~ msgstr "لا يمكنك التصويت لأن الحصة قد اكتملت لهذا التصويت."
+
+#~ msgid "You cannot see results before voting."
+#~ msgstr "لا يمكنك رؤية النتائج قبل التصويت."
+
+#~ msgid "You cannot vote because this poll has not started yet."
+#~ msgstr "لا يمكنك التصويت لأن هذا التصويت لم يبدأ بعد."
+
+#~ msgid "You cannot vote because this poll has been completed."
+#~ msgstr "لا يمكنك التصويت لأن هذا التصويت منهي."
+
+#~ msgid "You cannot vote because this poll is not available in your region."
+#~ msgstr "لا يمكنك التصويت لأن هذا التصويت غير متوفر في منطقتك."
+
+#~ msgid "You cannot vote because you have insufficient rights."
+#~ msgstr "لا يمكنك التصويت لأنك لا تملك صلاحيات كافية."
+
+#~ msgid ""
+#~ "You cannot vote because you are a guest, please <a href=\"%s\">sign in</a> "
+#~ "or <a href=\"%s\">register</a>."
+#~ msgstr ""
+#~ "لا يمكنك التصويت لأنك زائر. يرجى <a href=\"%s\">تسجيل الدخول</a> أو <a "
+#~ "href=\"%s\">التسجيل</a>"
+
+#~ msgid "%label% field does not contain a valid email."
+#~ msgstr "حقل %label% لا يحوي بريد إلكتروني صالح."
+
+#~ msgid "%label% field is required."
+#~ msgstr "حقل %label% إجباري."
+
+#~ msgid "%label% field does not contain a valid value."
+#~ msgstr "حقل %label% لا يحوي قيمة صالحة."
+
+#~ msgid "%label% field does not support multiple values."
+#~ msgstr "حقل %label% لا يدعم القيم المتعددة."
+
+#~ msgid "%label% has been used before."
+#~ msgstr "%label% تم استخدامه من قبل."
+
+#~ msgid "%label% field is not valid."
+#~ msgstr "%label% غير صالح."
+
+#~ msgid "You cannot vote because %s field is not allowed."
+#~ msgstr "لا يمكنك التصويت لأن حقل %s غير مسموح."
+
+#, fuzzy
+#~ msgid "{{label}} must be filled"
+#~ msgstr "العنوان"
+
+#, fuzzy
+#~ msgid "{{label}} must be a valid email address"
+#~ msgstr "حقل %label% لا يحوي بريد إلكتروني صالح."
+
+#, fuzzy
+#~ msgid "{{label}} must be a valid URL"
+#~ msgstr "يجب أن يحقق التعبير القياسي."
+
+#, fuzzy
+#~ msgid "{{label}} is not valid"
+#~ msgstr "%label% غير صالح."
+
+#, fuzzy
+#~ msgid "{{label}} is not a number"
+#~ msgstr "عدد المشاركات"
+
+#, fuzzy
+#~ msgid "{{label}} is not in an array format"
+#~ msgstr "{{label}} لعنوان الحقل."
+
+#, fuzzy
+#~ msgid "Maximum width for images is: %s"
+#~ msgstr "العرض الأقصى للحاوية (px)"
+
+#~ msgid "You cannot vote again in this poll."
+#~ msgstr "لا يمكنك التصويت هنا مرة أخرى."
+
+#~ msgid ""
+#~ "Do you need “Welcome message” or “Thank you message”? We have got your "
+#~ "back! With over 5 customization settings, you definitely have the total "
+#~ "control."
+#~ msgstr ""
+#~ "هل تحتاج \"رسالة ترحيب\" أو \"رسالة شكر\"؟ مع أكثر من 5 إعدادات للتخصيص، "
+#~ "حتما أنت تتحكم في زمام الأمور."
+
+#~ msgid ""
+#~ "Collecting additional information from voters has never been that easy. "
+#~ "With our unique 5 different field types, you can absolutely collect "
+#~ "everything."
+#~ msgstr ""
+#~ "جمع معلومات إضافية من المصوتين لم يكن سهلا مثل الآن. مع 5 أنواع مختلفة من "
+#~ "الحقول، تستطيع حتما جمع أي معلومة تريد."
+
+#~ msgid "Statistics"
+#~ msgstr "الإحصاءات"
+
+#~ msgid ""
+#~ "Regular vote tracking has been made easy. You can now track votes daily, "
+#~ "weekly and monthly. Even, you can track custom field values with votes."
+#~ msgstr ""
+#~ "تتبع التصويت أصبح سهلا. تستطيع الآن تتبع التصويتات بشكل يومي، أسبوعي و "
+#~ "شهري. بل ويمكنك تتبع قيم الحقول الإضافية مع الأصوات."
+
+#, fuzzy
+#~ msgid ""
+#~ "The extensibility of TotalContest makes such extensions and templates "
+#~ "possible. Developers can certainly make TotalContest a step further to "
+#~ "suit your needs."
+#~ msgstr ""
+#~ "مرونة TotalContest جعلت الإضافات والقوالب ممكنة. المطورين يمكنهم تطوير "
+#~ "TotalContest ليلبي احتياجاتك."
+
+#, fuzzy
+#~ msgid ""
+#~ "Search Engine Optimization is a very key factor for every website. Thus, "
+#~ "TotalContest makes contests more search-engine friendly in order to get "
+#~ "more search traffic."
+#~ msgstr ""
+#~ "SEO مفتاح رئيسي لأي موقع. TotalContest يجعل التصويتات صديقة لمحركات البحث "
+#~ "للحصول على زيارات أكثر."
+
+#, fuzzy
+#~ msgid ""
+#~ "With Totalcontest, you gain more engagement with an optimal viewing "
+#~ "experience for your visitors. And your contests will always look amazing "
+#~ "whether in a laptop, tablet or a smartphone."
+#~ msgstr ""
+#~ "مع TotalContest، ستحصل على تفاعل أكبر مع تجربة تصفح مثلى للزوار. وتصويتاتك "
+#~ "ستبدو جميلة سواء في حاسب محمول، جهاز لوحي أو هاتف ذكي."
+
+#~ msgid "Voting limitations"
+#~ msgstr "القيود"
+
+#, fuzzy
+#~ msgid ""
+#~ "The ability of Totalcontest to reduce votes and results makes it easy for "
+#~ "you to specify conditions under which visitors can vote in a contest or "
+#~ "see its results."
+#~ msgstr ""
+#~ "قدرة TotalContest على تقييد التصويتات والنتائج تجعلك قادر على وضع شروط التي "
+#~ "تتيح للزوار التصويت أو مشاهدة نتائج التصويت."
+
+#, fuzzy
+#~ msgid "Contests import"
+#~ msgstr "استيراد"
+
+#, fuzzy
+#~ msgid ""
+#~ "Are you planning to switch? You can migrate from WP-Contests and YOP "
+#~ "contests easily (and many more plugins are coming)."
+#~ msgstr ""
+#~ "هل تخطط للتغيير؟ تستطيع الإنتقال من WP-Polls و YOP polls بكل سهولة "
+#~ "(وإضافات أخرى آتية إن شاء الله)."
+
+#~ msgid "Choices"
+#~ msgstr "الخيارات"
+
+#, fuzzy
+#~ msgid ""
+#~ "Give your contests more attraction with Text, Image, Video, Audio, Short "
+#~ "code or even HTML."
+#~ msgstr ""
+#~ "أعط لتصويتاتك انجذاب أكبر مع نص، صورة، فيديو، صوت، رمز مختصر أو حتى HTML."
+
+#~ msgid ""
+#~ "Trace back every vote, with an informative log to identify any cheating "
+#~ "attempts."
+#~ msgstr ""
+#~ "مع نظام السجلات المدمج مع TotalContest يمكنك تتبع الأصوات بكل دقة وكشف أي "
+#~ "محاولات للغش."
+
+#, fuzzy
+#~ msgid ""
+#~ "Make your contests look compelling with customized templates from our "
+#~ "store."
+#~ msgstr ""
+#~ "اجعل تصويتاتك أكثر رونقاً مع القوالب المخصصة المتوفرة في متجر القوالب الخاص "
+#~ "بالإضافة."
+
+#, fuzzy
+#~ msgid ""
+#~ "Take TotalContest’s functionality a step further with powerful extensions "
+#~ "from our store."
+#~ msgstr ""
+#~ "إحصل على مميزات ووظائف أكثر باستخدام إضافات TotalContest المتوفرة في متجر "
+#~ "إضافات TotalContest."
+
+#~ msgid "3rd-party Compatibility"
+#~ msgstr "التوافقية"
+
+#, fuzzy
+#~ msgid ""
+#~ "TotalContest is compatible with other plugins like WPML, ACF, WP SUPER "
+#~ "CACHE and Others."
+#~ msgstr ""
+#~ "TotalContest متوافق مع إضافات أخرى مثل WPML، ACF، WP SUPER CACHE و أخرى."
+
+#, fuzzy
+#~ msgid ""
+#~ "<code>TC_Template</code> can be used now as a prototype for templates."
+#~ msgstr "<code>TP_Template</code> هو المستخدم الآن كبنية تحتية للقوالب."
+
+#, fuzzy
+#~ msgid ""
+#~ "<code>TC_Extension</code> can be used now as a prototype for extensions."
+#~ msgstr "<code>TP_Extension</code> هو المستخدم الآن كبنية تحتية للإضافات."
+
+#, fuzzy
+#~ msgid ""
+#~ "<code>TC_Field</code> can be used now as a prototype for custom fields."
+#~ msgstr "<code>TP_Field</code> هو المستخدم الآن كبنية تحتية للحقول المخصصة."
+
+#, fuzzy
+#~ msgid "<code>TC_HTML</code> is used for HTML manipulation and generation."
+#~ msgstr "<code>TP_HTML</code> هو المستخدم الآن لتوليد والتحكم في HTML."
+
+#~ msgid "Request"
+#~ msgstr "طلب"
+
+#, fuzzy
+#~ msgid "<code>TC_Request</code> is used to handle TotalContest requests."
+#~ msgstr "<code>TP_Request</code> هو المستخدم الآن لتولي الطلبات."
+
+#, fuzzy
+#~ msgid ""
+#~ "Thank you for using TotalContest! This update brings several improvements "
+#~ "and new features along with fixes of known bugs."
+#~ msgstr ""
+#~ "شكرا لاستعمالك TotalContest! هذا التحديث يحتوي على الكثير من التحسينات و "
+#~ "مزايا جديدة مع إصلاحات لمشاكل معروفة."
+
+#~ msgid "Testimonials"
+#~ msgstr "آراء المستخدمين"
